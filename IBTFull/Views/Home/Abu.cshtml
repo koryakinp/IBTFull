@@ -1,0 +1,267 @@
+﻿@model IBTFull.Models.Abu
+
+@{
+    ViewData["Title"] = String.Format(SharedResource.Abu, Model.Model);
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    .download-icon {
+        margin-left:10px;
+        color:black;
+        border-bottom:none;
+    }
+
+    .counter-2:before {
+        content: "2.";
+    }
+
+    .counter-3:before {
+        content: "3.";
+    }
+
+    .counter-4:before {
+        content: "4.";
+    }
+
+    .counter-5:before {
+        content: "5.";
+    }
+
+    .counter-6:before {
+        content: "6.";
+    }
+
+    .counter-7:before {
+        content: "7.";
+    }
+
+    .page-title:after {
+        width: 100% !important;
+    }
+</style>
+
+<div class="breadcrumbs">
+    <ul class="breadcrumbs__inner">
+        <li class="breadcrumbs__item"><a href="/">@SharedResource.MainPage</a></li>
+        <li class="breadcrumbs__item"><a href="/Engineering">@SharedResource.ForDesigners</a></li>
+        <li class="breadcrumbs__item breadcrumbs__item--active">
+            <span>
+                @String.Format(SharedResource.Abu, Model.Model)
+            </span>
+        </li>
+    </ul>
+</div>
+<div class="content white-text">
+    <div class="container">
+        <h1>
+            <span class="page-title">
+                @String.Format(SharedResource.Abu, Model.Model)
+                <a href="/File/Abu/@Model.Model" class="download-icon">
+                    <span>
+                        <i class="fas fa-file-download"></i>
+                    </span>
+                </a>
+            </span>
+        </h1>
+
+        <img class="pull-right" src="@Model.ImageUrl" alt="">
+
+        <div class="page-sub-title">
+            <p>
+                @String.Format(Abu.AbuSpecTitle,@Model.Model)
+            </p>
+            <p>
+                @Html.Raw(String.Format(Abu.AbuTitle,Model.Model,Model.Model))
+            </p>
+        </div>
+        <p>
+            <strong>
+                @String.Format(Abu.AbuDimensions, @Model.Model)
+            </strong>
+        </p>
+        <ul>
+            <li>
+                @Abu.AbuPhenolEfficiencyTitle
+                <ul>
+                    <li>
+                        @Html.Raw(String.Format(Abu.AbuPhenolEfficiencyValue, "95%", ">20"))
+                    </li>
+                    <li>
+                        @Html.Raw(String.Format(Abu.AbuPhenolEfficiencyValue, "85%", "10-20"))
+                    </li>
+                    <li>
+                        @Html.Raw(String.Format(Abu.AbuPhenolEfficiencyValue, "80%", "6-10"))
+                    </li>
+                    <li>
+                        @Html.Raw(String.Format(Abu.AbuPhenolEfficiencyValue, "70%", "4-6"))
+                    </li>
+                </ul>
+            </li>
+            <li>
+                @Abu.AbuTriethylamineEfficiencyValue1
+            </li>
+            <li>
+                @Html.Raw(Abu.AbuTriethylamineEfficiencyTitle)
+                <ul>
+                    <li>
+                        @Abu.AbuTriethylamineEfficiencyValue2
+                    </li>
+                    <li>
+                        @Abu.AbuTriethylamineEfficiencyValue3
+                    </li>
+                    <li>
+                        @Html.Raw(Abu.AbuTriethylamineEfficiencyValue4)
+                    </li>
+                    <li>
+                        @String.Format(Abu.AbuTriethylamineEfficiencyValue5, Model.Size.Length, Model.Size.Length, Model.Size.Height)
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <p>
+            <strong>@Abu.AbuElectricalConsumptionTitle</strong>
+        </p>
+        <ul>
+            <li>
+                @String.Format(Abu.AbuElectricalConsumptionValue1, Model.DefaultPower, Model.FanPower)
+            </li>
+            <li>
+                @Html.Raw(String.Format(Abu.AbuElectricalConsumptionValue2, Model.Humidity))
+            </li>
+            <li>
+                @Html.Raw(String.Format(Abu.AbuElectricalConsumptionValue3, Model.Air))
+            </li>
+            <li>
+                @String.Format(Abu.AbuElectricalConsumptionValue4, Model.Bio)
+            </li>
+        </ul>
+        <p>
+            <strong>
+                @String.Format(Abu.AbuMaintenanceTitle, Model.Model)
+            </strong>
+        </p>
+        <p>
+            @Abu.AbuMaintenanceValue
+        </p>
+        <p>
+            <strong>
+                @String.Format(Abu.AbuInstallationTitle1, Model.Model)
+                <br>
+                @Abu.AbuInstallationTitle2
+            </strong>
+        </p>
+        <ol>
+            <li>
+                @Abu.AbuInstallationValue1
+            </li>
+            <li>
+                @String.Format(Abu.AbuInstallationValue2, Model.Load)
+            </li>
+            <li>@Abu.AbuInstallationValue3</li>
+            <li>
+                @Abu.AbuInstallationValue4
+                <p>@Html.Raw(Abu.AbuInstallationValue41)</p>
+                <p>@Abu.AbutDrainageTitle</p>
+                <ul>
+                    <li>@Abu.AbutDrainageValue1</li>
+                    <li>@Abu.AbutDrainageValue2</li>
+                    <li>@Abu.AbutDrainageValue3</li>
+                    <li>@Html.Raw(Abu.AbutDrainageValue4)</li>
+                    <li>@Abu.AbutDrainageValue5</li>
+                </ul>
+            </li>
+            <li class="counter-5">@Abu.AbuInstallationValue5</li>
+            <li class="counter-6">@Html.Raw(Abu.AbuInstallationValue6)</li>
+            <li class="counter-7">@Html.Raw(Abu.AbuInstallationValue7)</li>
+        </ol>
+        <p><strong>@Abu.AbuElectricityTitle</strong></p>
+        <ol>
+            <li>
+                @Abu.AbuElectricityValue1
+                <ul>
+                    <li>
+                        @String.Format(Abu.AbuElectricityValue11, Model.PowerConsumption1)
+                    </li>
+                    <li>
+                        @String.Format(Abu.AbuElectricityValue12, Model.PowerConsumption2)
+                    </li>
+                    <li>
+                        @String.Format(Abu.AbuElectricityValue13, Model.PowerConsumption3)
+                    </li>
+                    <li>@Abu.AbuElectricityValue14</li>
+                    <li>@Abu.AbuElectricityValue15</li>
+                </ul>
+                <p>@Abu.AbuElectricityValue16</p>
+            </li>
+            <li class="counter-2">@Abu.AbuElectricityValue2</li>
+            <li class="counter-3">@Abu.AbuElectricityValue3</li>
+            <li class="counter-4">@Html.Raw(Abu.AbuElectricityValue4)</li>
+            <li class="counter-5">@Abu.AbuElectricityValue5</li>
+        </ol>
+
+        <p><strong>@Abu.AbuWaterSupplyTitle</strong></p>
+        <ol>
+            <li>@Html.Raw(Abu.AbuWaterSupplyValue1)</li>
+            <li>@Html.Raw(Abu.AbuWaterSupplyValue2)</li>
+            <li>
+                @Abu.AbuWaterSupplyValue3
+                <ul>
+                    <li>@Abu.AbuWaterSupplyValue31</li>
+                    <li>@Abu.AbuWaterSupplyValue32</li>
+                    <li>@Html.Raw(Abu.AbuWaterSupplyValue33)</li>
+                </ul>
+                <p>@Abu.AbuWaterSupplyValue34</p>
+            </li>
+            <li class="counter-4">@Abu.AbuWaterSupplyValue4</li>
+            <li class="counter-5">@Abu.AbuWaterSupplyValue5</li>
+        </ol>
+        <p><strong>@Abu.AbuCompressedAirTitle</strong></p>
+        <ol>
+            <li>@Html.Raw(Abu.AbuCompressedAirValue1)</li>
+            <li>
+                @Abu.AbuCompressedAirValue2
+                <p>@Abu.AbuCompressedAirValue21</p>
+                <ul>
+                    <li>@Abu.AbuCompressedAirValue22</li>
+                    <li>@Html.Raw(Abu.AbuCompressedAirValue23)</li>
+                    <li>@Abu.AbuCompressedAirValue24</li>
+                </ul>
+            </li>
+            <li class="counter-3">@Abu.AbuCompressedAirValue3</li>
+            <li class="counter-4">@Abu.AbuCompressedAirValue4</li>
+            <li class="counter-5">@Abu.AbuCompressedAirValue5</li>
+        </ol>
+        <p><strong>@Abu.AbuVentilationTitle</strong></p>
+        <ol>
+            <li>
+                @Abu.AbuVentilationValue1
+                <p>@Html.Raw(Abu.AbuVentilationValue11)</p>
+                <p>@Html.Raw(Abu.AbuVentilationValue12)</p>
+                <p>@Abu.AbuVentilationValue13</p>
+            </li>
+            <li>
+                @String.Format(Abu.AbuVentilationValue2, Model.Ventilator)
+                <ul>
+                    <li>
+                        @String.Format(Abu.AbuVentilationValue21, Model.VentilatorEngine, Model.VentilatorRPM)
+                    </li>
+                    <li>@Abu.AbuVentilationValue22</li>
+                    <li>
+                        @String.Format(Abu.AbuVentilationValue23, Model.VentilatorRPM)
+                    </li>
+                </ul>
+                <p>@String.Format(Abu.AbuVentilationValue24, Model.Ventilator)</p>
+                <p>@Abu.AbuVentilationValue25</p>
+            </li>
+            <li class="counter-3"><localize>AbuVentilationValue3</localize></li>
+            <li class="counter-4">
+                @Abu.AbuVentilationValue4
+                <p>@Abu.AbuVentilationValue41</p>
+            </li>
+        </ol>
+        <p><strong>@Abu.AbuLifespanTitle</strong></p>
+        <p>@Abu.AbuLifespanValue</p>
+    </div>
+</div>
+

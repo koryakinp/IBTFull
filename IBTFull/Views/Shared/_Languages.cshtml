@@ -1,0 +1,21 @@
+﻿@model IBTFull.Models.Language
+
+<div class="lng">
+
+    @foreach (var language in Consts.SUPPORTED_CULTURES)
+    {
+        if (Model.CurrentLanguage == language)
+        {
+            <div class="lng__item lng__item--active">
+                <img src="@String.Format("/images/{0}.png", language)" />
+            </div>
+        }
+        else
+        {
+            <a class="lng__item" href="@String.Format("/Language/SetCulture?culture={0}&returnUrl={1}", @language, @Model.ReturnUrl)">
+                <img src="@String.Format("/images/{0}.png", language)" />
+            </a>
+        }
+    }
+
+</div>
