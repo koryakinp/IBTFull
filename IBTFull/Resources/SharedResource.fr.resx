@@ -118,39 +118,135 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Abu" xml:space="preserve">
-    <value>[Abu{0}]</value>
+    <value>DBA-{0}</value>
   </data>
   <data name="abuSpecsFilename" xml:space="preserve">
-    <value>[abuSpecsFilename]</value>
+    <value>Caractéristiques techniques</value>
   </data>
   <data name="Advantages" xml:space="preserve">
-    <value>[Advantages]</value>
+    <value>Avantages</value>
   </data>
   <data name="Contacts" xml:space="preserve">
-    <value>[Contacts]</value>
+    <value>Contact</value>
   </data>
   <data name="EnquiriesLink" xml:space="preserve">
-    <value>[EnquiriesLink]</value>
+    <value>Afin de préparer une offre technique et commerciale pour la livraison des DBA à votre entreprise, complétez et renvoyez à notre adresse&amp;nbsp;&lt;a href="/{0}/File/Index?file=questioneer"&gt;le questionnaire&amp;nbsp;&lt;/a&gt;.Vous pouvez nous envoyer le questionnaire sous toute forme qui vous serait convenable.</value>
   </data>
   <data name="Faq" xml:space="preserve">
-    <value>[Faq]</value>
+    <value>Questions - réponses</value>
   </data>
   <data name="FaqLink" xml:space="preserve">
-    <value>[FaqLink]</value>
+    <value>Veuillez consulter sur notre site&amp;nbsp;&lt;a href="/{0}/faq"&gt;les questions fréquentes&amp;nbsp;&lt;/a&gt;relatives à l'exploitation des DBA et les réponses correspondantes.</value>
   </data>
   <data name="ForDesigners" xml:space="preserve">
-    <value>[ForDesigners]</value>
+    <value>Spécifications techniques</value>
   </data>
   <data name="MainPage" xml:space="preserve">
-    <value>[MainPage]</value>
+    <value>Home</value>
   </data>
   <data name="NoviSad" xml:space="preserve">
-    <value>[NoviSad]</value>
+    <value>Novy-Sad</value>
   </data>
-  <data name="Questioneer" xml:space="preserve">
-    <value>[Questioneer]</value>
+  <data name="questioneer" xml:space="preserve">
+    <value>Questionnaire IBT</value>
   </data>
   <data name="Serbia" xml:space="preserve">
-    <value>[Serbia]</value>
+    <value>République de Serbie</value>
+  </data>
+  <data name="ThankYouMessage1" xml:space="preserve">
+    <value>Merci, votre message a été reçu.</value>
+  </data>
+  <data name="ThankYouMessage2" xml:space="preserve">
+    <value>Nous vous contacterons le plus vite possible</value>
+  </data>
+  <data name="AdvantagesDesc" xml:space="preserve">
+    <value>L’avantage des dispositifs biologiques d’absorption à l’égard de la purification de l’air de ventilation dans les entreprises industrielles du phénol, formaldéhyde, triéthylamine, benzol, acroléine, cyanides, ammoniac, méthanol et des impuretés gazeuses organiques résineuses.</value>
+  </data>
+  <data name="ContactDesc" xml:space="preserve">
+    <value>Communication en retour avec la société &amp;laquo;Industrial Bio Technology&amp;raquo;.</value>
+  </data>
+  <data name="FAQDesc" xml:space="preserve">
+    <value>Réponses aux questions concernant l’exploitation des DBA.</value>
+  </data>
+  <data name="HomeDesc" xml:space="preserve">
+    <value>La description des DBA destinés à la purification de l’air de ventilation dans les entreprises industrielles des impuretés volatiles organiques gazeuses (phénol, formaldéhyde, triéthylamine, benzol, acroléine, cyanides, ammoniac, méthanol, poussière, aérosols des substances résineuses.</value>
+  </data>
+  <data name="keyword1" xml:space="preserve">
+    <value>purification de l’air de ventilation du phénol</value>
+  </data>
+  <data name="keyword10" xml:space="preserve">
+    <value>ammoniac</value>
+  </data>
+  <data name="keyword11" xml:space="preserve">
+    <value>méthanol</value>
+  </data>
+  <data name="keyword12" xml:space="preserve">
+    <value>aérosols des substances résineuses</value>
+  </data>
+  <data name="keyword13" xml:space="preserve">
+    <value>dispositif biologique d’absorption</value>
+  </data>
+  <data name="keyword14" xml:space="preserve">
+    <value>nettoyage de l'air</value>
+  </data>
+  <data name="keyword15" xml:space="preserve">
+    <value>purification de l'air</value>
+  </data>
+  <data name="keyword16" xml:space="preserve">
+    <value>la pollution de l'air</value>
+  </data>
+  <data name="keyword17" xml:space="preserve">
+    <value>filtre industriel</value>
+  </data>
+  <data name="keyword18" xml:space="preserve">
+    <value>filtres industriels</value>
+  </data>
+  <data name="keyword19" xml:space="preserve">
+    <value>solutions de filtrage</value>
+  </data>
+  <data name="keyword2" xml:space="preserve">
+    <value>purification de l’air de ventilation du formaldéhyde</value>
+  </data>
+  <data name="keyword3" xml:space="preserve">
+    <value>purification de l’air de ventilation du triéthylamine</value>
+  </data>
+  <data name="keyword4" xml:space="preserve">
+    <value>phénol</value>
+  </data>
+  <data name="keyword5" xml:space="preserve">
+    <value>formaldéhyde</value>
+  </data>
+  <data name="keyword6" xml:space="preserve">
+    <value>triéthylamine</value>
+  </data>
+  <data name="keyword7" xml:space="preserve">
+    <value>benzol</value>
+  </data>
+  <data name="keyword8" xml:space="preserve">
+    <value>acroléine</value>
+  </data>
+  <data name="keyword9" xml:space="preserve">
+    <value>cyanides</value>
+  </data>
+  <data name="SpecDesc" xml:space="preserve">
+    <value>Caractéristiques techniques des DBA.</value>
+  </data>
+  <data name="keyword20" xml:space="preserve">
+    <value>purification de l'air au benzène</value>
+  </data>
+  <data name="keyword21" xml:space="preserve">
+    <value>épuration de l'air par acroléine</value>
+  </data>
+  <data name="keyword22" xml:space="preserve">
+    <value>nettoyage de l'air de ventilation au cyanure</value>
+  </data>
+  <data name="keyword23" xml:space="preserve">
+    <value>épuration de l'air par l'ammoniac</value>
+  </data>
+  <data name="keyword24" xml:space="preserve">
+    <value>épuration d'air au méthanol</value>
+  </data>
+  <data name="keyword25" xml:space="preserve">
+    <value>purification de l'air de ventilation à partir de substances résineuses</value>
   </data>
 </root>

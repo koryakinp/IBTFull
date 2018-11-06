@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AduAdvantages" xml:space="preserve">
+    <value>Avantages du DBA</value>
+  </data>
+  <data name="Advantage1" xml:space="preserve">
+    <value>Un haut degré de captage d’une large gamme des substances nocives.</value>
+  </data>
+  <data name="Advantage10Description" xml:space="preserve">
+    <value>Dès de début de leur exploitation (depuis 1989) on n’a reçu aucune réclamation à l’égard de n’importe quel de l’ensemble des DBA en exploitation. Le DBA n’a pas d’organes mobiles ni de parts usables (excepté une pompe à eau standard). Le délai d’emploi du dispositif est au moins 15 ans. Par leur indice intégral (efficacité, qualités économiques, qualités écologiques, fiabilité) les DBA n’ont pas d’analogues sur le marché mondial des équipements de purification des gaz.</value>
+  </data>
+  <data name="Advantage10Title" xml:space="preserve">
+    <value>Qualité et fiabilité</value>
+  </data>
+  <data name="Advantage1Description" xml:space="preserve">
+    <value>Le degré de captage d’une large gamme des substances nocives depuis l’air de ventilation fait de 80 à 99,9% en fonction des concentrations d’entrée et des propriétés physiques et chimiques des substances nocives.</value>
+  </data>
+  <data name="Advantage1Title" xml:space="preserve">
+    <value>Efficacité</value>
+  </data>
+  <data name="Advantage2" xml:space="preserve">
+    <value>Fiabilité et efficacité confirmées par 25 ans de l’expérience d’exploitation.</value>
+  </data>
+  <data name="Advantage2Description" xml:space="preserve">
+    <value>La présence des admixtions solides dans le courant de gaz n’a aucune influence sur les caractéristiques fonctionnelles. Cependant, l’application des filtres à l’échangeur d’ions, des dispositifs aux éléments de décharge à gaz, des charbons, des zéolithes, des catalyseurs et d’autres appareils « secs » n’a pas de sens à cause de la bouchage des surfaces fonctionnelles des substances résineuses et suspendues.</value>
+  </data>
+  <data name="Advantage2Title" xml:space="preserve">
+    <value>Possibilité de purification de l’air de ventilation contenant des substances résineuses et suspendues</value>
+  </data>
+  <data name="Advantage3" xml:space="preserve">
+    <value>Charges d’exploitation non élevées.</value>
+  </data>
+  <data name="Advantage3Description" xml:space="preserve">
+    <value>Les frais d’exploitation ne sont pas élevés grâce à la quantité minimale des consommables (eau industrielle pour la réalimentation – 0,1-1 m&lt;sup&gt;3&lt;/sup&gt;/jour, additifs biogènes – 30-60 kg/an, air comprimé – 30-40 m&lt;sup&gt;3&lt;/sup&gt;/h).</value>
+  </data>
+  <data name="Advantage3Title" xml:space="preserve">
+    <value>Performances économiques</value>
+  </data>
+  <data name="Advantage4" xml:space="preserve">
+    <value>Absence d’agents chimiques, d’acides et d’alcalis.</value>
+  </data>
+  <data name="Advantage4Description" xml:space="preserve">
+    <value>Les DBA sont écologiques car ils ne génèrent aucunes pollutions secondaires (ainsi, par exemple, sont générés : lors de la combustion thermique et catalytique – NOх, СО et des produits d’oxydation incomplète ; lors de l’adsorption sur les charbons – des fluides de condensation pollués après la régénération à la vapeur libre ; lors du traitement par ozone – un ozone excessif ; lors de l’adsorption chimique – une solution saline épuisée et l’envolement des gouttelettes des agents chimiques dans l’atmosphère), ce qui assure une influence bienveillante sur la situation écologique de la région.</value>
+  </data>
+  <data name="Advantage4Title" xml:space="preserve">
+    <value>Qualités écologiques</value>
+  </data>
+  <data name="Advantage5" xml:space="preserve">
+    <value>Entretien technique minimal.</value>
+  </data>
+  <data name="Advantage5Description" xml:space="preserve">
+    <value>Les dispositifs ne représentent aucune risque d’incendie ni d’explosion. On n’utilise pas d’agents chimiques, d’acides et d’alcalis.</value>
+  </data>
+  <data name="Advantage5Title" xml:space="preserve">
+    <value>Sécurité</value>
+  </data>
+  <data name="Advantage6" xml:space="preserve">
+    <value>Absence des parts usables et remplaçables.</value>
+  </data>
+  <data name="Advantage6Description" xml:space="preserve">
+    <value>L’exploitation des DBA permet de réduite de manière considérable le risque des maladies professionnelles pour les employés engagés dans les sites de production insalubre.</value>
+  </data>
+  <data name="Advantage6Title" xml:space="preserve">
+    <value>Santé</value>
+  </data>
+  <data name="Advantage7" xml:space="preserve">
+    <value>Délai d’exploitation du DBA est au moins 15 ans.</value>
+  </data>
+  <data name="Advantage7Description" xml:space="preserve">
+    <value>Les dispositifs sont faciles à opérer et n’exigent pas la présence d’un opérateur en permanence. Lors de l’installation supervisée des DBA nos spécialistes assureront les cours d’instruction nécessaires et mettront à disposition de votre personnel l’ensemble des informations.</value>
+  </data>
+  <data name="Advantage7Title" xml:space="preserve">
+    <value>Formation</value>
+  </data>
+  <data name="Advantage8" xml:space="preserve">
+    <value>Élaboration des solutions non standards.</value>
+  </data>
+  <data name="Advantage8Description1" xml:space="preserve">
+    <value>L’entretien technique des DBA est réduit au minimum, il n’est lié qu’à la réparation de la pompe.</value>
+  </data>
+  <data name="Advantage8Description2" xml:space="preserve">
+    <value>Le contrôle de l’efficacité de purification des émissions de ventilation est effectué régulièrement, de façon visuelle, par état d’aspersion et d’ébullition de l’embout. L’état de la solution d’absorption est identifié par voie d’analyse de la solution pour la demande chimique en oxygène 1 fois par mois. Lorsqu’il est nécessaire d’augmenter l’efficacité de régénération de l’absorbant, on fait la correction de la composition chimique de la solution à l’égard de l’azote et du phosphore en y introduisant des engrais agricoles disponibles.</value>
+  </data>
+  <data name="Advantage8Title" xml:space="preserve">
+    <value>Entretien technique et contrôle</value>
+  </data>
+  <data name="Advantage9" xml:space="preserve">
+    <value>Accompagnement et consultations techniques pendant toute la durée l’emploi.</value>
+  </data>
+  <data name="Advantage9Description" xml:space="preserve">
+    <value>Plus de 100 DBA sont opérés dans 42 entreprises de différentes secteurs de l’industrie en Russie, en Bélarus, en Ukraine et en Kirghizistan, leur délai d’exploitation continue étant jusqu’à 25 ans.</value>
+  </data>
+  <data name="Advantage9Title" xml:space="preserve">
+    <value>Application pratique</value>
+  </data>
+  <data name="NineReasonsToChooseAbu" xml:space="preserve">
+    <value>9 raisons pour choisir le DBA:</value>
+  </data>
+</root>

@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AbuEfficiency" xml:space="preserve">
+    <value>Die Effizienz von BAA</value>
+  </data>
+  <data name="AbuEfficiencyFormol" xml:space="preserve">
+    <value>Die Effizienz der Reinigung&lt;br&gt;&lt;strong&gt; von Phenol, Formaldehyd&lt;/strong&gt;</value>
+  </data>
+  <data name="AbuEfficiencyResin" xml:space="preserve">
+    <value>Die Effizienz der Reinigung &lt;br&gt;&lt;strong&gt;von Schwebstoffen beträgt&lt;/strong&gt;</value>
+  </data>
+  <data name="AbuEfficiencyResinValue" xml:space="preserve">
+    <value>mindestens &lt;span class="efficiency-item__value"&gt;{0}&lt;/span&gt;</value>
+  </data>
+  <data name="AbuEfficiencyTriethylamine" xml:space="preserve">
+    <value>Die Effizienz der Reinigung &lt;br&gt;&lt;strong&gt;von Triethylamin und Schwebstoffen beträgt&lt;/strong&gt;</value>
+  </data>
+  <data name="AbuEfficiencyTriethylamineValue" xml:space="preserve">
+    <value>(am Auslass beträgt die Konzentration von Triethylamin höchstens 20 mg/m&lt;sup&gt;3&lt;/sup&gt;)</value>
+  </data>
+  <data name="AbuIntro" xml:space="preserve">
+    <value>Biologische Absorptionsanlagen (BAA) sind für die Reinigung der Zuluft von flüchtigen organischen gasförmigen Verunreinigungen (Phenol, Formaldehyd, Triethylamin, Benzol, Akrolein, Cyanide, Ammoniak, Methanol, Staub, Schwebstoffe von Harzstoffen usw.) in Industrieunternehmen entwickelt.</value>
+  </data>
+  <data name="AbuOperationDescription" xml:space="preserve">
+    <value>Das Grundschema und die Beschreibung der biologischen Absorptionsanlage</value>
+  </data>
+  <data name="AbuOperationDetailsOne" xml:space="preserve">
+    <value>Im Gaswäscher mit Hilfe von Wasserabsorber erfolgt die Abscheidung von Schadstoffen, und im Bioreaktor erfolgt ihre Neutralisation (Oxydation zu CO&lt;sub&gt;2&lt;/sub&gt; und H&lt;sub&gt;2&lt;/sub&gt;O)</value>
+  </data>
+  <data name="AbuOperationDetailsThree" xml:space="preserve">
+    <value>Mikroorganismen werden in den Bioreaktor einmal vor dem Betrieb in Form von konzentrierter Biomasse eingeführt. Die in der BAA verwendeten Mikroorganismen sind nicht toxisch und nicht pathogen, stammen aus natürlichen Quellen und haben die toxikologische Expertise bestanden.</value>
+  </data>
+  <data name="AbuOperationDetailsTwo" xml:space="preserve">
+    <value>Die Zirkulation der Lösung erfolgt in einem geschlossenen Zyklus &amp;laquo;Gaswäscher – Bioreaktor&amp;raquo;, wobei es keinen Abfluss in die Kanalisation gibt. Die gereinigte Zuluft wird in die Atmosphäre freigesetzt.</value>
+  </data>
+  <data name="AbuOprationTitle" xml:space="preserve">
+    <value>Das Betriebsprinzip von BAA</value>
+  </data>
+  <data name="AbuOprationValueA" xml:space="preserve">
+    <value>A – Zulufteinlass</value>
+  </data>
+  <data name="AbuOprationValueB" xml:space="preserve">
+    <value>B – Zulufteauslass</value>
+  </data>
+  <data name="AbuOprationValueC" xml:space="preserve">
+    <value>C – Absorptionslösung</value>
+  </data>
+  <data name="AbuOprationValueFour" xml:space="preserve">
+    <value>4 – Ventilator</value>
+  </data>
+  <data name="AbuOprationValueOne" xml:space="preserve">
+    <value>1 – Gaswäscher</value>
+  </data>
+  <data name="AbuOprationValueThree" xml:space="preserve">
+    <value>3 – Bioreaktor mit Mikroorganismen</value>
+  </data>
+  <data name="AbuOprationValueTwo" xml:space="preserve">
+    <value>2 – Pumpe</value>
+  </data>
+  <data name="AbuPurificationDescriptionOne" xml:space="preserve">
+    <value>das erste Prinzip besteht darin, dass die meisten schädlichen flüchtigen organischen Verbindungen löslich im Betriebswasser sind;</value>
+  </data>
+  <data name="AbuPurificationDescriptionTwo" xml:space="preserve">
+    <value>das zweite Prinzip beruht auf der Fähigkeit von speziell selektierten
+ und adaptierten natürlichen Mikroorganismen, als Nahrungsquelle die im Wasser gelösten organischen und einigen anorganischen Stoffe zu gebrauchen. Beim Verbrauch dieser Verbindungen durch Mikroorganismen geschieht ihre volle Mineralisierung sowie es werden Wasser und Kohlendioxid gebildet.</value>
+  </data>
+  <data name="AbuPurificationTitle" xml:space="preserve">
+    <value>Die Reinigung der Zuluft in der BAA beruht auf natürlichen Prozessen:</value>
+  </data>
+  <data name="AbyEfficiencyDescription" xml:space="preserve">
+    <value>Nach der Gesamtcharakteristik (Effizienz, Rentabilität, Umweltfreundlichkeit, Funktionssicherheit) sind die BAA absolut einzigartig auf dem Weltmarkt der Gasreinigungsanlagen.</value>
+  </data>
+  <data name="CompanyIntro" xml:space="preserve">
+    <value>&lt;br&gt;&lt;span class="accent-text"&gt;Industrial Bio Technology&lt;br&gt;&lt;/span&gt; bietet zur Lieferung biologische Absorptionsanlagen (BAA)</value>
+  </data>
+  <data name="Concentration" xml:space="preserve">
+    <value>mindestens &lt;span class="efficiency-item__value"&gt;{0}&lt;/span&gt; bei der Eingangskonzentration von {1} mg/m&lt;sup&gt;3&lt;/sup&gt;;</value>
+  </data>
+</root>

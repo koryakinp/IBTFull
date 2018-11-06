@@ -2,19 +2,31 @@
 @using IBTFull.Models
 
 @{
-    var requestCulture = Context.Request.Cookies["_culture"];
-    var returnUrl = string.IsNullOrEmpty(Context.Request.Path) ? "/" : $"{Context.Request.Path}";
+    var requestCulture = Thread.CurrentThread.CurrentUICulture.TwoLetterISOLanguageName;
+    var returnUrl = string.IsNullOrEmpty(Context.Request.Path) ? "/" : Context.Request.Path;
+    var pageName = ViewContext.RouteData.Values["action"].ToString();
+
+
+    string req = Request.Url.GetLeftPart(UriPartial.Authority);
 }
 
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="@requestCulture">
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-125861840-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'UA-125861840-1');
+    </script>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, initial-scale=1.0">
     <title>@ViewData["Title"]</title>
-    <meta name="keywords" content="">
-    <meta name="description" content="">
+    <meta name="keywords" content="@ViewData["keywords"]">
+    <meta name="description" content="@Html.Raw(ViewData["desc"])">
     <link rel="shortcut icon" type="image/png" href="/favicon.png">
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
@@ -26,6 +38,18 @@
     <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
     <link rel="stylesheet" href="/css/vendors/vendors.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" />
+    @foreach (var language in Consts.SUPPORTED_CULTURES.Where(q => !q.Equals(requestCulture)))
+    {
+        if (pageName == "Index")
+        {
+            <link rel="alternate" href="@String.Format("{0}/{1}", req, language)" hreflang="@language" />
+        }
+        else
+        {
+            <link rel="alternate" href="@String.Format("{0}/{1}/{2}", req, language, pageName)" hreflang="@language" />
+        }
+    }
     <style>
         .lng__item img {
             width: 30px;
@@ -48,17 +72,17 @@
             background: #ffffff url("/images/loader.svg") no-repeat center center;
         }
 
-        .loaded .sidebar {
-            display: none;
-        }
+            .loaded .sidebar {
+                display: none;
+            }
 
         a {
             text-decoration: none;
         }
 
-        a:hover {
-            text-decoration: none;
-        }
+            a:hover {
+                text-decoration: none;
+            }
 
         button:focus {
             outline: none;
@@ -72,18 +96,18 @@
             <div class="page-header__inner">
                 <div class="container">
                     <div class="logo">
-                        <a style="border-bottom: none;" href="/">
-                            <img src="/images/logo.svg" alt="">
+                        <a style="border-bottom: none;" href="/@requestCulture">
+                            <img src="/images/logo.svg" alt="logo">
                         </a>
                     </div>
                     <nav class="main-menu js-main-menu">
-                        <a class="main-menu__item" href="/engineering">@SharedResource.ForDesigners</a>
-                        <a class="main-menu__item" href="/advantages">@SharedResource.Advantages</a>
-                        <a class="main-menu__item" href="/faq">@SharedResource.Faq</a>
-                        <a class="main-menu__item" href="/contacts">@SharedResource.Contacts</a>
-                        @Html.Partial("_Languages", new Language(Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName, returnUrl))
+                        <a class="main-menu__item" href="/@requestCulture/engineering">@SharedResource.ForDesigners</a>
+                        <a class="main-menu__item" href="/@requestCulture/advantages">@SharedResource.Advantages</a>
+                        <a class="main-menu__item" href="/@requestCulture/faq">@SharedResource.Faq</a>
+                        <a class="main-menu__item" href="/@requestCulture/contacts">@SharedResource.Contacts</a>
+                        @Html.Partial("_Languages", new Language(Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName))
                     </nav>
-                    @Html.Partial("_Languages", new Language(Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName, returnUrl))
+                    @Html.Partial("_Languages", new Language(Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName))
                     <button class="menu-btn hamburger js-main-menu-btn"><span></span><span></span><span></span><span></span></button>
                 </div>
             </div>
@@ -97,22 +121,22 @@
             <div class="page-footer__inner">
                 <div class="page-footer__row">
                     <div class="page-footer__col">
-                        <div class="logo"><img src="/images/logo-white.svg" alt=""></div>
+                        <div class="logo"><img src="/images/logo-white.svg" alt="logo"></div>
                         <div class="copy">© DОО «Industrial Bio Technology», @DateTime.Now.Year</div>
                     </div>
                     <div class="page-footer__col">
                         <ul class="secondary-menu">
                             <li class="secondary-menu__item">
-                                <a class="secondary-menu__link" href="/advantages">@SharedResource.Advantages</a>
+                                <a class="secondary-menu__link" href="/@requestCulture/advantages">@SharedResource.Advantages</a>
                             </li>
                             <li class="secondary-menu__item">
-                                <a class="secondary-menu__link" href="/engineering">@SharedResource.ForDesigners</a>
+                                <a class="secondary-menu__link" href="/@requestCulture/engineering">@SharedResource.ForDesigners</a>
                             </li>
                             <li class="secondary-menu__item">
-                                <a class="secondary-menu__link" href="/faq">@SharedResource.Faq</a>
+                                <a class="secondary-menu__link" href="/@requestCulture/faq">@SharedResource.Faq</a>
                             </li>
                             <li class="secondary-menu__item">
-                                <a class="secondary-menu__link" href="/contacts">@SharedResource.Contacts</a>
+                                <a class="secondary-menu__link" href="/@requestCulture/contacts">@SharedResource.Contacts</a>
                             </li>
                         </ul>
                     </div>
@@ -176,6 +200,9 @@
         }</script>
     <link rel="stylesheet" href="/css/common.min.css">
     <style>
+        body {
+            font-weight: 400;
+        }
         .content-wrapper {
             color: #000;
         }
@@ -184,11 +211,40 @@
             color: forestgreen;
             font-weight: bold;
         }
+
+        .page-title:after {
+            width: 100% !important;
+        }
     </style>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/jquery.form-validator.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
     <script type="text/javascript" src="/js/script.js"></script>
     <script src="/js/vendors/vendors.min.js"></script>
     <script src="/js/common.min.js"></script>
     <script>$(window).on('load', function () { $('body').removeClass('loaded') });</script>
+    <script>
+        $.validate({
+            modules: 'html5',
+            lang: "@requestCulture"
+        });
+
+        if (window.location.search.endsWith('messagesend')) {
+            toastr
+                .success(
+                    "@SharedResource.ThankYouMessage1",
+                    "@SharedResource.ThankYouMessage2",
+                    {
+                        "positionClass": "toast-top-right",
+                        "preventDuplicates": false,
+                        "onclick": null,
+                        "showDuration": "300",
+                        "hideDuration": "1000",
+                        "timeOut": "5000",
+                        "extendedTimeOut": "1000"
+                    })
+                .css("width", "500px");
+        }
+    </script>
 </body>
 </html>

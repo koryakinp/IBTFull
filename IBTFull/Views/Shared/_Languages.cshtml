@@ -1,4 +1,7 @@
 ﻿@model IBTFull.Models.Language
+@{ 
+    var pageName = ViewContext.RouteData.Values["action"].ToString();
+}
 
 <div class="lng">
 
@@ -12,9 +15,18 @@
         }
         else
         {
-            <a class="lng__item" href="@String.Format("/Language/SetCulture?culture={0}&returnUrl={1}", @language, @Model.ReturnUrl)">
-                <img src="@String.Format("/images/{0}.png", language)" />
-            </a>
+            if (pageName == "Index")
+            {
+                <a class="lng__item" href="@String.Format("/{0}", @language)">
+                    <img src="@String.Format("/images/{0}.png", language)" />
+                </a>
+            }
+            else
+            {
+                <a class="lng__item" href="@String.Format("/{0}/{1}", @language, pageName)">
+                    <img src="@String.Format("/images/{0}.png", language)" />
+                </a>
+            }
         }
     }
 

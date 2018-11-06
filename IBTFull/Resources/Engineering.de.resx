@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AbuDescription1" xml:space="preserve">
+    <value>&lt;strong&gt;Biologische Absorptionsanlagen (BAA)&lt;/strong&gt; sind für die Reinigung der Zuluft von schädlichen organischen Stoffen und dazugehörigen Schwebstoffen in verschiedenen Industriebranchen entwickelt, wo technologische Prozesse verlaufen, die mit der Ausscheidung von Giftstoffen in die Atmosphäre verbunden sind.</value>
+  </data>
+  <data name="AbuDescription2" xml:space="preserve">
+    <value>BAA werden durch eigene Ventilatoren ergänzt. Möglich ist eine Montage in bestehende Lüftungsanlage (mit dem vorhandenen Auslöser des Saugzuges) unter Berücksichtigung der Druckverluste in der Anlage von 2 200 Pa.</value>
+  </data>
+  <data name="AbuDescription3" xml:space="preserve">
+    <value>Konstruktionsmäßig werden BAA in Form von drei Geräten hergestellt, die sowohl in die vorhandenen Anlagen als eine kompakte Einheit, als auch zufällig verteilt mit einem beliebigen Abstand voneinander eingebaut werden können. Diese Konstruktion gibt die Möglichkeit, die BAA am besten in jedem konkreten Fall zu installieren.</value>
+  </data>
+  <data name="AbuDescription4" xml:space="preserve">
+    <value>Auf Bestellung des Kunden werden BAA mit den erforderlichen Parametern für den Grad der Reinigung, Leistung, Form und Größe projektiert und hergestellt.</value>
+  </data>
+  <data name="AbuDescription5" xml:space="preserve">
+    <value>Die BAA können beliebiges Zuluftvolumen im Industriebetrieb reinigen. Dazu soll man eine notwendige Anzahl von BAA zu &lt;strong&gt;&lt;a class="link-fix" href="#" data-toggle="modal" data-target="#complex"&gt;einem einheitlichen Komplex zusammensetzen&lt;/a&gt;&lt;/strong&gt;</value>
+  </data>
+  <data name="AbuInstallationListItem1" xml:space="preserve">
+    <value>Kompakte Einheit</value>
+  </data>
+  <data name="AbuInstallationListItem2" xml:space="preserve">
+    <value>Verteilte Installation</value>
+  </data>
+  <data name="AbuInstallationListTitle" xml:space="preserve">
+    <value>Installationsmöglichkeiten der BAA</value>
+  </data>
+  <data name="AbuMoreDetails" xml:space="preserve">
+    <value>Erfahren Sie mehr</value>
+  </data>
+  <data name="AbuParametersTableHeader1" xml:space="preserve">
+    <value>Bezeichnung des Parameters</value>
+  </data>
+  <data name="AbuParametersTableHeader2" xml:space="preserve">
+    <value>Parameterwert</value>
+  </data>
+  <data name="AbuParametersTableRow1Value1" xml:space="preserve">
+    <value>Leistung für die Zuluft, Tausend m&lt;sup&gt;3&lt;/sup&gt;, mindestens</value>
+  </data>
+  <data name="AbuParametersTableRow2Value1" xml:space="preserve">
+    <value>Abscheidungsgrad, %:</value>
+  </data>
+  <data name="AbuParametersTableRow2Value2" xml:space="preserve">
+    <value>von flüchtigen organischen Verbindungen;</value>
+  </data>
+  <data name="AbuParametersTableRow2Value3" xml:space="preserve">
+    <value>von Schwebstoffen</value>
+  </data>
+  <data name="AbuParametersTableRow3Value1" xml:space="preserve">
+    <value>Hydraulischer Widerstand (Druckverlust in der BAA), Pa, höchstens</value>
+  </data>
+  <data name="AbuParametersTableRow4Value1" xml:space="preserve">
+    <value>Leistungsbedarf*, kW, höchstens</value>
+  </data>
+  <data name="AbuParametersTableRow5Value1" xml:space="preserve">
+    <value>Versorgungsspannung, Volt</value>
+  </data>
+  <data name="AbuParametersTableRow6Value1" xml:space="preserve">
+    <value>Stromfrequenz, Hz</value>
+  </data>
+  <data name="AbuParametersTitle" xml:space="preserve">
+    <value>Die Parameter der am häufigsten verwendeten BAA:</value>
+  </data>
+  <data name="AbuSchemaTitle" xml:space="preserve">
+    <value>Blockschaltbild der Industrieanlage für Reinigung von Lüftungsemissionen</value>
+  </data>
+  <data name="AbuSchemaValue1" xml:space="preserve">
+    <value>Einlass der verschmutzten Luft</value>
+  </data>
+  <data name="AbuSchemaValue2" xml:space="preserve">
+    <value>Parameter:&lt;br&gt;
+Temperatur – 5-180&amp;#176;C&lt;br&gt;
+Feuchtigkeit – nicht normiert&lt;br&gt;
+Schwebstoffe – bis 1 500 mg/m&lt;sup&gt;3&lt;/sup&gt;&lt;br&gt;
+Organische Stoffe – bis 100 mg/m&lt;sup&gt;3&lt;/sup&gt;</value>
+  </data>
+  <data name="AbuSchemaValue3" xml:space="preserve">
+    <value>Biologische Absorptionsanlage (BAA)</value>
+  </data>
+  <data name="AbuSchemaValue4" xml:space="preserve">
+    <value>Reinigungsleistung – bis 99,8%</value>
+  </data>
+  <data name="AbuSchemaValue5" xml:space="preserve">
+    <value>Ventilator</value>
+  </data>
+  <data name="AbuSchemaValue6" xml:space="preserve">
+    <value>Entspannung (Druckhöhe) – mindestens 2 200 Pa.</value>
+  </data>
+  <data name="AbuTemperatureParameters1" xml:space="preserve">
+    <value>Die BAA sind stationäre Anlagen, die für einen kontinuierlichen rund um die Uhr und/oder Schichtbetrieb geeignet sind. Die Temperatur im Raum, wo die BAA installiert werden, soll +5…+30&amp;#176;С betragen.</value>
+  </data>
+  <data name="AbuTemperatureParameters2" xml:space="preserve">
+    <value>Im Raum, wo eine BAA installiert wird, soll eine allgemeine Lüftung mit einem Luftwechselwert von 3-4 vorgesehen werden. Die BAA können teilweise im Freien installiert werden, dabei dürfen im Freien nur Absorptions- und Tropfenfängerteile von BAA bei einer Temperatur von minus 35 bis plus 40 Grad liegen.</value>
+  </data>
+  <data name="CatalogTitle" xml:space="preserve">
+    <value>Technische Daten und Ausgangsangaben von BAA mit dem Fördervolumen von 5 000 / 10 000 / 25 000 m&lt;sup&gt;3&lt;/sup&gt;/Stunde</value>
+  </data>
+  <data name="Complex" xml:space="preserve">
+    <value>Komplex von 7 BAA mit dem Fördervolumen von 175 000 m&lt;sup&gt;3&lt;/sup&gt;/Stunde</value>
+  </data>
+  <data name="Distributed" xml:space="preserve">
+    <value>Verteilte Installation</value>
+  </data>
+  <data name="Single" xml:space="preserve">
+    <value>Kompakte Einheit</value>
+  </data>
+</root>

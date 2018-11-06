@@ -1,225 +1,229 @@
-﻿@using Microsoft.AspNetCore.Mvc.Localization
-@using IBT
-@inject IHtmlLocalizer<SharedResource> SharedLocalizer
+﻿@using System.Threading
 @{
-    ViewData["Title"] = SharedLocalizer.GetString("Faq");
+
+    ViewData["Title"] = SharedResource.Faq;
     Layout = "~/Views/Shared/_Layout.cshtml";
+    var requestCulture = Thread.CurrentThread.CurrentUICulture.TwoLetterISOLanguageName;
 }
 
-<div class="breadcrumbs">
-    <ul class="breadcrumbs__inner">
-        <li class="breadcrumbs__item"><a href="/"><localize localizer="SharedLocalizer">MainPage</localize></a></li>
-        <li class="breadcrumbs__item breadcrumbs__item--active"><span><localize localizer="SharedLocalizer">Faq</localize></span></li>
-    </ul>
-</div>
-<div class="content">
-    <div class="container">
-        <h1 class="page-title"><localize localizer="SharedLocalizer">Faq</localize></h1>
-        <!--start .faq-->
-        <div class="faq">
-            <div class="faq-item js-faq opened">
-                <div class="faq-item__question">
-                    <localize html="true">Question1</localize>
+<div class="faq-page">
+    <div class="breadcrumbs">
+        <ul class="breadcrumbs__inner">
+            <li class="breadcrumbs__item"><a href="/@requestCulture">@SharedResource.MainPage</a></li>
+            <li class="breadcrumbs__item breadcrumbs__item--active"><span>@SharedResource.Faq</span></li>
+        </ul>
+    </div>
+    <div class="content">
+        <div class="container">
+            <h1>
+                <span class="page-title">@SharedResource.Faq</span>
+            </h1>
+            <!--start .faq-->
+            <div class="faq">
+                <div class="faq-item js-faq opened">
+                    <div class="faq-item__question">
+                        @Html.Raw(Faq.Question1)
+                    </div>
+                    <div class="faq-item__answer js-faq-answer">
+                        <p>
+                            @Html.Raw(Faq.Answer1)
+                        </p>
+                    </div>
+                    <button class="faq-item__btn js-faq-btn" type="button">
+                        <svg class="icon icon-arrow">
+                            <use xlink:href="#icon-arrow"></use>
+                        </svg>
+                    </button>
                 </div>
-                <div class="faq-item__answer js-faq-answer">
-                    <p>
-                        <localize html="true">Answer1</localize>
-                    </p>
+                <div class="faq-item js-faq">
+                    <div class="faq-item__question">
+                        @Faq.Question2
+                    </div>
+                    <div class="faq-item__answer js-faq-answer">
+                        <p>@Html.Raw(Faq.Answer2)</p>
+                    </div>
+                    <button class="faq-item__btn js-faq-btn" type="button">
+                        <svg class="icon icon-arrow">
+                            <use xlink:href="#icon-arrow"></use>
+                        </svg>
+                    </button>
                 </div>
-                <button class="faq-item__btn js-faq-btn" type="button">
-                    <svg class="icon icon-arrow">
-                        <use xlink:href="#icon-arrow"></use>
-                    </svg>
-                </button>
+                <div class="faq-item js-faq">
+                    <div class="faq-item__question">
+                        @Faq.Question3
+                    </div>
+                    <div class="faq-item__answer js-faq-answer">
+                        <p>@Html.Raw(Faq.Answer3)</p>
+                    </div>
+                    <button class="faq-item__btn js-faq-btn" type="button">
+                        <svg class="icon icon-arrow">
+                            <use xlink:href="#icon-arrow"></use>
+                        </svg>
+                    </button>
+                </div>
+                <div class="faq-item js-faq">
+                    <div class="faq-item__question">
+                        @Faq.Question4
+                    </div>
+                    <div class="faq-item__answer js-faq-answer">
+                        <p>@Faq.Answer4</p>
+                    </div>
+                    <button class="faq-item__btn js-faq-btn" type="button">
+                        <svg class="icon icon-arrow">
+                            <use xlink:href="#icon-arrow"></use>
+                        </svg>
+                    </button>
+                </div>
+                <div class="faq-item js-faq">
+                    <div class="faq-item__question">
+                        @Faq.Question5
+                    </div>
+                    <div class="faq-item__answer js-faq-answer">
+                        <ol>
+                            <li>@Faq.Answer5_1</li>
+                            <li>@Html.Raw(Faq.Answer5_2)</li>
+                        </ol>
+                    </div>
+                    <button class="faq-item__btn js-faq-btn" type="button">
+                        <svg class="icon icon-arrow">
+                            <use xlink:href="#icon-arrow"></use>
+                        </svg>
+                    </button>
+                </div>
+                <div class="faq-item js-faq">
+                    <div class="faq-item__question">
+                        @Faq.Question6
+                    </div>
+                    <div class="faq-item__answer js-faq-answer">
+                        <p>@Html.Raw(Faq.Answer6)</p>
+                    </div>
+                    <button class="faq-item__btn js-faq-btn" type="button">
+                        <svg class="icon icon-arrow">
+                            <use xlink:href="#icon-arrow"></use>
+                        </svg>
+                    </button>
+                </div>
+                <div class="faq-item js-faq">
+                    <div class="faq-item__question">
+                        @Faq.Question7
+                    </div>
+                    <div class="faq-item__answer js-faq-answer">
+                        <p>@Html.Raw(Faq.Answer7)</p>
+                    </div>
+                    <button class="faq-item__btn js-faq-btn" type="button">
+                        <svg class="icon icon-arrow">
+                            <use xlink:href="#icon-arrow"></use>
+                        </svg>
+                    </button>
+                </div>
+                <div class="faq-item js-faq">
+                    <div class="faq-item__question">
+                        @Faq.Question8
+                    </div>
+                    <div class="faq-item__answer js-faq-answer">
+                        <p>@Html.Raw(Faq.Answer8)</p>
+                    </div>
+                    <button class="faq-item__btn js-faq-btn" type="button">
+                        <svg class="icon icon-arrow">
+                            <use xlink:href="#icon-arrow"></use>
+                        </svg>
+                    </button>
+                </div>
+                <div class="faq-item js-faq">
+                    <div class="faq-item__question">
+                        @Faq.Question9
+                    </div>
+                    <div class="faq-item__answer js-faq-answer">
+                        <p>@Html.Raw(Faq.Answer9_1)</p>
+                        <p>@Html.Raw(Faq.Answer9_2)</p>
+                    </div>
+                    <button class="faq-item__btn js-faq-btn" type="button">
+                        <svg class="icon icon-arrow">
+                            <use xlink:href="#icon-arrow"></use>
+                        </svg>
+                    </button>
+                </div>
+                <div class="faq-item js-faq">
+                    <div class="faq-item__question">
+                        @Faq.Question10
+                    </div>
+                    <div class="faq-item__answer js-faq-answer">
+                        <p>@Faq.Answer10</p>
+                    </div>
+                    <button class="faq-item__btn js-faq-btn" type="button">
+                        <svg class="icon icon-arrow">
+                            <use xlink:href="#icon-arrow"></use>
+                        </svg>
+                    </button>
+                </div>
+                <div class="faq-item js-faq">
+                    <div class="faq-item__question">
+                        @Faq.Question11
+                    </div>
+                    <div class="faq-item__answer js-faq-answer">
+                        <p>@Html.Raw(Faq.Answer11)</p>
+                    </div>
+                    <button class="faq-item__btn js-faq-btn" type="button">
+                        <svg class="icon icon-arrow">
+                            <use xlink:href="#icon-arrow"></use>
+                        </svg>
+                    </button>
+                </div>
+                <div class="faq-item js-faq">
+                    <div class="faq-item__question">
+                        @Faq.Question12
+                    </div>
+                    <div class="faq-item__answer js-faq-answer">
+                        <p>@Html.Raw(Faq.Answer12)</p>
+                    </div>
+                    <button class="faq-item__btn js-faq-btn" type="button">
+                        <svg class="icon icon-arrow">
+                            <use xlink:href="#icon-arrow"></use>
+                        </svg>
+                    </button>
+                </div>
+                <div class="faq-item js-faq">
+                    <div class="faq-item__question">
+                        @Faq.Question13
+                    </div>
+                    <div class="faq-item__answer js-faq-answer">
+                        <p>@Faq.Answer13</p>
+                    </div>
+                    <button class="faq-item__btn js-faq-btn" type="button">
+                        <svg class="icon icon-arrow">
+                            <use xlink:href="#icon-arrow"></use>
+                        </svg>
+                    </button>
+                </div>
+                <div class="faq-item js-faq">
+                    <div class="faq-item__question">
+                        @Faq.Question14
+                    </div>
+                    <div class="faq-item__answer js-faq-answer">
+                        <p>@Faq.Answer14</p>
+                    </div>
+                    <button class="faq-item__btn js-faq-btn" type="button">
+                        <svg class="icon icon-arrow">
+                            <use xlink:href="#icon-arrow"></use>
+                        </svg>
+                    </button>
+                </div>
+                <div class="faq-item js-faq">
+                    <div class="faq-item__question">
+                        @Html.Raw(Faq.Question15)
+                    </div>
+                    <div class="faq-item__answer js-faq-answer">
+                        <p>@Faq.Answer15</p>
+                    </div>
+                    <button class="faq-item__btn js-faq-btn" type="button">
+                        <svg class="icon icon-arrow">
+                            <use xlink:href="#icon-arrow"></use>
+                        </svg>
+                    </button>
+                </div>
             </div>
-            <div class="faq-item js-faq">
-                <div class="faq-item__question">
-                    <localize>Question2</localize>
-                </div>
-                <div class="faq-item__answer js-faq-answer">
-                    <p><localize html="true">Answer2</localize></p>
-                </div>
-                <button class="faq-item__btn js-faq-btn" type="button">
-                    <svg class="icon icon-arrow">
-                        <use xlink:href="#icon-arrow"></use>
-                    </svg>
-                </button>
-            </div>
-            <div class="faq-item js-faq">
-                <div class="faq-item__question">
-                    <localize>Question3</localize>
-                </div>
-                <div class="faq-item__answer js-faq-answer">
-                    <p><localize html="true">Answer3</localize></p>
-                </div>
-                <button class="faq-item__btn js-faq-btn" type="button">
-                    <svg class="icon icon-arrow">
-                        <use xlink:href="#icon-arrow"></use>
-                    </svg>
-                </button>
-            </div>
-            <div class="faq-item js-faq">
-                <div class="faq-item__question">
-                    <localize>Question4</localize>
-                </div>
-                <div class="faq-item__answer js-faq-answer">
-                    <p><localize>Answer4</localize></p>
-                </div>
-                <button class="faq-item__btn js-faq-btn" type="button">
-                    <svg class="icon icon-arrow">
-                        <use xlink:href="#icon-arrow"></use>
-                    </svg>
-                </button>
-            </div>
-            <div class="faq-item js-faq">
-                <div class="faq-item__question">
-                    <localize>Question5</localize>
-                </div>
-                <div class="faq-item__answer js-faq-answer">
-                    <ol>
-                        <li><localize>Answer5.1</localize></li>
-                        <li><localize html="true">Answer5.2</localize></li>
-                    </ol>
-                </div>
-                <button class="faq-item__btn js-faq-btn" type="button">
-                    <svg class="icon icon-arrow">
-                        <use xlink:href="#icon-arrow"></use>
-                    </svg>
-                </button>
-            </div>
-            <div class="faq-item js-faq">
-                <div class="faq-item__question">
-                    <localize>Question6</localize>
-                </div>
-                <div class="faq-item__answer js-faq-answer">
-                    <p><localize html="true">Answer6</localize></p>
-                </div>
-                <button class="faq-item__btn js-faq-btn" type="button">
-                    <svg class="icon icon-arrow">
-                        <use xlink:href="#icon-arrow"></use>
-                    </svg>
-                </button>
-            </div>
-            <div class="faq-item js-faq">
-                <div class="faq-item__question">
-                    <localize>Question7</localize>
-                </div>
-                <div class="faq-item__answer js-faq-answer">
-                    <p><localize html="true">Answer7</localize></p>
-                </div>
-                <button class="faq-item__btn js-faq-btn" type="button">
-                    <svg class="icon icon-arrow">
-                        <use xlink:href="#icon-arrow"></use>
-                    </svg>
-                </button>
-            </div>
-            <div class="faq-item js-faq">
-                <div class="faq-item__question">
-                    <localize>Question8</localize>
-                </div>
-                <div class="faq-item__answer js-faq-answer">
-                    <p><localize html="true">Answer8</localize></p>
-                </div>
-                <button class="faq-item__btn js-faq-btn" type="button">
-                    <svg class="icon icon-arrow">
-                        <use xlink:href="#icon-arrow"></use>
-                    </svg>
-                </button>
-            </div>
-            <div class="faq-item js-faq">
-                <div class="faq-item__question">
-                    <localize>Question9</localize>
-                </div>
-                <div class="faq-item__answer js-faq-answer">
-                    <p><localize>Answer9.1</localize></p>
-                    <p><localize>Answer9.2</localize></p>
-                </div>
-                <button class="faq-item__btn js-faq-btn" type="button">
-                    <svg class="icon icon-arrow">
-                        <use xlink:href="#icon-arrow"></use>
-                    </svg>
-                </button>
-            </div>
-            <div class="faq-item js-faq">
-                <div class="faq-item__question">
-                    <localize>Question10</localize>
-                </div>
-                <div class="faq-item__answer js-faq-answer">
-                    <p><localize>Answer10</localize></p>
-                </div>
-                <button class="faq-item__btn js-faq-btn" type="button">
-                    <svg class="icon icon-arrow">
-                        <use xlink:href="#icon-arrow"></use>
-                    </svg>
-                </button>
-            </div>
-            <div class="faq-item js-faq">
-                <div class="faq-item__question">
-                    <localize>Question11</localize>
-                </div>
-                <div class="faq-item__answer js-faq-answer">
-                    <p><localize html="true">Answer11</localize></p>
-                </div>
-                <button class="faq-item__btn js-faq-btn" type="button">
-                    <svg class="icon icon-arrow">
-                        <use xlink:href="#icon-arrow"></use>
-                    </svg>
-                </button>
-            </div>
-            <div class="faq-item js-faq">
-                <div class="faq-item__question">
-                    <localize>Question12</localize>
-                </div>
-                <div class="faq-item__answer js-faq-answer">
-                    <p><localize html="true">Answer12</localize></p>
-                </div>
-                <button class="faq-item__btn js-faq-btn" type="button">
-                    <svg class="icon icon-arrow">
-                        <use xlink:href="#icon-arrow"></use>
-                    </svg>
-                </button>
-            </div>
-            <div class="faq-item js-faq">
-                <div class="faq-item__question">
-                    <localize>Question13</localize>
-                </div>
-                <div class="faq-item__answer js-faq-answer">
-                    <p><localize>Answer13</localize></p>
-                </div>
-                <button class="faq-item__btn js-faq-btn" type="button">
-                    <svg class="icon icon-arrow">
-                        <use xlink:href="#icon-arrow"></use>
-                    </svg>
-                </button>
-            </div>
-            <div class="faq-item js-faq">
-                <div class="faq-item__question">
-                    <localize>Question14</localize>
-                </div>
-                <div class="faq-item__answer js-faq-answer">
-                    <p><localize>Answer14</localize></p>
-                </div>
-                <button class="faq-item__btn js-faq-btn" type="button">
-                    <svg class="icon icon-arrow">
-                        <use xlink:href="#icon-arrow"></use>
-                    </svg>
-                </button>
-            </div>
-            <div class="faq-item js-faq">
-                <div class="faq-item__question">
-                    <localize html="true">Question15</localize>
-                </div>
-                <div class="faq-item__answer js-faq-answer">
-                    <p><localize>Answer15</localize></p>
-                </div>
-                <button class="faq-item__btn js-faq-btn" type="button">
-                    <svg class="icon icon-arrow">
-                        <use xlink:href="#icon-arrow"></use>
-                    </svg>
-                </button>
-            </div>
+            <!--end .faq-->
         </div>
-        <!--end .faq-->
     </div>
 </div>
 

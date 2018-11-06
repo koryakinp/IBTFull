@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Answer1" xml:space="preserve">
+    <value>Die Abmessungen hängen von der Menge der zu reinigenden Luft und Schadstoffkonzentration ab. Schicken Sie uns bitte den Grundriss des Raumes, wo die Zuluftreinigungsanlage installiert werden soll, und wir finden einen freien Platz für sie, falls notwendig ändern wir die Konstruktion der Reinigungsanlage. Wir besuchen Ihr Unternehmen und finden eine passende Lösung zusammen.</value>
+  </data>
+  <data name="Answer10" xml:space="preserve">
+    <value>Um das Absorptionsmittel gegen schwerlösliche Verunreiniger (ölige Substanzen, unpolare flüchtige organische Verbindungen usw.) zu aktivieren, werden Oberflächenaktivstoffe als Reinigungsmittel in einer Menge von 0,01-0,02% des Volumens der rückgeführten Flüssigkeit (20-40 kg/Jahr) verwendet.</value>
+  </data>
+  <data name="Answer11" xml:space="preserve">
+    <value>Wenn in der Zuluft Ruß und Feinstaub enthalten sind, werden in den BAA als Modifizierungsmittel der Lösung Koagulationsmittel und Flockungsmittel verwendet, um das Sorptionseffekt bei Aufschwemmungen zu erhöhen, das Absorptionsmittel zu klären und die Schlämmung zu vereinfachen. Die Menge solcher Zusätze ist nicht groß und beträgt 20-30 mg pro 1 000 m&lt;sup&gt;3&lt;/sup&gt;/Stunde.</value>
+  </data>
+  <data name="Answer12" xml:space="preserve">
+    <value>Die Absorptionslösung wird nur einmal bei der Inbetriebsetzung von BAA vorbereitet und zum gewünschten Zustand geführt. Im Weiteren erfolgt die Nachspeisung der BAA mit Wasser zum Ausgleich der Dampf- und Feuchtigkeitsverluste. Der Verbrauch schwankt in Abhängigkeit von der Temperatur beim Betrieb der BAA und kann von 0,1 m&lt;sup&gt;3&lt;/sup&gt;/Tag bis 3,0 m&lt;sup&gt;3&lt;/sup&gt;/Tag betragen.</value>
+  </data>
+  <data name="Answer13" xml:space="preserve">
+    <value>Sie brauchen nicht während der gesamten Betriebsdauer der BAA Mikroorganismen zu wechseln. Wenn neue Verunreiniger entstehen (bei der Veränderung der Produktionstechnik), werden Maßnahmen zur Neuadaptierung der bestehenden Biozönose an die neuen Bedingungen mit der möglichen Einführung von zusätzlichen Kulturen von Mikroorganismen getroffen, was keinen Einfluss auf die Kosten im Zusammenhang mit dem Betrieb von BAA hat.</value>
+  </data>
+  <data name="Answer14" xml:space="preserve">
+    <value>Die BAA kann leicht an die neuen Betriebsbedingungen angepasst werden. Dazu soll das Bioreaktor-System neu adaptiert werden und, wenn es möglich ist, neue Mikroorganismenstämme eingeführt werden.</value>
+  </data>
+  <data name="Answer15" xml:space="preserve">
+    <value>Es ist schwer, diese Verfahren zu vergleichen, weil in den meisten Fällen in der Zuluft harzige, ölige, parafinartige und andere Kondensationsstoffe enthalten sind, deshalb verliert die Arbeitsfläche der Filter schon nach einigen Arbeitsschichten ihre Funktionalität.</value>
+  </data>
+  <data name="Answer2" xml:space="preserve">
+    <value>Es gibt keine besonderen Anforderungen. Der Gaswäscher kann bei Temperatur von -35°C betrieben werden. Der Bioreaktor kann in jedem Raum (z.B. im Kellerraum) installiert werden, wo die Temperatur über +5°C ist. Es können auch bei Ihnen vorhandene und nicht genutzte Erdtiefbehälter oder Bauelemente von Reinigungsanlagen verwendet werden.</value>
+  </data>
+  <data name="Answer3" xml:space="preserve">
+    <value>Dies bezieht sich auf Biofilter und ähnliche Anlagen. In unserer Anlage wird eine völlig andere Technologie verwendet. Verschmutzende Substanzen werden zunächst aus der Luft zu einer wässrigen Lösung umgewandelt, und schon im wässrigen Medium werden sie biologisch abgebaut. Für das normale Funktionieren unserer Biotechnologie ist das Wasservolumen für die Rezirkulation im Verhältnis von 0,5-1,0 m&lt;sup&gt;3&lt;/sup&gt; auf 1 000 m&lt;sup&gt;3&lt;/sup&gt;/Stunde des gereinigten Gases erforderlich.</value>
+  </data>
+  <data name="Answer4" xml:space="preserve">
+    <value>Einer der Vorteile der Verwendung von BAA als Luftreinigungsanlage ist, dass es keine Abfälle entstehen, die entsorgt werden sollen. Schädliche organische Substanzen werden zu Wasser und Kohlendioxid abgebaut. Da in der BAA ein Belüftungsbecken mit fibrösen Filtern verwendet wird, wird der Belebtschlamm fast vollständig entnommen. Aus der Sektion der Belebtschlammentnahme mit Hilfe der Druckluftpumpe werden Schwebstoffe entfernt, die in der Zuluft enthalten wurden.</value>
+  </data>
+  <data name="Answer5.1" xml:space="preserve">
+    <value>Phenol und Formaldehyd haben fast unbegrenzte Löslichkeit im Wasser. Was die Absorption von gasförmigem Zustand angeht, so wird bei einer Temperatur unter Siedepunkt der Substanz das Gleichgewicht in Richtung der flüssigen Phase verschoben.</value>
+  </data>
+  <data name="Answer5.2" xml:space="preserve">
+    <value>Die Mechanismen der Absorption mit der Verwendung von Betriebswasser in der BAA und mit Hilfe der Laugenlösung in dem „sauren“ Gaswäscher sind identisch: Phenol wird zunächst im Wasser gelöst (aufgrund der Partialdruckdifferenz von Phenol in der Gasphase und von Phenol an der Phasengrenze Gas-Wasser), und dann reagiert, z. B. mit NaOH unter Bildung von Phenolat im „sauren“ Gaswäscher oder wird durch Mikroorganismen in der BAA zerstört.</value>
+  </data>
+  <data name="Answer6" xml:space="preserve">
+    <value>In der BAA wird als Absorptionsmittel das Wasser verwendet, so ist die Anlage nicht feuergefährlich. Im Betrieb einiger BAA gab es Fälle, wenn die Entzündung von Luftkanälen wegen der technologischen Hochtemperaturanlagen in der BAA verhindert wurde. Nach der BAA ist die Temperatur der Lüftungsemissionen nicht höher als 350°C</value>
+  </data>
+  <data name="Answer7" xml:space="preserve">
+    <value>Die Anlage wird in den Wartungsmodus umgeschaltet. Wenn der Stillstand bis zu 2 Wochen dauert, braucht man keine Maßnahmen zu treffen. Nach 2 Wochen empfielt es sich, in die Anlage den Verschmutzer einzuführen (Formalin, Ammoniak), um die Lebenstätigkeit von Mikroorganismen aufrechtzuerhalten. Auch wenn Sie die Anlage z. B. ein halbes Jahr nicht bedienen werden, bleibt ein Teil der Mikroorganismen am Leben (im Anabiosezustand), aber die Überführung in den Betriebszustand wird länger dauern (bis zu 2 Wochen).</value>
+  </data>
+  <data name="Answer8" xml:space="preserve">
+    <value>Nein. Mikroorganismen sterben, wenn das Protein zerstört wird oder ihr Wachstum behindert wird. Es gibt zwei Faktoren, die die Lebenstätigkeit von Mikroorganismen behindern können: die Überhitzung der Lösung bis zur Temperatur von mehr als 50 Grad und das Eindringen von Antibiotika in das Absorptionsmittel. In normalen industriellen Bedingungen des Betriebes von BAA fehlen diese Faktoren, deshalb können die Mikroorganismen nicht sterben.</value>
+  </data>
+  <data name="Answer9_1" xml:space="preserve">
+    <value>Als biogene Verbrauchsmaterialien werden für die BAA Mineralsalze (in Form von Düngemitteln für Landwirtschaft) verwendet, die Ammonium- und Phosphat-Ionen enthalten.</value>
+  </data>
+  <data name="Answer9_2" xml:space="preserve">
+    <value>Die Verbrauchsmenge beträgt 0,1-0,2 kg/Tag (30-50 kg pro Jahr)</value>
+  </data>
+  <data name="Question1" xml:space="preserve">
+    <value>Bei uns im Unternehmen ist es schwierig, einen Platz zu finden, um die Staubgasfanganlage zu installieren. Welche Abmessungen hat Ihre Reinigungsanlage?</value>
+  </data>
+  <data name="Question10" xml:space="preserve">
+    <value>Kann in der BAA die Zuluft von dem Ölnebeldampf und den schwerlöslichen unpolaren flüchtigen organischen Verbindungen gereinigt werden?</value>
+  </data>
+  <data name="Question11" xml:space="preserve">
+    <value>Kann in der BAA Ruß und Feinstaub abgeschieden werden?</value>
+  </data>
+  <data name="Question12" xml:space="preserve">
+    <value>Wie oft soll man Absorptionslösung wechseln?</value>
+  </data>
+  <data name="Question13" xml:space="preserve">
+    <value>Soll man die Mikroorganismen wechseln, wenn ja, dann in welchen Fällen?</value>
+  </data>
+  <data name="Question14" xml:space="preserve">
+    <value>Was soll man machen, wenn die Produktionstechnik und Parameter der Lüftungsemissionen verändert werden?</value>
+  </data>
+  <data name="Question15" xml:space="preserve">
+    <value>Was sind die Vorteile der Trocken-Methode zur Reinigung der Zuluft (Adsorptionsmittel, Katalysatoren, Gasentladungselemente) von den organischen Schadstoffen im Vergleich zur Absorption?</value>
+  </data>
+  <data name="Question2" xml:space="preserve">
+    <value>Welche Umgebungsbedingungen sollen am Installierungsort von BAA sein?</value>
+  </data>
+  <data name="Question3" xml:space="preserve">
+    <value>Es besteht die Meinung, dass biologische Reinigungsanlagen große Abmessungen haben und kompliziert zu betreiben sind. Ist es so?</value>
+  </data>
+  <data name="Question4" xml:space="preserve">
+    <value>Welche Abfälle entstehen beim Betrieb der biologischen Absorptionsanlage (BAA)?</value>
+  </data>
+  <data name="Question5" xml:space="preserve">
+    <value>Kann das Betriebswasser 98,0-99,0 % Phenol, Formaldehyd absorbieren?</value>
+  </data>
+  <data name="Question6" xml:space="preserve">
+    <value>Ist die Anlage feuergefährlich?</value>
+  </data>
+  <data name="Question7" xml:space="preserve">
+    <value>Was kann im Falle des Stillstandes der Anlage passieren und gibt es eine maximale Frist für solchen Stillstand?</value>
+  </data>
+  <data name="Question8" xml:space="preserve">
+    <value>Können die Mikroorganismen in der BAA sterben?</value>
+  </data>
+  <data name="Question9" xml:space="preserve">
+    <value>Welche und wie viel Verbrauchsmaterialien sind für eine BAA erforderlich?</value>
+  </data>
+</root>

@@ -147,10 +147,16 @@
   <data name="NoviSad" xml:space="preserve">
     <value>[NoviSad]</value>
   </data>
-  <data name="Questioneer" xml:space="preserve">
+  <data name="questioneer" xml:space="preserve">
     <value>[Questioneer]</value>
   </data>
   <data name="Serbia" xml:space="preserve">
     <value>[Serbia]</value>
+  </data>
+  <data name="ThankYouMessage1" xml:space="preserve">
+    <value>В ближайшее время мы с Вами свяжемся.</value>
+  </data>
+  <data name="ThankYouMessage2" xml:space="preserve">
+    <value>Спасибо, Ваше сообщение получено.</value>
   </data>
 </root>

@@ -153,9 +153,9 @@ namespace IBTFull.Resources {
         /// <summary>
         ///   Looks up a localized string similar to [Questioneer].
         /// </summary>
-        public static string Questioneer {
+        public static string questioneer {
             get {
-                return ResourceManager.GetString("Questioneer", resourceCulture);
+                return ResourceManager.GetString("questioneer", resourceCulture);
             }
         }
         
@@ -165,6 +165,24 @@ namespace IBTFull.Resources {
         public static string Serbia {
             get {
                 return ResourceManager.GetString("Serbia", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В ближайшее время мы с Вами свяжемся..
+        /// </summary>
+        public static string ThankYouMessage1 {
+            get {
+                return ResourceManager.GetString("ThankYouMessage1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Спасибо, Ваше сообщение получено..
+        /// </summary>
+        public static string ThankYouMessage2 {
+            get {
+                return ResourceManager.GetString("ThankYouMessage2", resourceCulture);
             }
         }
     }

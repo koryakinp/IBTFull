@@ -130,27 +130,123 @@
     <value>Contacts</value>
   </data>
   <data name="EnquiriesLink" xml:space="preserve">
-    <value>To get a technical and business offer of an ABU for your company, please fill out and send to us the&amp;nbsp;&lt;a href="/File/Index?file=Questioneer"&gt;questionnaire&amp;nbsp;&lt;/a&gt;. You also are welcome to send us an enquiry in a free form.</value>
+    <value>To get a technical and business offer of an ABU for your company, please fill out and send to us the&amp;nbsp;&lt;a href="/{0}/File/Index?file=questioneer"&gt;questionnaire&amp;nbsp;&lt;/a&gt;. You also are welcome to send us an enquiry in a free form.</value>
   </data>
   <data name="Faq" xml:space="preserve">
     <value>FAQ</value>
   </data>
   <data name="FaqLink" xml:space="preserve">
-    <value>Please check our website for the &amp;nbsp;&lt;a href="/faq"&gt;most frequently asked questions&amp;nbsp;&lt;/a&gt; about ABU operation and answers to them.</value>
+    <value>Please check our website for the &amp;nbsp;&lt;a href="/{0}/faq"&gt;most frequently asked questions&amp;nbsp;&lt;/a&gt; about ABU operation and answers to them.</value>
   </data>
   <data name="ForDesigners" xml:space="preserve">
-    <value>For Designers</value>
+    <value>Specifications</value>
   </data>
   <data name="MainPage" xml:space="preserve">
-    <value>Main Page</value>
+    <value>Home</value>
   </data>
   <data name="NoviSad" xml:space="preserve">
     <value>Novi Sad</value>
   </data>
-  <data name="Questioneer" xml:space="preserve">
+  <data name="questioneer" xml:space="preserve">
     <value>IBT Questioneer</value>
   </data>
   <data name="Serbia" xml:space="preserve">
     <value>Republic of Serbia</value>
+  </data>
+  <data name="ThankYouMessage1" xml:space="preserve">
+    <value>We will contact you shortly.</value>
+  </data>
+  <data name="ThankYouMessage2" xml:space="preserve">
+    <value>Thank you, we have received your message.</value>
+  </data>
+  <data name="AdvantagesDesc" xml:space="preserve">
+    <value>Absorption Biological Unit advantages for purification of ventilated air at industrial enterprises from volatile organic gaseous pollutants such as: phenol, formaldehyde, triethylamine, benzol, acrolein, cyanides, ammonia, methanol, dust, as well as organic gaseous tarry contaminants</value>
+  </data>
+  <data name="ContactDesc" xml:space="preserve">
+    <value>Contact &amp;laquo;Industrial Bio Technology&amp;raquo;</value>
+  </data>
+  <data name="FAQDesc" xml:space="preserve">
+    <value>Questions and Answers about ABU operation</value>
+  </data>
+  <data name="HomeDesc" xml:space="preserve">
+    <value>Description of ABUs for ventilated air purification at industrial enterprises from volatile organic gaseous pollutants such as: phenol, formaldehyde, triethylamine, benzol, acrolein, cyanides, ammonia, methanol, dust, as well as aerosols of tarry substances</value>
+  </data>
+  <data name="keyword1" xml:space="preserve">
+    <value>phenol ventilation air cleaning</value>
+  </data>
+  <data name="keyword10" xml:space="preserve">
+    <value>ammonia</value>
+  </data>
+  <data name="keyword11" xml:space="preserve">
+    <value>methanol</value>
+  </data>
+  <data name="keyword12" xml:space="preserve">
+    <value>aerosols</value>
+  </data>
+  <data name="keyword13" xml:space="preserve">
+    <value>absorption and biological unit</value>
+  </data>
+  <data name="keyword14" xml:space="preserve">
+    <value>air cleaning</value>
+  </data>
+  <data name="keyword15" xml:space="preserve">
+    <value>air purification</value>
+  </data>
+  <data name="keyword16" xml:space="preserve">
+    <value>air polution</value>
+  </data>
+  <data name="keyword17" xml:space="preserve">
+    <value>industrial filter</value>
+  </data>
+  <data name="keyword18" xml:space="preserve">
+    <value>industrial filters</value>
+  </data>
+  <data name="keyword19" xml:space="preserve">
+    <value>filtering solutions</value>
+  </data>
+  <data name="keyword2" xml:space="preserve">
+    <value>formaldehyde cleaning of ventilation air</value>
+  </data>
+  <data name="keyword3" xml:space="preserve">
+    <value>cleaning of triethylamine ventilation air</value>
+  </data>
+  <data name="keyword4" xml:space="preserve">
+    <value>phenol</value>
+  </data>
+  <data name="keyword5" xml:space="preserve">
+    <value>formaldehyde</value>
+  </data>
+  <data name="keyword6" xml:space="preserve">
+    <value>triethylamine</value>
+  </data>
+  <data name="keyword7" xml:space="preserve">
+    <value>benzene</value>
+  </data>
+  <data name="keyword8" xml:space="preserve">
+    <value>acrolein</value>
+  </data>
+  <data name="keyword9" xml:space="preserve">
+    <value>сyanides</value>
+  </data>
+  <data name="SpecDesc" xml:space="preserve">
+    <value>ABU technical characteristics</value>
+  </data>
+  <data name="keyword20" xml:space="preserve">
+    <value>benzene ventilation air cleaning</value>
+  </data>
+  <data name="keyword21" xml:space="preserve">
+    <value>acrolein ventilation air cleaning</value>
+  </data>
+  <data name="keyword22" xml:space="preserve">
+    <value>cleaning cyanide ventilation air</value>
+  </data>
+  <data name="keyword23" xml:space="preserve">
+    <value>ammonia ventilation air cleaning</value>
+  </data>
+  <data name="keyword24" xml:space="preserve">
+    <value>methanol ventilation air cleaning</value>
+  </data>
+  <data name="keyword25" xml:space="preserve">
+    <value>cleaning of air from resinous substances</value>
   </data>
 </root>

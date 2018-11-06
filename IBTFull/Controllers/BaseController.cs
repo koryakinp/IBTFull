@@ -10,10 +10,10 @@ namespace IBTFull.Controllers
     {
         protected override IAsyncResult BeginExecuteCore(AsyncCallback callback, object state)
         {
-            HttpCookie cultureCookie = Request.Cookies["_culture"];
-            string cultureName = cultureCookie != null ? cultureCookie.Value : Consts.DEFAULT_CULTURE;
+            string languahe = RouteData.Values["language"] as string;
+            string cultureName = languahe != null ? languahe : Consts.DEFAULT_CULTURE;
 
-            if (Consts.SUPPORTED_CULTURES.Any(q => q == cultureName))
+            if (!Consts.SUPPORTED_CULTURES.Any(q => q == cultureName))
             {
                 cultureName = Consts.DEFAULT_CULTURE;
             }

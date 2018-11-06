@@ -130,16 +130,16 @@
     <value>Контакты</value>
   </data>
   <data name="EnquiriesLink" xml:space="preserve">
-    <value>Для подготовки технико-коммерческого предложения на поставку АБУ для вашего предприятия заполните и отправьте в наш адрес&amp;nbsp;&lt;a href="/File/Index?file=Questioneer"&gt;опросный лист&amp;nbsp;&lt;/a&gt;. Вы можете направить нам запрос в произвольной форме.</value>
+    <value>Для подготовки технико-коммерческого предложения на поставку АБУ для вашего предприятия заполните и отправьте в наш адрес&amp;nbsp;&lt;a href="/{0}/File/Index?file=questioneer"&gt;опросный лист&amp;nbsp;&lt;/a&gt;. Вы можете направить нам запрос в произвольной форме.</value>
   </data>
   <data name="Faq" xml:space="preserve">
     <value>Вопросы - ответы</value>
   </data>
   <data name="FaqLink" xml:space="preserve">
-    <value>Пожалуйста, посмотрите на нашем сайте&amp;nbsp;&lt;a href="/faq"&gt;наиболее часто встречающиеся вопросы&amp;nbsp;&lt;/a&gt;касающиеся эксплуатации АБУ и ответы на них.</value>
+    <value>Пожалуйста, посмотрите на нашем сайте&amp;nbsp;&lt;a href="/{0}/faq"&gt;наиболее часто встречающиеся вопросы&amp;nbsp;&lt;/a&gt;касающиеся эксплуатации АБУ и ответы на них.</value>
   </data>
   <data name="ForDesigners" xml:space="preserve">
-    <value>Проектировщикам</value>
+    <value>Технические Характеристики</value>
   </data>
   <data name="MainPage" xml:space="preserve">
     <value>Главная</value>
@@ -147,10 +147,16 @@
   <data name="NoviSad" xml:space="preserve">
     <value>Нови-Сад</value>
   </data>
-  <data name="Questioneer" xml:space="preserve">
+  <data name="questioneer" xml:space="preserve">
     <value>IBT Опросный Лист</value>
   </data>
   <data name="Serbia" xml:space="preserve">
     <value>Республика Сербия</value>
+  </data>
+  <data name="ThankYouMessage1" xml:space="preserve">
+    <value>В ближайшее время мы с Вами свяжемся.</value>
+  </data>
+  <data name="ThankYouMessage2" xml:space="preserve">
+    <value>Спасибо, Ваше сообщение получено.</value>
   </data>
 </root>

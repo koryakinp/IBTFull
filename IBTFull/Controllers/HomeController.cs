@@ -1,45 +1,66 @@
 ﻿using IBTFull.Models;
+using IBTFull.Resources;
+using System.Collections.Generic;
 using System.Web.Mvc;
 
 namespace IBTFull.Controllers
 {
     public class HomeController : BaseController
     { 
-        [Route("/")]
         public ActionResult Index()
         {
+            ViewData["keywords"] = GetKeywords();
+            ViewData["desc"] = SharedResource.ResourceManager.GetString("HomeDesc");
             return View();
         }
 
-        [Route("/faq")]
         public ActionResult Faq()
         {
+            ViewData["keywords"] = GetKeywords();
+            ViewData["desc"] = SharedResource.ResourceManager.GetString("FAQDesc");
             return View();
         }
 
-        [Route("/contacts")]
         public ActionResult Contacts()
         {
+            ViewData["keywords"] = GetKeywords();
+            ViewData["desc"] = SharedResource.ResourceManager.GetString("ContactDesc");
             return View();
         }
 
-        [Route("/advantages")]
         public ActionResult Advantages()
         {
+            ViewData["keywords"] = GetKeywords();
+            ViewData["desc"] = SharedResource.ResourceManager.GetString("AdvantagesDesc");
             return View();
         }
 
-        [Route("/engineering")]
         public ActionResult Engineering()
         {
+            ViewData["keywords"] = GetKeywords();
+            ViewData["desc"] = SharedResource.ResourceManager.GetString("SpecDesc");
             return View();
         }
 
-        [Route("/abu/{id}")]
         public ActionResult Abu(int id)
         {
-            Abu model = AbuFactory.Produce(id) ?? AbuFactory.Produce(5);
+            ViewData["keywords"] = GetKeywords();
+            ViewData["desc"] = SharedResource.ResourceManager.GetString("SpecDesc");
+            Models.Abu model = AbuFactory.Produce(id) ?? AbuFactory.Produce(5);
             return View(model);
+        }
+
+        private string GetKeywords()
+        {
+            List<string> output = new List<string>();
+            for (int i = 1; i <= 25; i++)
+            {
+                output.Add(SharedResource.ResourceManager.GetString("keyword" + i));
+            }
+
+            output.Shuffle();
+
+            return string.Join(",", output); ;
         }
     }
 }

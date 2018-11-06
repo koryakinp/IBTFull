@@ -1,76 +1,96 @@
-﻿@using Microsoft.AspNetCore.Mvc.Localization
-@using IBT
-@inject IHtmlLocalizer<SharedResource> SharedLocalizer
+﻿@using System.Threading
 @{
-    ViewData["Title"] = SharedLocalizer.GetString("Advantages");
+    ViewData["Title"] = SharedResource.Advantages;
     Layout = "~/Views/Shared/_Layout.cshtml";
+    var requestCulture = Thread.CurrentThread.CurrentUICulture.TwoLetterISOLanguageName;
 }
 
-<div class="breadcrumbs">
-    <ul class="breadcrumbs__inner">
-        <li class="breadcrumbs__item"><a href="/"><localize localizer="SharedLocalizer">MainPage</localize></a></li>
-        <li class="breadcrumbs__item breadcrumbs__item--active"><span><localize localizer="SharedLocalizer">Advantages</localize></span></li>
-    </ul>
-</div>
-<div class="content white-text">
-    <div class="container">
-        <h1 class="page-title"><localize localizer="SharedLocalizer">Advantages</localize></h1>
-        <h2><localize>9ReasonsToChooseAbu</localize></h2>
-        <ol>
-            <li><localize>Advantage1</localize></li>
-            <li><localize>Advantage2</localize></li>
-            <li><localize>Advantage3</localize></li>
-            <li><localize>Advantage4</localize></li>
-            <li><localize>Advantage5</localize></li>
-            <li><localize>Advantage6</localize></li>
-            <li><localize>Advantage7</localize></li>
-            <li><localize>Advantage8</localize></li>
-            <li><localize>Advantage9</localize></li>
-        </ol>
-        <h2><localize>AduAdvantages</localize></h2>
-        <ol>
-            <li>
-                <em><localize>Advantage1Title</localize></em>
-                <p><localize>Advantage1Description</localize></p>
+<style>
+    em {
+        font-size: 18px;
+        font-weight: 600;
+        padding: 10px;
+        font-style: normal;
+    }
+</style>
+
+<div class="advantages-page">
+
+    <div class="breadcrumbs">
+        <ul class="breadcrumbs__inner">
+            <li class="breadcrumbs__item">
+                <a href="/@requestCulture">
+                    @SharedResource.MainPage
+                </a>
             </li>
-            <li>
-                <em><localize>Advantage2Title</localize></em>
-                <p><localize html="true">Advantage2Description</localize></p>
+            <li class="breadcrumbs__item breadcrumbs__item--active">
+                <span>
+                    @SharedResource.Advantages
+                </span>
             </li>
-            <li>
-                <em><localize>Advantage3Title</localize></em>
-                <p><localize html="true">Advantage3Description</localize></p>
-            </li>
-            <li>
-                <em><localize>Advantage4Title</localize></em>
-                <p><localize>Advantage4Description</localize></p>
-            </li>
-            <li>
-                <em><localize>Advantage5Title</localize></em>
-                <p><localize>Advantage5Description</localize></p>
-            </li>
-            <li>
-                <em><localize>Advantage6Title</localize></em>
-                <p><localize>Advantage6Description</localize></p>
-            </li>
-            <li>
-                <em><localize>Advantage7Title</localize></em>
-                <p><localize>Advantage7Description</localize></p>
-            </li>
-            <li>
-                <em><localize>Advantage8Title</localize></em>
-                <p><localize>Advantage8Description1</localize></p>
-                <p><localize html="true">Advantage8Description2</localize></p>
-            </li>
-            <li>
-                <em><localize>Advantage9Title</localize></em>
-                <p><localize>Advantage9Description</localize></p>
-            </li>
-            <li>
-                <em><localize>Advantage10Title</localize></em>
-                <p><localize>Advantage10Description</localize></p>
-            </li>
-        </ol>
+        </ul>
+    </div>
+    <div class="content white-text">
+        <div class="container">
+            <h1>
+                <span class="page-title">@SharedResource.Advantages</span>
+            </h1>
+            <h2>@Advantages.NineReasonsToChooseAbu</h2>
+            <ol>
+                <li>@Advantages.Advantage1</li>
+                <li>@Advantages.Advantage2</li>
+                <li>@Advantages.Advantage3</li>
+                <li>@Advantages.Advantage4</li>
+                <li>@Advantages.Advantage5</li>
+                <li>@Advantages.Advantage6</li>
+                <li>@Advantages.Advantage7</li>
+                <li>@Advantages.Advantage8</li>
+                <li>@Advantages.Advantage9</li>
+            </ol>
+            <h2>@Advantages.AduAdvantages</h2>
+            <ol>
+                <li>
+                    <em>@Advantages.Advantage1Title</em>
+                    <p>@Advantages.Advantage1Description</p>
+                </li>
+                <li>
+                    <em>@Advantages.Advantage2Title</em>
+                    <p>@Html.Raw(Advantages.Advantage2Description)</p>
+                </li>
+                <li>
+                    <em>@Advantages.Advantage3Title</em>
+                    <p>@Html.Raw(Advantages.Advantage3Description)</p>
+                </li>
+                <li>
+                    <em>@Advantages.Advantage4Title</em>
+                    <p>@Advantages.Advantage4Description</p>
+                </li>
+                <li>
+                    <em>@Advantages.Advantage5Title</em>
+                    <p>@Advantages.Advantage5Description</p>
+                </li>
+                <li>
+                    <em>@Advantages.Advantage6Title</em>
+                    <p>@Advantages.Advantage6Description</p>
+                </li>
+                <li>
+                    <em>@Advantages.Advantage7Title</em>
+                    <p>@Advantages.Advantage7Description</p>
+                </li>
+                <li>
+                    <em>@Advantages.Advantage8Title</em>
+                    <p>@Advantages.Advantage8Description1</p>
+                    <p>@Html.Raw(Advantages.Advantage8Description2)</p>
+                </li>
+                <li>
+                    <em>@Advantages.Advantage9Title</em>
+                    <p>@Advantages.Advantage9Description</p>
+                </li>
+                <li>
+                    <em>@Advantages.Advantage10Title</em>
+                    <p>@Advantages.Advantage10Description</p>
+                </li>
+            </ol>
+        </div>
     </div>
 </div>
-

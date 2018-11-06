@@ -1,73 +1,64 @@
-﻿@using Microsoft.AspNetCore.Mvc.Localization
-@using IBT
-@inject IHtmlLocalizer<SharedResource> SharedLocalizer
+﻿@using System.Threading
 @{
-    ViewData["Title"] = SharedLocalizer.GetString("Contacts");
+    ViewData["Title"] = SharedResource.Contacts;
     Layout = "~/Views/Shared/_Layout.cshtml";
+    var requestCulture = Thread.CurrentThread.CurrentUICulture.TwoLetterISOLanguageName;
 }
 
 <style>
-    .upload-btn-wrapper {
-        position: relative;
-        overflow: hidden;
-        display: inline-block;
+    .contact-page .upload-btn-wrapper {
+        margin-top: 20px;
     }
 
-    .btn {
-        border: 2px solid gray;
-        color: gray;
-        background-color: white;
-        padding: 8px 20px;
-        border-radius: 8px;
-        font-size: 20px;
-        font-weight: bold;
-    }
-
-    .upload-btn-wrapper input[type=file] {
-        font-size: 100px;
-        position: absolute;
-        left: 0;
-        top: 0;
-        opacity: 0;
+    .contact-page textarea {
+        margin-bottom: 0 !important;
     }
 </style>
 
-<div class="breadcrumbs">
-    <ul class="breadcrumbs__inner">
-        <li class="breadcrumbs__item"><a href="/"><localize localizer="SharedLocalizer">MainPage</localize></a></li>
-        <li class="breadcrumbs__item breadcrumbs__item--active"><span><localize localizer="SharedLocalizer">Contacts</localize></span></li>
-    </ul>
-</div>
-<div class="content">
-    <div class="container">
-        <h1 class="page-title"><localize localizer="SharedLocalizer">Contacts</localize></h1>
-        <h2><localize>LeaveMessage</localize></h2>
-        <form class="feedback-frm" method="POST" action="/Mail/SendEmail" enctype="multipart/form-data">
-            <div class="input-row">
-                <div class="input-wrap">
-                    <label for="feedback-name"><localize>Name</localize></label>
-                    <input required id="feedback-name" name="name" type="text">
+<div class="contact-page">
+    <div class="breadcrumbs">
+        <ul class="breadcrumbs__inner">
+            <li class="breadcrumbs__item">
+                <a href="/@requestCulture">@SharedResource.MainPage</a>
+            </li>
+            <li class="breadcrumbs__item breadcrumbs__item--active">
+                <span>@SharedResource.Contacts</span>
+            </li>
+        </ul>
+    </div>
+    <div class="content">
+        <div class="container">
+            <h1>
+                <span class="page-title">@SharedResource.Contacts</span>
+            </h1>
+            <h2>@Contacts.LeaveMessage</h2>
+            <form class="feedback-frm" method="POST" action="/Mail/SendEmail" enctype="multipart/form-data">
+                <div class="input-row">
+                    <div class="input-wrap">
+                        <label for="feedback-name">@Contacts.Name</label>
+                        <input required id="feedback-name" name="name" type="text">
+                    </div>
+                    <div class="input-wrap">
+                        <label for="feedback-email">@Contacts.Email</label>
+                        <input required id="feedback-email" name="email" type="email">
+                    </div>
                 </div>
                 <div class="input-wrap">
-                    <label for="feedback-email"><localize>Email</localize></label>
-                    <input required id="feedback-email" name="email" type="email">
+                    <label for="feedback-msg">@Contacts.Message</label>
+                    <textarea maxlength="10000" required id="feedback-msg" name="body"></textarea>
                 </div>
-            </div>
-            <div class="input-wrap">
-                <label for="feedback-msg"><localize>Message</localize></label>
-                <textarea required id="feedback-msg" name="body"></textarea>
-            </div>
 
-            <div class="upload-btn-wrapper input-wrap">
-                <button class="btn">
-                    <localize>UploadFile</localize>
-                </button>
-                <input id="file-upload-control" type="file" multiple name="files" />
-            </div>
+                <div class="upload-btn-wrapper input-wrap">
+                    <button class="btn">
+                        @Contacts.UploadFile
+                    </button>
+                    <input id="file-upload-control" type="file" multiple name="files" />
+                </div>
 
-            <ul id="file-list"></ul>
+                <ul id="file-list"></ul>
 
-            <button style="margin-top: 20px; display: block;" class="btn--2 feedback-frm__submit" type="submit" id="contact-form-submit-button"><localize>Send</localize></button>
-        </form>
+                <button style="margin-top: 20px; display: block;" class="btn--2 feedback-frm__submit" type="submit" id="contact-form-submit-button">@Contacts.Send</button>
+            </form>
+        </div>
     </div>
 </div>

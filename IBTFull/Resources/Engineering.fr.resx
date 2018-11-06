@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AbuDescription1" xml:space="preserve">
+    <value>&lt;strong&gt;Les dispositifs biologiques d’absorption (DBA)&lt;/strong&gt; destinés à la purification de l’air de ventilation des substances organiques nocives et des substances suspendues y associées dans différents secteurs industriels ou on utilise des processus technologies accompagnés des émissions de gaz toxiques dans l’environnement.</value>
+  </data>
+  <data name="AbuDescription2" xml:space="preserve">
+    <value>Les DBA sont dotés d’un ventilateur intégré. Il est possible de les incorporer dans les systèmes de ventilation existants (munis d’un activateur de souffle) en tenant compte des pertes de poussée pour le dispositif 2200 Pa.</value>
+  </data>
+  <data name="AbuDescription3" xml:space="preserve">
+    <value>D’un point de vue de construction, les DBA sont fabriqués comme trois appareils principaux susceptibles d’être incorporés dans les plans d’implantation existants aussi bien en tant qu’un bloc compact unique que de façon dispersée à n’importe quelle distance l’un de l’autre. Une telle construction permet de placer les DBA de la manière la plus convenable selon les circonstances.</value>
+  </data>
+  <data name="AbuDescription4" xml:space="preserve">
+    <value>D’après le cahier des charges du Client les DBA sont conçus et fabriqués avec des paramètres exigés concernant le degré d’épuration, le débit, la forme et les dimensions.</value>
+  </data>
+  <data name="AbuDescription5" xml:space="preserve">
+    <value>Les DBA permettent de purifier n’importe quel volume de l’air de ventilation dans une entreprise industrielle. Pour ce faire, on réunit la quantité nécessaire des DBA en &lt;strong&gt;&lt;a class="link-fix" href="#" data-toggle="modal" data-target="#complex"&gt;
+complexe unique&lt;/a&gt;&lt;/strong&gt;.</value>
+  </data>
+  <data name="AbuInstallationListItem1" xml:space="preserve">
+    <value>Installation en bloc unique</value>
+  </data>
+  <data name="AbuInstallationListItem2" xml:space="preserve">
+    <value>Installation dispersée</value>
+  </data>
+  <data name="AbuInstallationListTitle" xml:space="preserve">
+    <value>Options d’installation des DBA:</value>
+  </data>
+  <data name="AbuMoreDetails" xml:space="preserve">
+    <value>En savoir plus</value>
+  </data>
+  <data name="AbuParametersTableHeader1" xml:space="preserve">
+    <value>Dénomination du paramètre</value>
+  </data>
+  <data name="AbuParametersTableHeader2" xml:space="preserve">
+    <value>Valeur du paramètre</value>
+  </data>
+  <data name="AbuParametersTableRow1Value1" xml:space="preserve">
+    <value>Débit par l’air de ventilation, mille m&lt;sup&gt;3&lt;/sup&gt;, au minimum</value>
+  </data>
+  <data name="AbuParametersTableRow2Value1" xml:space="preserve">
+    <value>Efficacité d’épuration, %</value>
+  </data>
+  <data name="AbuParametersTableRow2Value2" xml:space="preserve">
+    <value>combinés nocifs volatils</value>
+  </data>
+  <data name="AbuParametersTableRow2Value3" xml:space="preserve">
+    <value>substances suspendues</value>
+  </data>
+  <data name="AbuParametersTableRow3Value1" xml:space="preserve">
+    <value>Résistance hydraulique (pertes de pression dans le DBA), Pa, au maximum</value>
+  </data>
+  <data name="AbuParametersTableRow4Value1" xml:space="preserve">
+    <value>Puissance consommée*, kW, au maximum</value>
+  </data>
+  <data name="AbuParametersTableRow5Value1" xml:space="preserve">
+    <value>Tension d’alimentation, V</value>
+  </data>
+  <data name="AbuParametersTableRow6Value1" xml:space="preserve">
+    <value>Fréquence d’alimentation, Hz</value>
+  </data>
+  <data name="AbuParametersTitle" xml:space="preserve">
+    <value>Paramètres des DBA les plus populaires</value>
+  </data>
+  <data name="AbuSchemaTitle" xml:space="preserve">
+    <value>Diagramme de blocs du dispositif industriel pour la purification des émissions de ventilation</value>
+  </data>
+  <data name="AbuSchemaValue1" xml:space="preserve">
+    <value>Entrée de l’air pollué</value>
+  </data>
+  <data name="AbuSchemaValue2" xml:space="preserve">
+    <value>Paramètres:&lt;br&gt;
+température – 5-180&amp;#176;C&lt;br&gt;
+humidité – non réglementée&lt;br&gt;
+substances suspendues – jusqu’à 1500 mg/m&lt;sup&gt;3&lt;/sup&gt;&lt;br&gt;
+substances organiques – jusqu’à 100 mg/m&lt;sup&gt;3&lt;/sup&gt;</value>
+  </data>
+  <data name="AbuSchemaValue3" xml:space="preserve">
+    <value>Dispositif biologique d’absorption pour la purification (DBAP)</value>
+  </data>
+  <data name="AbuSchemaValue4" xml:space="preserve">
+    <value>Efficacité d’épuration – jusqu’à 99,8%</value>
+  </data>
+  <data name="AbuSchemaValue5" xml:space="preserve">
+    <value>Ventilateur</value>
+  </data>
+  <data name="AbuSchemaValue6" xml:space="preserve">
+    <value>Raréfaction (poussée) au moins 2200 Pa</value>
+  </data>
+  <data name="AbuTemperatureParameters1" xml:space="preserve">
+    <value>Les DBA sont stationnaires et sont conçus pour un mode de fonctionnement 24 h sur 24 en continu et/ou par postes. Lorsque les DBA sont placés dans les locaux, la température doit correspondre à +5…+30&amp;#176;С.</value>
+  </data>
+  <data name="AbuTemperatureParameters2" xml:space="preserve">
+    <value>Dans le local où se situe le dispositif DBA il faut prévoir une ventilation de circulation générale au taux d’échange d’air faisant 3-4. On peut placer les DBA partiellement au grand air, toutefois seules les parties du DBA destinées à l’absorption et à la séparation des gouttelettes peuvent être placées au grand air à la température de celui-ci variant de moins 35 à plus 40&amp;#176;С.</value>
+  </data>
+  <data name="CatalogTitle" xml:space="preserve">
+    <value>Caractéristiques techniques et données de base pour les DBA au débit de 5 000 / 10 000 / 25 000 m&lt;sup&gt;3&lt;/sup&gt;/h</value>
+  </data>
+  <data name="Complex" xml:space="preserve">
+    <value>Complex de 7 DBA au débit de 175 000 m&lt;sup&gt;3&lt;/sup&gt; par heure</value>
+  </data>
+  <data name="Distributed" xml:space="preserve">
+    <value>Installation dispersée</value>
+  </data>
+  <data name="Single" xml:space="preserve">
+    <value>Installation en bloc unique</value>
+  </data>
+</root>

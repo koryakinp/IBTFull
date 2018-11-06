@@ -13,7 +13,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>IBTFull</RootNamespace>
     <AssemblyName>IBTFull</AssemblyName>
-    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <Use64BitIISExpress />
     <IISExpressSSLPort />
@@ -23,6 +23,7 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -56,8 +57,51 @@
     <Reference Include="Microsoft.Owin.StaticFiles, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.Owin.StaticFiles.4.0.0\lib\net451\Microsoft.Owin.StaticFiles.dll</HintPath>
     </Reference>
+    <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.9.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="Owin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f0ebd12fd5e55cc5, processorArchitecture=MSIL">
       <HintPath>..\packages\Owin.1.0\lib\net40\Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="SendGrid, Version=9.10.0.0, Culture=neutral, PublicKeyToken=4f047e93159395ca, processorArchitecture=MSIL">
+      <HintPath>..\packages\Sendgrid.9.10.0\lib\net452\SendGrid.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.IO, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.4.3.0\lib\net462\System.IO.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Net.Http, Version=4.1.1.2, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Net.Http.4.3.3\lib\net46\System.Net.Http.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Runtime, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.4.3.0\lib\net462\System.Runtime.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Algorithms, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.Algorithms.4.3.0\lib\net463\System.Security.Cryptography.Algorithms.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Encoding, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.Encoding.4.3.0\lib\net46\System.Security.Cryptography.Encoding.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Primitives, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.Primitives.4.3.0\lib\net46\System.Security.Cryptography.Primitives.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.X509Certificates, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.X509Certificates.4.3.0\lib\net461\System.Security.Cryptography.X509Certificates.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
     </Reference>
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
@@ -65,16 +109,14 @@
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
-    <Reference Include="System.Core" />
-    <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="System.Web.Extensions" />
-    <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Web.Services" />
     <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System.Web.Razor">
@@ -104,7 +146,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="wwwroot\apple-touch-icon-114x114.png" />
     <Content Include="wwwroot\apple-touch-icon-120x120.png" />
     <Content Include="wwwroot\apple-touch-icon-144x144.png" />
@@ -151,20 +195,105 @@
     <Content Include="wwwroot\js\vendors\vendors.js" />
     <Content Include="wwwroot\js\vendors\vendors.min.js" />
     <Content Include="wwwroot\print.html" />
+    <Content Include="wwwroot\robots.txt" />
+    <Content Include="wwwroot\sitemap.xml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AbuFactory.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Consts.cs" />
     <Compile Include="Controllers\BaseController.cs" />
+    <Compile Include="Controllers\FileController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\LanguageController.cs" />
+    <Compile Include="Controllers\MailController.cs" />
+    <Compile Include="Extensions.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\Abu.cs" />
     <Compile Include="Models\Language.cs" />
+    <Compile Include="Models\MailMessage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resources\Abu.de.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Abu.de.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Abu.fr.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Abu.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Advantages.de.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Advantages.de.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Advantages.fr.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Advantages.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Contacts.de.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Contacts.de.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Contacts.fr.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Contacts.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Engineering.de.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Engineering.de.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Engineering.fr.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Engineering.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Faq.de.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Faq.de.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Faq.fr.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Faq.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Files\Files.de.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Files.de.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Files\Files.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Files.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Files\Files.en.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Files.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Files\Files.fr.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Files.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Index.de.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Index.de.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Index.fr.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Index.fr.resx</DependentUpon>
+    </Compile>
     <Compile Include="Resources\SharedResource.de.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -190,11 +319,6 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>SharedResource.ru.resx</DependentUpon>
     </Compile>
-    <Compile Include="Resources\Abu.de.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Abu.de.resx</DependentUpon>
-    </Compile>
     <Compile Include="Resources\Abu.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -205,140 +329,85 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Abu.en.resx</DependentUpon>
     </Compile>
-    <Compile Include="Resources\Abu.fr.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Abu.fr.resx</DependentUpon>
-    </Compile>
     <Compile Include="Resources\Abu.ru.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Abu.ru.resx</DependentUpon>
     </Compile>
-    <Compile Include="Resources\Views.Home.Advantages.de.Designer.cs">
+    <Compile Include="Resources\Advantages.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>Views.Home.Advantages.de.resx</DependentUpon>
+      <DependentUpon>Advantages.resx</DependentUpon>
     </Compile>
-    <Compile Include="Resources\Views.Home.Advantages.Designer.cs">
+    <Compile Include="Resources\Advantages.en.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>Views.Home.Advantages.resx</DependentUpon>
+      <DependentUpon>Advantages.en.resx</DependentUpon>
     </Compile>
-    <Compile Include="Resources\Views.Home.Advantages.en.Designer.cs">
+    <Compile Include="Resources\Advantages.ru.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>Views.Home.Advantages.en.resx</DependentUpon>
+      <DependentUpon>Advantages.ru.resx</DependentUpon>
     </Compile>
-    <Compile Include="Resources\Views.Home.Advantages.fr.Designer.cs">
+    <Compile Include="Resources\Contacts.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>Views.Home.Advantages.fr.resx</DependentUpon>
+      <DependentUpon>Contacts.resx</DependentUpon>
     </Compile>
-    <Compile Include="Resources\Views.Home.Advantages.ru.Designer.cs">
+    <Compile Include="Resources\Contacts.en.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>Views.Home.Advantages.ru.resx</DependentUpon>
+      <DependentUpon>Contacts.en.resx</DependentUpon>
     </Compile>
-    <Compile Include="Resources\Views.Home.Contacts.de.Designer.cs">
+    <Compile Include="Resources\Contacts.ru.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>Views.Home.Contacts.de.resx</DependentUpon>
+      <DependentUpon>Contacts.ru.resx</DependentUpon>
     </Compile>
-    <Compile Include="Resources\Views.Home.Contacts.Designer.cs">
+    <Compile Include="Resources\Engineering.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>Views.Home.Contacts.resx</DependentUpon>
+      <DependentUpon>Engineering.resx</DependentUpon>
     </Compile>
-    <Compile Include="Resources\Views.Home.Contacts.en.Designer.cs">
+    <Compile Include="Resources\Engineering.en.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>Views.Home.Contacts.en.resx</DependentUpon>
+      <DependentUpon>Engineering.en.resx</DependentUpon>
     </Compile>
-    <Compile Include="Resources\Views.Home.Contacts.fr.Designer.cs">
+    <Compile Include="Resources\Engineering.ru.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>Views.Home.Contacts.fr.resx</DependentUpon>
+      <DependentUpon>Engineering.ru.resx</DependentUpon>
     </Compile>
-    <Compile Include="Resources\Views.Home.Contacts.ru.Designer.cs">
+    <Compile Include="Resources\Faq.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>Views.Home.Contacts.ru.resx</DependentUpon>
+      <DependentUpon>Faq.resx</DependentUpon>
     </Compile>
-    <Compile Include="Resources\Views.Home.Engineering.de.Designer.cs">
+    <Compile Include="Resources\Faq.en.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>Views.Home.Engineering.de.resx</DependentUpon>
+      <DependentUpon>Faq.en.resx</DependentUpon>
     </Compile>
-    <Compile Include="Resources\Views.Home.Engineering.Designer.cs">
+    <Compile Include="Resources\Faq.ru.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>Views.Home.Engineering.resx</DependentUpon>
+      <DependentUpon>Faq.ru.resx</DependentUpon>
     </Compile>
-    <Compile Include="Resources\Views.Home.Engineering.en.Designer.cs">
+    <Compile Include="Resources\Index.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>Views.Home.Engineering.en.resx</DependentUpon>
+      <DependentUpon>Index.resx</DependentUpon>
     </Compile>
-    <Compile Include="Resources\Views.Home.Engineering.fr.Designer.cs">
+    <Compile Include="Resources\Index.en.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>Views.Home.Engineering.fr.resx</DependentUpon>
+      <DependentUpon>Index.en.resx</DependentUpon>
     </Compile>
-    <Compile Include="Resources\Views.Home.Engineering.ru.Designer.cs">
+    <Compile Include="Resources\Index.ru.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>Views.Home.Engineering.ru.resx</DependentUpon>
-    </Compile>
-    <Compile Include="Resources\Views.Home.Faq.de.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Views.Home.Faq.de.resx</DependentUpon>
-    </Compile>
-    <Compile Include="Resources\Views.Home.Faq.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Views.Home.Faq.resx</DependentUpon>
-    </Compile>
-    <Compile Include="Resources\Views.Home.Faq.en.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Views.Home.Faq.en.resx</DependentUpon>
-    </Compile>
-    <Compile Include="Resources\Views.Home.Faq.fr.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Views.Home.Faq.fr.resx</DependentUpon>
-    </Compile>
-    <Compile Include="Resources\Views.Home.Faq.ru.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Views.Home.Faq.ru.resx</DependentUpon>
-    </Compile>
-    <Compile Include="Resources\Views.Home.Index.de.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Views.Home.Index.de.resx</DependentUpon>
-    </Compile>
-    <Compile Include="Resources\Views.Home.Index.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Views.Home.Index.resx</DependentUpon>
-    </Compile>
-    <Compile Include="Resources\Views.Home.Index.en.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Views.Home.Index.en.resx</DependentUpon>
-    </Compile>
-    <Compile Include="Resources\Views.Home.Index.fr.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Views.Home.Index.fr.resx</DependentUpon>
-    </Compile>
-    <Compile Include="Resources\Views.Home.Index.ru.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Views.Home.Index.ru.resx</DependentUpon>
+      <DependentUpon>Index.ru.resx</DependentUpon>
     </Compile>
     <Compile Include="Startup.cs" />
   </ItemGroup>
@@ -348,12 +417,32 @@
     <Content Include="Views\Home\Abu.cshtml" />
     <Content Include="Views\Home\Advantages.cshtml" />
     <Content Include="Views\Home\Contacts.cshtml" />
-    <Content Include="Views\Home\Engineering.cshtml" />
-    <Content Include="Views\Home\Faq.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\_ViewImports.cshtml" />
     <Content Include="Views\Shared\_Languages.cshtml" />
+    <Content Include="Views\Home\Faq.cshtml" />
+    <Content Include="Views\Home\Engineering.cshtml" />
+    <EmbeddedResource Include="Resources\Files\ru\questioneer.docx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <Content Include="Resources\Files\ru\abu_10_specs.pdf" />
+    <Content Include="Resources\Files\ru\abu_25_specs.pdf" />
+    <Content Include="Resources\Files\ru\abu_5_specs.pdf" />
+    <Content Include="Resources\Files\fr\abu_10_specs.pdf" />
+    <Content Include="Resources\Files\fr\abu_25_specs.pdf" />
+    <Content Include="Resources\Files\fr\abu_5_specs.pdf" />
+    <Content Include="Resources\Files\en\abu_10_specs.pdf" />
+    <Content Include="Resources\Files\en\abu_25_specs.pdf" />
+    <Content Include="Resources\Files\en\abu_5_specs.pdf" />
+    <Content Include="Resources\Files\de\abu_10_specs.pdf" />
+    <Content Include="Resources\Files\de\abu_25_specs.pdf" />
+    <Content Include="Resources\Files\de\abu_5_specs.pdf" />
+    <Content Include="Resources\Files\de\questioneer.doc" />
+    <Content Include="Resources\Files\fr\questioneer.doc" />
+    <Content Include="Resources\Files\en\questioneer.docx" />
+    <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
+    <None Include="Properties\PublishProfiles\IBTTesting - Web Deploy.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -376,27 +465,38 @@
     <Content Include="wwwroot\fonts\roboto-bold.woff2" />
     <Content Include="wwwroot\fonts\roboto-light.woff" />
     <Content Include="wwwroot\fonts\roboto-light.woff2" />
-    <Content Include="wwwroot\fonts\roboto-lightitalic.woff" />
-    <Content Include="wwwroot\fonts\roboto-lightitalic.woff2" />
+    <Content Include="wwwroot\fonts\roboto-lightItalic.woff" />
+    <Content Include="wwwroot\fonts\roboto-lightItalic.woff2" />
     <Content Include="wwwroot\fonts\roboto-regular.woff" />
     <Content Include="wwwroot\fonts\roboto-regular.woff2" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\File\" />
     <Folder Include="Views\Language\" />
+    <Folder Include="Views\Mail\" />
+    <Folder Include="wwwroot\fonts\temo\" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Resources\SharedResource.de.resx">
+    <EmbeddedResource Include="Resources\Files\Files.fr.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
-      <LastGenOutput>SharedResource.de.Designer.cs</LastGenOutput>
+      <LastGenOutput>Files.fr.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Files\Files.de.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Files.de.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Files\Files.en.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Files.en.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Files\Files.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Files.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Resources\SharedResource.en.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>SharedResource.en.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Resources\SharedResource.fr.resx">
-      <Generator>PublicResXFileCodeGenerator</Generator>
-      <LastGenOutput>SharedResource.fr.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Resources\SharedResource.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
@@ -406,17 +506,9 @@
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>SharedResource.ru.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\Abu.de.resx">
-      <Generator>PublicResXFileCodeGenerator</Generator>
-      <LastGenOutput>Abu.de.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
     <EmbeddedResource Include="Resources\Abu.en.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>Abu.en.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Resources\Abu.fr.resx">
-      <Generator>PublicResXFileCodeGenerator</Generator>
-      <LastGenOutput>Abu.fr.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Resources\Abu.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
@@ -426,105 +518,121 @@
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>Abu.ru.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\Views.Home.Advantages.de.resx">
+    <EmbeddedResource Include="Resources\Advantages.en.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
-      <LastGenOutput>Views.Home.Advantages.de.Designer.cs</LastGenOutput>
+      <LastGenOutput>Advantages.en.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\Views.Home.Advantages.en.resx">
+    <EmbeddedResource Include="Resources\Advantages.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
-      <LastGenOutput>Views.Home.Advantages.en.Designer.cs</LastGenOutput>
+      <LastGenOutput>Advantages.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\Views.Home.Advantages.fr.resx">
+    <EmbeddedResource Include="Resources\Advantages.ru.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
-      <LastGenOutput>Views.Home.Advantages.fr.Designer.cs</LastGenOutput>
+      <LastGenOutput>Advantages.ru.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\Views.Home.Advantages.resx">
+    <EmbeddedResource Include="Resources\Contacts.en.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
-      <LastGenOutput>Views.Home.Advantages.Designer.cs</LastGenOutput>
+      <LastGenOutput>Contacts.en.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\Views.Home.Advantages.ru.resx">
+    <EmbeddedResource Include="Resources\Contacts.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
-      <LastGenOutput>Views.Home.Advantages.ru.Designer.cs</LastGenOutput>
+      <LastGenOutput>Contacts.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\Views.Home.Contacts.de.resx">
+    <EmbeddedResource Include="Resources\Contacts.ru.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
-      <LastGenOutput>Views.Home.Contacts.de.Designer.cs</LastGenOutput>
+      <LastGenOutput>Contacts.ru.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\Views.Home.Contacts.en.resx">
+    <EmbeddedResource Include="Resources\Engineering.en.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
-      <LastGenOutput>Views.Home.Contacts.en.Designer.cs</LastGenOutput>
+      <LastGenOutput>Engineering.en.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\Views.Home.Contacts.fr.resx">
+    <EmbeddedResource Include="Resources\Engineering.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
-      <LastGenOutput>Views.Home.Contacts.fr.Designer.cs</LastGenOutput>
+      <LastGenOutput>Engineering.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\Views.Home.Contacts.resx">
+    <EmbeddedResource Include="Resources\Engineering.ru.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
-      <LastGenOutput>Views.Home.Contacts.Designer.cs</LastGenOutput>
+      <LastGenOutput>Engineering.ru.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\Views.Home.Contacts.ru.resx">
+    <EmbeddedResource Include="Resources\Faq.en.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
-      <LastGenOutput>Views.Home.Contacts.ru.Designer.cs</LastGenOutput>
+      <LastGenOutput>Faq.en.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\Views.Home.Engineering.de.resx">
+    <EmbeddedResource Include="Resources\Faq.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
-      <LastGenOutput>Views.Home.Engineering.de.Designer.cs</LastGenOutput>
+      <LastGenOutput>Faq.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\Views.Home.Engineering.en.resx">
+    <EmbeddedResource Include="Resources\Faq.ru.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
-      <LastGenOutput>Views.Home.Engineering.en.Designer.cs</LastGenOutput>
+      <LastGenOutput>Faq.ru.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\Views.Home.Engineering.fr.resx">
+    <EmbeddedResource Include="Resources\Index.en.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
-      <LastGenOutput>Views.Home.Engineering.fr.Designer.cs</LastGenOutput>
+      <LastGenOutput>Index.en.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\Views.Home.Engineering.resx">
+    <EmbeddedResource Include="Resources\Index.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
-      <LastGenOutput>Views.Home.Engineering.Designer.cs</LastGenOutput>
+      <LastGenOutput>Index.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\Views.Home.Engineering.ru.resx">
+    <EmbeddedResource Include="Resources\Index.ru.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
-      <LastGenOutput>Views.Home.Engineering.ru.Designer.cs</LastGenOutput>
+      <LastGenOutput>Index.ru.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\Views.Home.Faq.de.resx">
+    <EmbeddedResource Include="Resources\SharedResource.de.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
-      <LastGenOutput>Views.Home.Faq.de.Designer.cs</LastGenOutput>
+      <LastGenOutput>SharedResource.de.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\Views.Home.Faq.en.resx">
+    <EmbeddedResource Include="Resources\SharedResource.fr.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
-      <LastGenOutput>Views.Home.Faq.en.Designer.cs</LastGenOutput>
+      <LastGenOutput>SharedResource.fr.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\Views.Home.Faq.fr.resx">
+    <EmbeddedResource Include="Resources\Abu.de.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
-      <LastGenOutput>Views.Home.Faq.fr.Designer.cs</LastGenOutput>
+      <LastGenOutput>Abu.de.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\Views.Home.Faq.resx">
+    <EmbeddedResource Include="Resources\Abu.fr.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
-      <LastGenOutput>Views.Home.Faq.Designer.cs</LastGenOutput>
+      <LastGenOutput>Abu.fr.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\Views.Home.Faq.ru.resx">
+    <EmbeddedResource Include="Resources\Advantages.de.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
-      <LastGenOutput>Views.Home.Faq.ru.Designer.cs</LastGenOutput>
+      <LastGenOutput>Advantages.de.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\Views.Home.Index.de.resx">
+    <EmbeddedResource Include="Resources\Advantages.fr.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
-      <LastGenOutput>Views.Home.Index.de.Designer.cs</LastGenOutput>
+      <LastGenOutput>Advantages.fr.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\Views.Home.Index.en.resx">
+    <EmbeddedResource Include="Resources\Contacts.de.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
-      <LastGenOutput>Views.Home.Index.en.Designer.cs</LastGenOutput>
+      <LastGenOutput>Contacts.de.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\Views.Home.Index.fr.resx">
+    <EmbeddedResource Include="Resources\Contacts.fr.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
-      <LastGenOutput>Views.Home.Index.fr.Designer.cs</LastGenOutput>
+      <LastGenOutput>Contacts.fr.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\Views.Home.Index.resx">
+    <EmbeddedResource Include="Resources\Engineering.de.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
-      <LastGenOutput>Views.Home.Index.Designer.cs</LastGenOutput>
+      <LastGenOutput>Engineering.de.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\Views.Home.Index.ru.resx">
+    <EmbeddedResource Include="Resources\Engineering.fr.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
-      <LastGenOutput>Views.Home.Index.ru.Designer.cs</LastGenOutput>
+      <LastGenOutput>Engineering.fr.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Faq.de.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Faq.de.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Faq.fr.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Faq.fr.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Index.de.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Index.de.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Index.fr.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Index.fr.Designer.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
@@ -542,7 +650,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>49768</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:49768/</IISUrl>
+          <IISUrl>http://localhost:49555/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

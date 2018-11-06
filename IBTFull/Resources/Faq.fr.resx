@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Answer1" xml:space="preserve">
+    <value>Les dimensions dépendent du volume de l’air faisant l’objet de la purification ainsi que de la concentration des substances polluantes. Veuillez nous envoyer la plan directeur du site où vous envisagez de placer le dispositif de purification de l’air de ventilation, et nous trouverons forcément un «spot» libre, le cas échéant nous changerons aussi la construction du dispositif de purification. Nous visiterons forcément votre entreprise et nous prendrons ensemble la décision nécessaire.</value>
+  </data>
+  <data name="Answer10" xml:space="preserve">
+    <value>Afin d’activer l’absorbant à l’égard des agents polluants antisolubles (substances d’huile, combinés organiques volatiles apolaires, etc.) on utilise des agents tensio-actifs en forme de détergents en quantité de 0,01-0,02% du volume de liquide recyclant (20-40 kg/an).</value>
+  </data>
+  <data name="Answer11" xml:space="preserve">
+    <value>Lorsque la suie et la poussière finement dispersée est présente dans l’air de ventilation, on utilise en tant que modificateurs de la solution dans le DBA des agents de coagulation et de floculation afin d’assurer l’amplification de l’effet de sorption des suspensions, de même que l’éclaircissement de l’absorbant et la simplification du processus d’élimination de déblais. La quantité de ces additifs est modérée ne faisant que 20-30 mg pour 1000 m&lt;sup&gt;3&lt;/sup&gt;/heure.</value>
+  </data>
+  <data name="Answer12" xml:space="preserve">
+    <value>La solution d’absorption est préparée et mise à la condition nécessaire une seule fois lors de la mise en exploitation du DBA. Ultérieurement, le DBA doit être réalimenté de l’eau afin de compenser les pertes suite à l’envolement du vapeur et de l’humidité. La consommation varie en fonction de la température d’exploitation de DBA et peut être de 0,1 m&lt;sup&gt;3&lt;/sup&gt;/jour à 3,0 m&lt;sup&gt;3&lt;/sup&gt;/jour.</value>
+  </data>
+  <data name="Answer13" xml:space="preserve">
+    <value>Pendant toute la période d’exploitation du DBA il n’y a aucune nécessité de renouveler les microorganismes au cours de son exploitation. En cas d’apparition de nouveaux ingrédients polluants (suite au changement de la technologie de production) on prend des mesures pour réadapter la biocénose existante aux nouvelles conditions avec l’introduction possible de cultures supplémentaires de microorganismes, ce qui n’a presque aucune influence sur les charges d’exploitation du DBA.</value>
+  </data>
+  <data name="Answer14" xml:space="preserve">
+    <value>Il est relativement facile d’accorder le DBA aux nouvelles conditions d’exploitation. Pour ce faire, il est nécessaire de réadapter le système du bioréacteur avec l’introduction possible de souches supplémentaires de microorganismes.</value>
+  </data>
+  <data name="Answer15" xml:space="preserve">
+    <value>Il est quasiment impossible de comparer ces méthodes, parce que dans la plupart des cas suite à la présence des substances résineuses, d’huile, paraffiniques et d’autres substances condensées dans l’air de ventilation la surface fonctionnelle des filtres perd sa fonctionnalité au cours de quelques postes de leur marche.</value>
+  </data>
+  <data name="Answer2" xml:space="preserve">
+    <value>Il n’y a aucunes exigences particulières. On a enregistré une expérience du fonctionnement de l’épuration à la température de -35°С. Le bioréacteur peut être placé dans n’importe quel local (par exemple, en sous-sol), où la température est supérieure à +5°С. De même, on peut partiellement utiliser des réservoirs souterrains étant à votre disposition que vous n’avez pas utilisé jusqu’à présent, soit encore des éléments des stations d’épuration.</value>
+  </data>
+  <data name="Answer3" xml:space="preserve">
+    <value>C’est vrai pour les biofiltres et les dispositifs similaires. Nous, on a toutefois une technologie complètement différente. D’abord, on transfère une substance polluante depuis l’air dans la solution aqueuse, et puis sa dégradation biologique se passe déjà dans le milieu aqueux. Afin que notre biotechnologie fonctionne normalement il faut assurer les réserves d’eau à recyclage à raison de 0,5-1,0 m&lt;sup&gt;3&lt;/sup&gt; pour 1000 м&lt;sup&gt;3&lt;/sup&gt;/h de gaz purifié.</value>
+  </data>
+  <data name="Answer4" xml:space="preserve">
+    <value>L’un des avantages de l’utilisation du DBA en tant qu’un dispositif de purification de l’air est l’absence de déchets à recycler. Les substances organiques nocives dégradent jusqu’à l’eau et le gaz carbonique. Grâce à l’utilisation d’un «aerotank» avec un embout fibreux, il n’y a pratiquement aucune boue activée. Les substances suspendues précédemment contenues dans l’air de ventilation sont éliminées de la section d’enlèvement des déblais à l’aide d’un «airlift».</value>
+  </data>
+  <data name="Answer5_1" xml:space="preserve">
+    <value>Le phénol et le formaldéhyde ont la dissolubilité dans l’eau pratiquement illimitée. En ce qui concerne l’absorption depuis l’état gazeux, à la température inférieure au point d’ébullition d’une substance l’équilibre va se déplacer en direction de la phase liquide.</value>
+  </data>
+  <data name="Answer5_2" xml:space="preserve">
+    <value>Les mécanismes d’absorption tant à l’usage de l’eau industrielle dans le DBA qu’à l’usage de la solution alcaline dans l’épurateur « acide » sont identiques : d’abord, le phénol dissout dans l’eau (suite à la différence des pressions partielles du phénol à la phase gazeuse et à la ligne de séparation des phases gaz-eau), et ensuite il réagit, par exemple, avec NaOH générant du phénolate, dans l’épurateur «acide», soit il est détruit par les microorganismes dans le DBA.</value>
+  </data>
+  <data name="Answer6" xml:space="preserve">
+    <value>On utilise l’eau comme absorbant dans le DBA, ainsi il n’existe aucun danger d’incendie. L’expérience de l’exploitation du DBA inclut les cas où l’inflammation des conduites aériennes à cause de l’équipement technologique à haute température a été coupée dans le DBA. Il est garanti que la température de l’émission de ventilation à l’issue du DBA n’excède pas 35&amp;#176;С.</value>
+  </data>
+  <data name="Answer7" xml:space="preserve">
+    <value>Le dispositif est alors mis au mode d’attente. Aucunes mesures ne sont à prendre lorsque l’immobilisation n’excède pas 2 semaines. Ce temps ayant passé, il est donc recommandé d’introduire dans le dispositif un agent polluant (formaline, ammoniac) afin de maintenir la vie des microorganismes. D’ailleurs, même si on «oublie» totalement le dispositif, par exemple, pour six mois, une partie de microorganismes persistera néanmoins (en état d’anabiose), c’est juste que le rétablissement du mode opérationnel prendra plus de temps (jusqu’à 2 semaines).</value>
+  </data>
+  <data name="Answer8" xml:space="preserve">
+    <value>Non. Les microorganismes périssent lors de l’avènement des facteurs détruisant les protéines ou faisant obstacle à leur croissance. Il existe deux facteurs de ce type : la surchauffe de la solution excédant 50 degrés et l’infiltration de puissants antibiotiques dans l’absorbant. Dans les conditions industrielles normales d’exploitation du DBA de tels facteurs sont absents, donc il n’est pas du tout envisageable que les microorganismes périssent.</value>
+  </data>
+  <data name="Answer9_1" xml:space="preserve">
+    <value>On applique en tant que consommables biogènes pour le DBA des sels minéraux (en forme d’engrais agricoles standards) contenant les ions d’ammonium et de phosphate.</value>
+  </data>
+  <data name="Answer9_2" xml:space="preserve">
+    <value>La quantité consommée est de 0,1-0,2 kg/jour (30-50 kg par an)</value>
+  </data>
+  <data name="Question1" xml:space="preserve">
+    <value>À notre entreprise il est difficile à trouver le lieu pour placer le dispositif de purification de poussière et de gaz. Quelles sont les dimensions de votre dispositif de purification?</value>
+  </data>
+  <data name="Question10" xml:space="preserve">
+    <value>Est-il possible de purifier dans le DBA l’air de ventilation pollué des vapeurs d’huile pulvérisée et des combinés organiques volatiles apolaires antisolubles?</value>
+  </data>
+  <data name="Question11" xml:space="preserve">
+    <value>Est-il possible de capturer dans le DBA la suie et la poussière finement dispersée?</value>
+  </data>
+  <data name="Question12" xml:space="preserve">
+    <value>Quelle est la fréquence de changement obligatoire de la solution d’absorption?</value>
+  </data>
+  <data name="Question13" xml:space="preserve">
+    <value>Est-il nécessaire de renouveler les microorganismes et dans quels cas?</value>
+  </data>
+  <data name="Question14" xml:space="preserve">
+    <value>Que faire avec le DBA en cas de changement de la technologie de production et des paramètres d’émissions de ventilation?</value>
+  </data>
+  <data name="Question15" xml:space="preserve">
+    <value>Quels sont les avantages des méthodes « sèches » de purification de l’air de ventilation (adsorbants, catalyseurs, éléments de décharge à gaz) des agents polluants organiques par rapport à l’absorption?</value>
+  </data>
+  <data name="Question2" xml:space="preserve">
+    <value>Quelles sont les exigences aux conditions de l’environnement sur le lieu d’installation du DBA?</value>
+  </data>
+  <data name="Question3" xml:space="preserve">
+    <value>Une opinion existe que les dispositifs de purification biologique ont de grandes dimensions et ce n’est pas facile à les opérer?</value>
+  </data>
+  <data name="Question4" xml:space="preserve">
+    <value>Quels déchets sont générés lors de l’exploitation du dispositif de purification de l’air DBA?</value>
+  </data>
+  <data name="Question5" xml:space="preserve">
+    <value>L’eau industrielle, peut-elle absorber 98,0-99,0 % du phénol, du formaldéhyde?</value>
+  </data>
+  <data name="Question6" xml:space="preserve">
+    <value>Le dispositif, représente-t-il un danger d’incendie?</value>
+  </data>
+  <data name="Question7" xml:space="preserve">
+    <value>Que peut arriver en cas d’arrêt du système et y a-t-il une période critique pour un tel arrêt?</value>
+  </data>
+  <data name="Question8" xml:space="preserve">
+    <value>Les microorganismes, peuvent-ils périr au sein du DBA?</value>
+  </data>
+  <data name="Question9" xml:space="preserve">
+    <value>Quels consommables faut-il prévoir pour le DBA et en quelle quantité?</value>
+  </data>
+</root>

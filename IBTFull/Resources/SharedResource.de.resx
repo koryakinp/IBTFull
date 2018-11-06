@@ -118,39 +118,135 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Abu" xml:space="preserve">
-    <value>[Abu{0}]</value>
+    <value>BAA-{0}</value>
   </data>
   <data name="abuSpecsFilename" xml:space="preserve">
-    <value>[abuSpecsFilename]</value>
+    <value>Technische Daten</value>
   </data>
   <data name="Advantages" xml:space="preserve">
-    <value>[Advantages]</value>
+    <value>Vorteile</value>
   </data>
   <data name="Contacts" xml:space="preserve">
-    <value>[Contacts]</value>
+    <value>Kontakte</value>
   </data>
   <data name="EnquiriesLink" xml:space="preserve">
-    <value>[EnquiriesLink]</value>
+    <value>Damit wir ein technisches und kaufmännisches Angebot zur Lieferung von BAA erstellen, füllen Sie bitte die Frageliste und senden Sie sie an unsere Adresse&amp;nbsp;&lt;a href="/{0}/File/Index?file=questioneer"&gt;frageliste&amp;nbsp;&lt;/a&gt;. Sie können die Anfrage auch formfrei erstellen und an unsere Adresse senden.</value>
   </data>
   <data name="Faq" xml:space="preserve">
-    <value>[Faq]</value>
+    <value>Fragen - Antworten</value>
   </data>
   <data name="FaqLink" xml:space="preserve">
-    <value>[FaqLink]</value>
+    <value>Bitte schauen Sie auf unserer Website&amp;nbsp;&lt;a href="/{0}/faq"&gt;die häufig gestellten Fragen&amp;nbsp;&lt;/a&gt;zum Betrieb von BAA und die Antworten dazu.</value>
   </data>
   <data name="ForDesigners" xml:space="preserve">
-    <value>[ForDesigners]</value>
+    <value>Technische Eigenschaften</value>
   </data>
   <data name="MainPage" xml:space="preserve">
-    <value>[MainPage]</value>
+    <value>Home</value>
   </data>
   <data name="NoviSad" xml:space="preserve">
-    <value>[NoviSad]</value>
+    <value>Novi Sad</value>
   </data>
-  <data name="Questioneer" xml:space="preserve">
-    <value>[Questioneer]</value>
+  <data name="questioneer" xml:space="preserve">
+    <value>IBT Frageliste</value>
   </data>
   <data name="Serbia" xml:space="preserve">
-    <value>[Serbia]</value>
+    <value>Republik Serbien</value>
+  </data>
+  <data name="ThankYouMessage1" xml:space="preserve">
+    <value>Vielen Dank! Wir haben Ihre Nachricht erhalten.</value>
+  </data>
+  <data name="ThankYouMessage2" xml:space="preserve">
+    <value>Wir werden Sie in Kürze kontaktieren.</value>
+  </data>
+  <data name="AdvantagesDesc" xml:space="preserve">
+    <value>Vorteile der Absorbier- biologischen Anlagen bei dem Absorbieren von Phenol, Formaldehyd, Triethylamin, Benzol, Akrolein, Cyanide, Ammoniak, Methanol und harzbildenden organischen gasartigen Verunreinigungsstoffen aus der Zuluft der Industriebetriebe.</value>
+  </data>
+  <data name="ContactDesc" xml:space="preserve">
+    <value>Verzögerte Rückmeldung der Firma &amp;laquo;Industrial Bio Technology&amp;raquo;.</value>
+  </data>
+  <data name="FAQDesc" xml:space="preserve">
+    <value>Antworten auf die Fragen, die Behandlung der Absorbier- biologischen Anlagen betreffen.</value>
+  </data>
+  <data name="HomeDesc" xml:space="preserve">
+    <value>Beschreibung der Absorbier- biologischen Anlagen, die aus der Zuluft der Industriebetriebe flüchtige organische gasartige Verunreinigungsstoffen wie Phenol, Formaldehyd, Triethylamin, Benzol, Akrolein, Cyanide, Ammoniak, Methanol, Staub, Aerosole der Teerstoffen absorbieren.</value>
+  </data>
+  <data name="keyword1" xml:space="preserve">
+    <value>die Reinigung der Zuluft von Phenol</value>
+  </data>
+  <data name="keyword10" xml:space="preserve">
+    <value>Ammoniak</value>
+  </data>
+  <data name="keyword11" xml:space="preserve">
+    <value>Methanol</value>
+  </data>
+  <data name="keyword12" xml:space="preserve">
+    <value>Aerosole von Schwebstoffen,</value>
+  </data>
+  <data name="keyword13" xml:space="preserve">
+    <value>biologische Absorptionsanlage</value>
+  </data>
+  <data name="keyword14" xml:space="preserve">
+    <value>Luftreinigung</value>
+  </data>
+  <data name="keyword15" xml:space="preserve">
+    <value>Luftfilterung</value>
+  </data>
+  <data name="keyword16" xml:space="preserve">
+    <value>Luftverschmutzung</value>
+  </data>
+  <data name="keyword17" xml:space="preserve">
+    <value>Industriefilter</value>
+  </data>
+  <data name="keyword18" xml:space="preserve">
+    <value>Industriefilter</value>
+  </data>
+  <data name="keyword19" xml:space="preserve">
+    <value>Filterlösungen</value>
+  </data>
+  <data name="keyword2" xml:space="preserve">
+    <value>die Reinigung der Zuluft von Formaldehyd</value>
+  </data>
+  <data name="keyword3" xml:space="preserve">
+    <value>die Reinigung der Zuluft von Triethylamin</value>
+  </data>
+  <data name="keyword4" xml:space="preserve">
+    <value>Phenol</value>
+  </data>
+  <data name="keyword5" xml:space="preserve">
+    <value>Formaldehyd</value>
+  </data>
+  <data name="keyword6" xml:space="preserve">
+    <value>Triethylamin</value>
+  </data>
+  <data name="keyword7" xml:space="preserve">
+    <value>Benzol</value>
+  </data>
+  <data name="keyword8" xml:space="preserve">
+    <value>Akrolein</value>
+  </data>
+  <data name="keyword9" xml:space="preserve">
+    <value>Cyanide</value>
+  </data>
+  <data name="SpecDesc" xml:space="preserve">
+    <value>Leistungsdaten der Absorbier- biologischen Anlagen.</value>
+  </data>
+  <data name="keyword20" xml:space="preserve">
+    <value>Benzol-Lüftungsluftreinigung</value>
+  </data>
+  <data name="keyword21" xml:space="preserve">
+    <value>Akrolein-Belüftungsluftreinigung</value>
+  </data>
+  <data name="keyword22" xml:space="preserve">
+    <value>reinigung von cyanid-belüftungsluft</value>
+  </data>
+  <data name="keyword23" xml:space="preserve">
+    <value>Ammoniak-Lüftungsluftreinigung</value>
+  </data>
+  <data name="keyword24" xml:space="preserve">
+    <value>Methanol Lüftungsluftreinigung</value>
+  </data>
+  <data name="keyword25" xml:space="preserve">
+    <value>Luftreinigung von harzartigen Substanzen</value>
   </data>
 </root>
