@@ -284,5 +284,14 @@ namespace IBTFull.Resources {
                 return ResourceManager.GetString("Concentration", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to [IndexTitle].
+        /// </summary>
+        public static string IndexTitle {
+            get {
+                return ResourceManager.GetString("IndexTitle", resourceCulture);
+            }
+        }
     }
 }

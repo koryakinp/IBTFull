@@ -118,21 +118,20 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AbuDescription1" xml:space="preserve">
-    <value>&lt;strong&gt;Absorption-biological units (ABUs)&lt;/strong&gt; are designed to remove harmful organic substances and associated suspended substances from ventilation air in various industries using technological processes, accompanied by toxic gas emissions to the environment.</value>
+    <value>&lt;strong&gt;Absorption - Biological Units (ABUs)&lt;/strong&gt; are designed to remove harmful organic substances and associated suspended substances from ventilating air in various industries that use technological processes accompanied by toxic gas emissions into the environment.</value>
   </data>
   <data name="AbuDescription2" xml:space="preserve">
-    <value>ABU is equipped with its own fan. Integration into existing ventilation systems (with the existing thrust actuator) is possible, taking into account the head loss in a 2200 Pa unit.</value>
+    <value>Our industrial air purification equipment comes with an already installed fan, but it is also possible to integrate ABU into an already existing ventilating system taking into account the head loss of 2200 Pa and provided that the system has a thrust actuator.</value>
   </data>
   <data name="AbuDescription3" xml:space="preserve">
-    <value>Structurally, ABUs are manufactured in the form of three main devices that can be integrated into existing planning solutions as a single compact unit or be installed at any distance from each other. It helps find a suitable placement for an ABU in every situation.</value>
+    <value>Structurally, ABU industrial air purification equipment is manufactured in the form of three main devices that can be integrated into already existing planning solution as a single compact unit or can be installed as three separate parts at any distance from each other. Such flexibility allows for the most space efficient placement in each individual case.</value>
   </data>
   <data name="AbuDescription4" xml:space="preserve">
-    <value>On the Customer’s request, ABUs with the required parameters in terms of the degree of purification, productivity, shape and size can be designed and manufactured.</value>
+    <value>Depending on the Customer’s requirements, ABUs can be manufactured and designed with various productivity, shape and size parameters.</value>
   </data>
   <data name="AbuDescription5" xml:space="preserve">
-    <value>ABUs can clean any volume of the industrial enterprise ventilation air. For this purpose, the necessary number of ABUs is assembled into a &lt;strong&gt;&lt;a class="link-fix" href="#" data-toggle="modal" data-target="#complex"&gt;
-                            single unit
-                        &lt;/a&gt;&lt;/strong&gt;.</value>
+    <value>Our industrial air purification equipment can clean any volume of ventilating air by combining the necessary number of ABUs into a &lt;strong&gt;&lt;a class="link-fix" href="#" data-toggle="modal" data-target="#complex"&gt;
+single and efficient unit&lt;/a&gt;&lt;/strong&gt;.</value>
   </data>
   <data name="AbuInstallationListItem1" xml:space="preserve">
     <value>single unit</value>
@@ -141,7 +140,7 @@
     <value>distributed</value>
   </data>
   <data name="AbuInstallationListTitle" xml:space="preserve">
-    <value>ABU installation options:</value>
+    <value>ABU Installation Options:</value>
   </data>
   <data name="AbuMoreDetails" xml:space="preserve">
     <value>Details</value>
@@ -180,35 +179,36 @@
     <value>Parameters of the most frequently used ABUs</value>
   </data>
   <data name="AbuSchemaTitle" xml:space="preserve">
-    <value>Block diagram of an industrial unit for purification of ventilation emissions.</value>
+    <value>ABU Block Diagram</value>
   </data>
   <data name="AbuSchemaValue1" xml:space="preserve">
-    <value>Contaminated air intake</value>
+    <value>Contaminated Air Intake Parameters</value>
   </data>
   <data name="AbuSchemaValue2" xml:space="preserve">
     <value>Parameters:&lt;br&gt;
-temperature - 5-180&amp;#176;C&lt;br&gt;
-moisture content – no limits&lt;br&gt;
-suspended substances – up to 1500 mg/m&lt;sup&gt;3&lt;/sup&gt;&lt;br&gt;
-organic substances – up to 100 mg/m&lt;sup&gt;3&lt;/sup&gt;</value>
+Temperature: 5-180&amp;#176;C&lt;br&gt;
+Moisture content: no limitations&lt;br&gt;
+Suspended Substances: up to 1500 mg/m&lt;sup&gt;3&lt;/sup&gt;&lt;br&gt;
+Organic Substances: up to 100 mg/m&lt;sup&gt;3&lt;/sup&gt;</value>
   </data>
   <data name="AbuSchemaValue3" xml:space="preserve">
     <value>Absorption-biological units (ABUs)</value>
   </data>
   <data name="AbuSchemaValue4" xml:space="preserve">
-    <value>Purifying efficiency - up to 99.8%</value>
+    <value>Purifying Efficiency - up to 99.8%</value>
   </data>
   <data name="AbuSchemaValue5" xml:space="preserve">
     <value>Ventilator</value>
   </data>
   <data name="AbuSchemaValue6" xml:space="preserve">
-    <value>Discharge pressure (head flow) is 2200 Pa or higher</value>
+    <value>Discharge Pressure (head flow) is 2200 Pa or higher</value>
   </data>
   <data name="AbuTemperatureParameters1" xml:space="preserve">
-    <value>ABUs are stationary and designed for continuous twenty-four-hour and/or shift mode of operation. The temperature in the room with an ABU should be + 5 … + 30&amp;#176;C.</value>
+    <value>ABU ventilating air purifying equipment is stationary and is designed for continuous 24 hour and/or shift mode of operation. The temperature in the room where an ABU is placed should be between + 5&amp;#176;C and 30&amp;#176;C.</value>
   </data>
   <data name="AbuTemperatureParameters2" xml:space="preserve">
-    <value>General exchange ventilation with an air exchange rate of 3-4 need to be arranged in the ABU installation room. ABUs can be partially located outdoors. Only absorbing and mist extraction parts of ABUs can be placed outdoors and withstand the air temperature from minus 35 to plus 40&amp;#176;C.</value>
+    <value>It is also necessary to have a general ventilation system that can provide 3-4 air changes per hour (ACPH) in the room where ABU equipment will be installed.
+Our industrial air purification equipment can be partially installed outdoors. Given outside temperature from -35&amp;#176;C to +40&amp;#176;C, both the absorption and the mist capturing parts can be located outdoors.</value>
   </data>
   <data name="CatalogTitle" xml:space="preserve">
     <value>Technical specs of ABUs with a capacity of 5000/10000/25000 m&lt;sup&gt;3&lt;/sup&gt;/hour</value>

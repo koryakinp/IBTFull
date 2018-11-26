@@ -192,4 +192,7 @@
   <data name="Concentration" xml:space="preserve">
     <value>[Concentration{0}{1}]</value>
   </data>
+  <data name="IndexTitle" xml:space="preserve">
+    <value>[IndexTitle]</value>
+  </data>
 </root>

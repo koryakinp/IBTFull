@@ -130,13 +130,13 @@
     <value>Contacts</value>
   </data>
   <data name="EnquiriesLink" xml:space="preserve">
-    <value>To get a technical and business offer of an ABU for your company, please fill out and send to us the&amp;nbsp;&lt;a href="/{0}/File/Index?file=questioneer"&gt;questionnaire&amp;nbsp;&lt;/a&gt;. You also are welcome to send us an enquiry in a free form.</value>
+    <value>To get a technical or business offer for an ABU for your company, please fill out and send us the &amp;nbsp;&lt;a href="/{0}/File/Index?file=questioneer"&gt;questionnaire&amp;nbsp;&lt;/a&gt;. You are also welcomed to send us an enquiry in a free form.</value>
   </data>
   <data name="Faq" xml:space="preserve">
     <value>FAQ</value>
   </data>
   <data name="FaqLink" xml:space="preserve">
-    <value>Please check our website for the &amp;nbsp;&lt;a href="/{0}/faq"&gt;most frequently asked questions&amp;nbsp;&lt;/a&gt; about ABU operation and answers to them.</value>
+    <value>Please visit our &amp;nbsp;&lt;a href="/{0}/faq"&gt;most frequently asked questions&amp;nbsp;&lt;/a&gt; page to learn more about ABU operation.</value>
   </data>
   <data name="ForDesigners" xml:space="preserve">
     <value>Specifications</value>
@@ -160,16 +160,16 @@
     <value>Thank you, we have received your message.</value>
   </data>
   <data name="AdvantagesDesc" xml:space="preserve">
-    <value>Absorption Biological Unit advantages for purification of ventilated air at industrial enterprises from volatile organic gaseous pollutants such as: phenol, formaldehyde, triethylamine, benzol, acrolein, cyanides, ammonia, methanol, dust, as well as organic gaseous tarry contaminants</value>
+    <value>Advantages of Absorption – Biological Units for industrial air purification from phenol, formaldehyde, triethylamine, benzol, acrolein, cyanides, ammonia, methanol, dust, aerosols of tarry substances, and other gaseous pollutants.</value>
   </data>
   <data name="ContactDesc" xml:space="preserve">
-    <value>Contact &amp;laquo;Industrial Bio Technology&amp;raquo;</value>
+    <value>Contact about equipment for industrial air purification. Get in touch with Industrial Bio Technology company.</value>
   </data>
   <data name="FAQDesc" xml:space="preserve">
-    <value>Questions and Answers about ABU operation</value>
+    <value>FAQ page about industrial air purification ABU equipment. Answers to the Frequently Asked Questions about ABU operations.</value>
   </data>
   <data name="HomeDesc" xml:space="preserve">
-    <value>Description of ABUs for ventilated air purification at industrial enterprises from volatile organic gaseous pollutants such as: phenol, formaldehyde, triethylamine, benzol, acrolein, cyanides, ammonia, methanol, dust, as well as aerosols of tarry substances</value>
+    <value>Absorption – Biological Unit description. Efficiency of the industrial air purification equipment for phenol, formaldehyde, triethylamine, benzol, acrolein, cyanides, ammonia, methanol, dust, aerosols of tarry substances, and other gaseous pollutants.</value>
   </data>
   <data name="keyword1" xml:space="preserve">
     <value>phenol ventilation air cleaning</value>
@@ -229,7 +229,7 @@
     <value>сyanides</value>
   </data>
   <data name="SpecDesc" xml:space="preserve">
-    <value>ABU technical characteristics</value>
+    <value>Technical characteristic of the ABU industrial air purification equipment. Block diagram of the ventilating air purification system for industrial enterprises.</value>
   </data>
   <data name="keyword20" xml:space="preserve">
     <value>benzene ventilation air cleaning</value>

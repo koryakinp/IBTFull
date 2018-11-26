@@ -193,4 +193,7 @@
   <data name="Concentration" xml:space="preserve">
     <value>mindestens &lt;span class="efficiency-item__value"&gt;{0}&lt;/span&gt; bei der Eingangskonzentration von {1} mg/m&lt;sup&gt;3&lt;/sup&gt;;</value>
   </data>
+  <data name="IndexTitle" xml:space="preserve">
+    <value>IBT Industrial Bio Technology - Industrielle Luftfilter, Luftreinigung</value>
+  </data>
 </root>

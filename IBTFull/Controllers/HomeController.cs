@@ -1,5 +1,4 @@
-﻿using IBTFull.Models;
-using IBTFull.Resources;
+﻿using IBTFull.Resources;
 using System.Collections.Generic;
 using System.Web.Mvc;
 
