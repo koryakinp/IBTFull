@@ -121,7 +121,7 @@
     <value>Efficacité des DBA</value>
   </data>
   <data name="AbuEfficiencyFormol" xml:space="preserve">
-    <value>Efficacité d’épuration du&lt;br&gt;&lt;strong&gt;du phénol, du formaldéhyde&lt;/strong&gt;</value>
+    <value>Efficacité de la purification industrielle de l’air du&lt;br&gt;&lt;strong&gt;du phénol, du formaldéhyde&lt;/strong&gt;</value>
   </data>
   <data name="AbuEfficiencyResin" xml:space="preserve">
     <value>Efficacité d’épuration des&lt;br&gt;&lt;strong&gt;des substances suspendues&lt;/strong&gt;</value>
@@ -130,13 +130,13 @@
     <value>(concentration du triéthylamine à la sortie n’excède pas 20 mg/m&lt;sup&gt;3&lt;/sup&gt;)</value>
   </data>
   <data name="AbuEfficiencyTriethylamine" xml:space="preserve">
-    <value>Efficacité d’épuration du&lt;br&gt;&lt;strong&gt;triéthylamine et des substances suspendues&lt;/strong&gt;</value>
+    <value>efficacité de la purification industrielle de l’air du&lt;br&gt;&lt;strong&gt;triéthylamine&lt;/strong&gt;</value>
   </data>
   <data name="AbuEfficiencyTriethylamineValue" xml:space="preserve">
     <value>Efficacité d’épuration du&lt;br&gt;&lt;strong&gt;phénol, du formaldéhyde&lt;/strong&gt;</value>
   </data>
   <data name="AbuIntro" xml:space="preserve">
-    <value>Les dispositifs biologiques d’absorption (DBA) sont destinés à la purification de l’air de ventilation dans les entreprises industrielles des impuretés volatiles organiques gazeuses (phénol, formaldéhyde, triéthylamine, benzol, acroléine, cyanides, ammoniac, méthanol, poussière, aérosols des substances résineuses, etc.)</value>
+    <value>Les dispositifs biologiques d’absorption (DBA) sont destinés à la purification industrielle de l’air de ventilation dans les entreprises industrielles des impuretés volatiles organiques gazeuses (phénol, formaldéhyde, triéthylamine, benzol, acroléine, cyanides, ammoniac, méthanol, poussière, aérosols des substances résineuses, etc.)</value>
   </data>
   <data name="AbuOperationDescription" xml:space="preserve">
     <value>Schéma de principe et description du dispositif biologique d’absorption</value>
@@ -187,7 +187,7 @@
     <value>Par leur indice intégral (efficacité, qualités économiques, qualités écologiques, fiabilité) les DBA n’ont pas d’analogues sur le marché mondial des équipements de purification des gaz.</value>
   </data>
   <data name="CompanyIntro" xml:space="preserve">
-    <value>La société &lt;br&gt;&lt;span class="accent-text"&gt;«Industrial Bio Technology»&lt;br&gt;&lt;/span&gt; offre la livraison des dispositifs biologiques d’absorption (DBA)</value>
+    <value>La société &lt;br&gt;&lt;span class="accent-text"&gt;Industrial Bio Technology&lt;br&gt;&lt;/span&gt; offre la livraison des équipements de purification industrielle de l’air</value>
   </data>
   <data name="Concentration" xml:space="preserve">
     <value>au moins &lt;span class="efficiency-item__value"&gt;{0}&lt;/span&gt; à la concentration d’entrée mg/m&lt;sup&gt;3&lt;/sup&gt;;</value>

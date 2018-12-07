@@ -130,7 +130,7 @@
     <value>Kontakte</value>
   </data>
   <data name="EnquiriesLink" xml:space="preserve">
-    <value>Damit wir ein technisches und kaufmännisches Angebot zur Lieferung von BAA erstellen, füllen Sie bitte die Frageliste und senden Sie sie an unsere Adresse&amp;nbsp;&lt;a href="/{0}/File/Index?file=questioneer"&gt;frageliste&amp;nbsp;&lt;/a&gt;. Sie können die Anfrage auch formfrei erstellen und an unsere Adresse senden.</value>
+    <value>Damit wir ein technisches und kaufmännisches Angebot zur Lieferung von industriellen Luftreinigungsanlagen erstellen, füllen Sie bitte die &lt;a href="/{0}/File/Index?file=questioneer"&gt;Frageliste&amp;nbsp;&lt;/a&gt; aus und senden Sie sie an unsere Adresse.</value>
   </data>
   <data name="Faq" xml:space="preserve">
     <value>Fragen - Antworten</value>
@@ -160,16 +160,16 @@
     <value>Wir werden Sie in Kürze kontaktieren.</value>
   </data>
   <data name="AdvantagesDesc" xml:space="preserve">
-    <value>Vorteile der Absorbier- biologischen Anlagen bei dem Absorbieren von Phenol, Formaldehyd, Triethylamin, Benzol, Akrolein, Cyanide, Ammoniak, Methanol und harzbildenden organischen gasartigen Verunreinigungsstoffen aus der Zuluft der Industriebetriebe.</value>
+    <value>Vorteile von biologischen Absorptionsanlagen (BAA), die für die industrielle Reinigung der Luft von Phenol, Formaldehyd, Triethylamin, Benzol, Akrolein, Cyanide, Ammoniak, Methanol, harzförmigen organischen gasförmigen Verunreinigungen entwickelt sind.</value>
   </data>
   <data name="ContactDesc" xml:space="preserve">
-    <value>Verzögerte Rückmeldung der Firma &amp;laquo;Industrial Bio Technology&amp;raquo;.</value>
+    <value>Kontakt zur Firma Industrial Bio Technology Lieferant von industriellen Luftreinigungsanlagen.</value>
   </data>
   <data name="FAQDesc" xml:space="preserve">
-    <value>Antworten auf die Fragen, die Behandlung der Absorbier- biologischen Anlagen betreffen.</value>
+    <value>Antworten auf die Fragen zum Betrieb von industriellen Luftreinigungsanlagen.</value>
   </data>
   <data name="HomeDesc" xml:space="preserve">
-    <value>Beschreibung der Absorbier- biologischen Anlagen, die aus der Zuluft der Industriebetriebe flüchtige organische gasartige Verunreinigungsstoffen wie Phenol, Formaldehyd, Triethylamin, Benzol, Akrolein, Cyanide, Ammoniak, Methanol, Staub, Aerosole der Teerstoffen absorbieren.</value>
+    <value>Beschreibung von biologischen Absorptionsanlagen (BAA), die für die industrielle Luftreinigung entwickelt sind. Effizienz der industriellen Reinigung der Luft von Phenol, Formaldehyd, Triethylamin, Benzol, Akrolein, Cyanide, Ammoniak, Methanol, harzförmigen organischen gasförmigen Verunreinigungen.</value>
   </data>
   <data name="keyword1" xml:space="preserve">
     <value>die Reinigung der Zuluft von Phenol</value>
@@ -229,7 +229,7 @@
     <value>Cyanide</value>
   </data>
   <data name="SpecDesc" xml:space="preserve">
-    <value>Leistungsdaten der Absorbier- biologischen Anlagen.</value>
+    <value>Technische Daten von BAA, die für die industrielle Luftreinigung entwickelt sind. Blockschaltbild einer industriellen Luftreinigungsanlage.</value>
   </data>
   <data name="keyword20" xml:space="preserve">
     <value>Benzol-Lüftungsluftreinigung</value>

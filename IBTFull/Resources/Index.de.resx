@@ -121,22 +121,22 @@
     <value>Die Effizienz von BAA</value>
   </data>
   <data name="AbuEfficiencyFormol" xml:space="preserve">
-    <value>Die Effizienz der Reinigung&lt;br&gt;&lt;strong&gt; von Phenol, Formaldehyd&lt;/strong&gt;</value>
+    <value>Die Effizienz der industriellen Reinigung&lt;br&gt;&lt;strong&gt; der Luft von Phenol und Formaldehyd&lt;/strong&gt;</value>
   </data>
   <data name="AbuEfficiencyResin" xml:space="preserve">
-    <value>Die Effizienz der Reinigung &lt;br&gt;&lt;strong&gt;von Schwebstoffen beträgt&lt;/strong&gt;</value>
+    <value>Die Effizienz der industriellen Reinigung &lt;br&gt;&lt;strong&gt;der Luft von Schwebstoffen beträgt&lt;/strong&gt;</value>
   </data>
   <data name="AbuEfficiencyResinValue" xml:space="preserve">
     <value>mindestens &lt;span class="efficiency-item__value"&gt;{0}&lt;/span&gt;</value>
   </data>
   <data name="AbuEfficiencyTriethylamine" xml:space="preserve">
-    <value>Die Effizienz der Reinigung &lt;br&gt;&lt;strong&gt;von Triethylamin und Schwebstoffen beträgt&lt;/strong&gt;</value>
+    <value>Die Effizienz der industriellen Reinigung &lt;br&gt;&lt;strong&gt;der Luft von Triethylamin und Schwebstoffen beträgt&lt;/strong&gt;</value>
   </data>
   <data name="AbuEfficiencyTriethylamineValue" xml:space="preserve">
     <value>(am Auslass beträgt die Konzentration von Triethylamin höchstens 20 mg/m&lt;sup&gt;3&lt;/sup&gt;)</value>
   </data>
   <data name="AbuIntro" xml:space="preserve">
-    <value>Biologische Absorptionsanlagen (BAA) sind für die Reinigung der Zuluft von flüchtigen organischen gasförmigen Verunreinigungen (Phenol, Formaldehyd, Triethylamin, Benzol, Akrolein, Cyanide, Ammoniak, Methanol, Staub, Schwebstoffe von Harzstoffen usw.) in Industrieunternehmen entwickelt.</value>
+    <value>Biologische Absorptionsanlagen (BAA) sind für die industrielle Reinigung der Luft von flüchtigen organischen gasförmigen Verunreinigungen (Phenol, Formaldehyd, Triethylamin, Benzol, Akrolein, Cyanide, Ammoniak, Methanol, Staub, Schwebstoffe von Harzstoffen usw.) entwickelt.</value>
   </data>
   <data name="AbuOperationDescription" xml:space="preserve">
     <value>Das Grundschema und die Beschreibung der biologischen Absorptionsanlage</value>
@@ -188,7 +188,7 @@
     <value>Nach der Gesamtcharakteristik (Effizienz, Rentabilität, Umweltfreundlichkeit, Funktionssicherheit) sind die BAA absolut einzigartig auf dem Weltmarkt der Gasreinigungsanlagen.</value>
   </data>
   <data name="CompanyIntro" xml:space="preserve">
-    <value>&lt;br&gt;&lt;span class="accent-text"&gt;Industrial Bio Technology&lt;br&gt;&lt;/span&gt; bietet zur Lieferung biologische Absorptionsanlagen (BAA)</value>
+    <value>&lt;br&gt;&lt;span class="accent-text"&gt;Industrial Bio Technology&lt;br&gt;&lt;/span&gt; bietet zur Lieferung industrielle Luftreinigungsanlagen</value>
   </data>
   <data name="Concentration" xml:space="preserve">
     <value>mindestens &lt;span class="efficiency-item__value"&gt;{0}&lt;/span&gt; bei der Eingangskonzentration von {1} mg/m&lt;sup&gt;3&lt;/sup&gt;;</value>

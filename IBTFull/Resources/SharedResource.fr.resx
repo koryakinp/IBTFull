@@ -130,7 +130,7 @@
     <value>Contact</value>
   </data>
   <data name="EnquiriesLink" xml:space="preserve">
-    <value>Afin de préparer une offre technique et commerciale pour la livraison des DBA à votre entreprise, complétez et renvoyez à notre adresse&amp;nbsp;&lt;a href="/{0}/File/Index?file=questioneer"&gt;le questionnaire&amp;nbsp;&lt;/a&gt;.Vous pouvez nous envoyer le questionnaire sous toute forme qui vous serait convenable.</value>
+    <value>Afin de préparer une offre technique et commerciale pour la livraison des équipements de purification industrielle de l’air à votre entreprise, complétez &lt;a href="/{0}/File/Index?file=questioneer"&gt;le questionnaire&lt;/a&gt; et renvoyez-le à notre adresse.</value>
   </data>
   <data name="Faq" xml:space="preserve">
     <value>Questions - réponses</value>
@@ -160,16 +160,21 @@
     <value>Nous vous contacterons le plus vite possible</value>
   </data>
   <data name="AdvantagesDesc" xml:space="preserve">
-    <value>L’avantage des dispositifs biologiques d’absorption à l’égard de la purification de l’air de ventilation dans les entreprises industrielles du phénol, formaldéhyde, triéthylamine, benzol, acroléine, cyanides, ammoniac, méthanol et des impuretés gazeuses organiques résineuses.</value>
+    <value>Les avantages des dispositifs biologiques d’absorption destinés à la purification industrielle de
+l’air du phénol, formaldéhyde, triéthylamine, benzol, acroléine, cyanides, ammoniac, méthanol
+et impuretés organiques gazeuses résineuses.</value>
   </data>
   <data name="ContactDesc" xml:space="preserve">
-    <value>Communication en retour avec la société &amp;laquo;Industrial Bio Technology&amp;raquo;.</value>
+    <value>Mettez-vous en contact avec la société Industrial Bio Technology, le fournisseur des équipements de purification industrielle de l’air.</value>
   </data>
   <data name="FAQDesc" xml:space="preserve">
-    <value>Réponses aux questions concernant l’exploitation des DBA.</value>
+    <value>Les réponses aux questions concernant l’exploitation des équipements de purification industrielle de l’air.</value>
   </data>
   <data name="HomeDesc" xml:space="preserve">
-    <value>La description des DBA destinés à la purification de l’air de ventilation dans les entreprises industrielles des impuretés volatiles organiques gazeuses (phénol, formaldéhyde, triéthylamine, benzol, acroléine, cyanides, ammoniac, méthanol, poussière, aérosols des substances résineuses.</value>
+    <value>La description des dispositifs biologiques d’absorption (DBA) destinés à la purification
+industrielle de l’air. L’efficacité des équipements de purification industrielle de l’air du
+phénol, formaldéhyde, triéthylamine, benzol, acroléine, cyanides, ammoniac, méthanol et
+impuretés organiques gazeuses résineuses.</value>
   </data>
   <data name="keyword1" xml:space="preserve">
     <value>purification de l’air de ventilation du phénol</value>
@@ -229,7 +234,8 @@
     <value>cyanides</value>
   </data>
   <data name="SpecDesc" xml:space="preserve">
-    <value>Caractéristiques techniques des DBA.</value>
+    <value>Les caractéristiques techniques des DBA destinés à la purification industrielle de l’air.
+Le diagramme de blocs des équipements de purification industrielle de l’air.</value>
   </data>
   <data name="keyword20" xml:space="preserve">
     <value>purification de l'air au benzène</value>
