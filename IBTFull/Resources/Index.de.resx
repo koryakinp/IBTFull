@@ -188,12 +188,15 @@
     <value>Nach der Gesamtcharakteristik (Effizienz, Rentabilität, Umweltfreundlichkeit, Funktionssicherheit) sind die BAA absolut einzigartig auf dem Weltmarkt der Gasreinigungsanlagen.</value>
   </data>
   <data name="CompanyIntro" xml:space="preserve">
-    <value>&lt;br&gt;&lt;span class="accent-text"&gt;Industrial Bio Technology&lt;br&gt;&lt;/span&gt; bietet zur Lieferung industrielle Luftreinigungsanlagen</value>
+    <value>&lt;br&gt;&lt;span class="accent-text"&gt;Industrial Bio Technology&lt;br&gt;&lt;/span&gt; bietet zur Lieferung  industrielle Luftreinigungsanlagen</value>
   </data>
   <data name="Concentration" xml:space="preserve">
     <value>mindestens &lt;span class="efficiency-item__value"&gt;{0}&lt;/span&gt; bei der Eingangskonzentration von {1} mg/m&lt;sup&gt;3&lt;/sup&gt;;</value>
   </data>
   <data name="IndexTitle" xml:space="preserve">
-    <value>IBT Industrial Bio Technology - Industrielle Luftfilter, Luftreinigung</value>
+    <value>IBT Luftreinigung aus phenol, formaldehyd, triethylamin</value>
+  </data>
+  <data name="schemaAlt" xml:space="preserve">
+    <value>ABU schema</value>
   </data>
 </root>

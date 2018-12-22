@@ -195,4 +195,7 @@
   <data name="IndexTitle" xml:space="preserve">
     <value>[IndexTitle]</value>
   </data>
+  <data name="schemaAlt" xml:space="preserve">
+    <value>[schemaAlt]</value>
+  </data>
 </root>

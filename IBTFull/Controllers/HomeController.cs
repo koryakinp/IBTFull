@@ -52,7 +52,7 @@ namespace IBTFull.Controllers
         private string GetKeywords()
         {
             List<string> output = new List<string>();
-            for (int i = 1; i <= 25; i++)
+            for (int i = 1; i <= 8; i++)
             {
                 output.Add(SharedResource.ResourceManager.GetString("keyword" + i));
             }

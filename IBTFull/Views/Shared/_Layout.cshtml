@@ -87,6 +87,24 @@
         button:focus {
             outline: none;
         }
+
+        .logo-anchor {
+            border-bottom: none;
+        }
+
+        .social-links {
+            margin: 20px auto;
+        }
+
+            .social-links li {
+                display: inline-block;
+                padding-left: 10px;
+                border-bottom: none;
+            }
+
+            .social-links a {
+                border-bottom: none;
+            }
     </style>
 </head>
 <body class="loaded">
@@ -96,8 +114,8 @@
             <div class="page-header__inner">
                 <div class="container">
                     <div class="logo">
-                        <a style="border-bottom: none;" href="/@requestCulture">
-                            <img src="/images/logo.svg" alt="logo">
+                        <a class="logo-anchor" href="/@requestCulture">
+                            <img src="/images/logo.svg" alt="IBT logo">
                         </a>
                     </div>
                     <nav class="main-menu js-main-menu">
@@ -121,7 +139,7 @@
             <div class="page-footer__inner">
                 <div class="page-footer__row">
                     <div class="page-footer__col">
-                        <div class="logo"><img src="/images/logo-white.svg" alt="logo"></div>
+                        <div class="logo"><img src="/images/logo-white.svg" alt="IBT logo"></div>
                         <div class="copy">© DОО «Industrial Bio Technology», @DateTime.Now.Year</div>
                     </div>
                     <div class="page-footer__col">
@@ -153,12 +171,19 @@
                                         @SharedResource.NoviSad,&nbsp;<br>
                                     </span>
                                     <span itemprop="streetAddress">Narodnog fronta, 23C/106</span>
-                            </div><a class="company-card__email" href="mailto:info@ibtbiotechnology.com">
+                                </span>
+                            </div>
+                            <a class="company-card__email" href="mailto:info@ibtbiotechnology.com">
                                 <span itemprop="email">info@ibtbiotechnology.com</span>
                             </a>
                         </div>
                         <div class="copy">&copy; DОО «Industrial Bio Technology», @DateTime.Now.Year</div>
                     </div>
+                </div>
+                <div class="page-footer__row">
+                    <ul class="social-links">
+                        <li><a href="https://facebook.com/Industrial-Bio-Technology-1038951116311958/"><i class="fab fa-facebook"></i></a></li>
+                    </ul>
                 </div>
             </div>
         </footer>
@@ -203,14 +228,15 @@
         body {
             font-weight: 400;
         }
+
         .content-wrapper {
             color: #000;
         }
 
-        .content-wrapper a {
-            color: forestgreen;
-            font-weight: bold;
-        }
+            .content-wrapper a {
+                color: forestgreen;
+                font-weight: bold;
+            }
 
         .page-title:after {
             width: 100% !important;

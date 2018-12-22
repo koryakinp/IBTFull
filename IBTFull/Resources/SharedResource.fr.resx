@@ -160,99 +160,43 @@
     <value>Nous vous contacterons le plus vite possible</value>
   </data>
   <data name="AdvantagesDesc" xml:space="preserve">
-    <value>Les avantages des dispositifs biologiques d’absorption destinés à la purification industrielle de
-l’air du phénol, formaldéhyde, triéthylamine, benzol, acroléine, cyanides, ammoniac, méthanol
-et impuretés organiques gazeuses résineuses.</value>
+    <value>Avantage des Dispositifs Biologiques d’Absorption à la purification industrielle de l’air du phénol, du formaldéhyde, de la triéthylamine en comparaison avec d’autres mécanismes.</value>
   </data>
   <data name="ContactDesc" xml:space="preserve">
-    <value>Mettez-vous en contact avec la société Industrial Bio Technology, le fournisseur des équipements de purification industrielle de l’air.</value>
+    <value>Retour d’information avec l’entreprise «Industrial Bio Technology».</value>
   </data>
   <data name="FAQDesc" xml:space="preserve">
-    <value>Les réponses aux questions concernant l’exploitation des équipements de purification industrielle de l’air.</value>
+    <value>Réponses aux questions concernant l’exploitation des Dispositifs Biologiques d’Absorption.</value>
   </data>
   <data name="HomeDesc" xml:space="preserve">
-    <value>La description des dispositifs biologiques d’absorption (DBA) destinés à la purification
-industrielle de l’air. L’efficacité des équipements de purification industrielle de l’air du
-phénol, formaldéhyde, triéthylamine, benzol, acroléine, cyanides, ammoniac, méthanol et
-impuretés organiques gazeuses résineuses.</value>
+    <value>Description des Dispositifs Biologiques d’Absorption.  Efficacité des Dispositifs Biologiques d’Absorption pendant la purification industrielle de l’air du phénol, du formaldéhyde, de la triéthylamine, des poussières, des aérosols de matières résineuses.</value>
   </data>
   <data name="keyword1" xml:space="preserve">
-    <value>purification de l’air de ventilation du phénol</value>
-  </data>
-  <data name="keyword10" xml:space="preserve">
-    <value>ammoniac</value>
-  </data>
-  <data name="keyword11" xml:space="preserve">
-    <value>méthanol</value>
-  </data>
-  <data name="keyword12" xml:space="preserve">
-    <value>aérosols des substances résineuses</value>
-  </data>
-  <data name="keyword13" xml:space="preserve">
-    <value>dispositif biologique d’absorption</value>
-  </data>
-  <data name="keyword14" xml:space="preserve">
-    <value>nettoyage de l'air</value>
-  </data>
-  <data name="keyword15" xml:space="preserve">
-    <value>purification de l'air</value>
-  </data>
-  <data name="keyword16" xml:space="preserve">
-    <value>la pollution de l'air</value>
-  </data>
-  <data name="keyword17" xml:space="preserve">
-    <value>filtre industriel</value>
-  </data>
-  <data name="keyword18" xml:space="preserve">
-    <value>filtres industriels</value>
-  </data>
-  <data name="keyword19" xml:space="preserve">
-    <value>solutions de filtrage</value>
+    <value>purification de l’air du phénol</value>
   </data>
   <data name="keyword2" xml:space="preserve">
-    <value>purification de l’air de ventilation du formaldéhyde</value>
+    <value>purification de l’air du formaldéhyde</value>
   </data>
   <data name="keyword3" xml:space="preserve">
-    <value>purification de l’air de ventilation du triéthylamine</value>
+    <value>purification de l’air de la triéthylamine</value>
   </data>
   <data name="keyword4" xml:space="preserve">
-    <value>phénol</value>
+    <value>purification de l’air dans l’industrie de la fonderie</value>
   </data>
   <data name="keyword5" xml:space="preserve">
-    <value>formaldéhyde</value>
+    <value>industrial bio technology</value>
   </data>
   <data name="keyword6" xml:space="preserve">
-    <value>triéthylamine</value>
+    <value>purification de l’air dans la production de panneaux de particules et de panneaux de fibres à
+densité moyenne</value>
   </data>
   <data name="keyword7" xml:space="preserve">
-    <value>benzol</value>
+    <value>purification de l’air dans la production de laine de verre</value>
   </data>
   <data name="keyword8" xml:space="preserve">
-    <value>acroléine</value>
-  </data>
-  <data name="keyword9" xml:space="preserve">
-    <value>cyanides</value>
+    <value>purification de l’air dans la production de laine de basalte</value>
   </data>
   <data name="SpecDesc" xml:space="preserve">
-    <value>Les caractéristiques techniques des DBA destinés à la purification industrielle de l’air.
-Le diagramme de blocs des équipements de purification industrielle de l’air.</value>
-  </data>
-  <data name="keyword20" xml:space="preserve">
-    <value>purification de l'air au benzène</value>
-  </data>
-  <data name="keyword21" xml:space="preserve">
-    <value>épuration de l'air par acroléine</value>
-  </data>
-  <data name="keyword22" xml:space="preserve">
-    <value>nettoyage de l'air de ventilation au cyanure</value>
-  </data>
-  <data name="keyword23" xml:space="preserve">
-    <value>épuration de l'air par l'ammoniac</value>
-  </data>
-  <data name="keyword24" xml:space="preserve">
-    <value>épuration d'air au méthanol</value>
-  </data>
-  <data name="keyword25" xml:space="preserve">
-    <value>purification de l'air de ventilation à partir de substances résineuses</value>
+    <value>Application des Dispositifs Biologiques d’Absorption. Spécifications techniques des Dispositifs Biologiques d’Absorption. Schéma-bloc des Dispositifs Biologiques d’Absorption.</value>
   </data>
 </root>

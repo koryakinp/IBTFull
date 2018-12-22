@@ -293,5 +293,14 @@ namespace IBTFull.Resources {
                 return ResourceManager.GetString("IndexTitle", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to [schemaAlt].
+        /// </summary>
+        public static string schemaAlt {
+            get {
+                return ResourceManager.GetString("schemaAlt", resourceCulture);
+            }
+        }
     }
 }

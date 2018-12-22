@@ -195,6 +195,9 @@
     <value>at least &lt;span class="efficiency-item__value"&gt;{0}&lt;/span&gt; given input concentration of {1} mg/m&lt;sup&gt;3&lt;/sup&gt;</value>
   </data>
   <data name="IndexTitle" xml:space="preserve">
-    <value>IBT Industrial Bio Technology - Industrial Air Filters, Air Purification</value>
+    <value>IBT air purification from phenol, formaldehyde, triethylamine</value>
+  </data>
+  <data name="schemaAlt" xml:space="preserve">
+    <value>ABU Schema</value>
   </data>
 </root>
