@@ -121,16 +121,16 @@
     <value>Die Effizienz von BAA</value>
   </data>
   <data name="AbuEfficiencyFormol" xml:space="preserve">
-    <value>Die Effizienz der industriellen Reinigung&lt;br&gt;&lt;strong&gt; der Luft von Phenol und Formaldehyd&lt;/strong&gt;</value>
+    <value>Die Effizienz der Reinigung der &lt;br&gt;&lt;strong&gt; der Luft von Phenol und Formaldehyd&lt;/strong&gt;</value>
   </data>
   <data name="AbuEfficiencyResin" xml:space="preserve">
-    <value>Die Effizienz der industriellen Reinigung &lt;br&gt;&lt;strong&gt;der Luft von Schwebstoffen beträgt&lt;/strong&gt;</value>
+    <value>Die Effizienz der Reinigung &lt;br&gt;&lt;strong&gt;der Luft von Schwebstoffen beträgt&lt;/strong&gt;</value>
   </data>
   <data name="AbuEfficiencyResinValue" xml:space="preserve">
     <value>mindestens &lt;span class="efficiency-item__value"&gt;{0}&lt;/span&gt;</value>
   </data>
   <data name="AbuEfficiencyTriethylamine" xml:space="preserve">
-    <value>Die Effizienz der industriellen Reinigung &lt;br&gt;&lt;strong&gt;der Luft von Triethylamin und Schwebstoffen beträgt&lt;/strong&gt;</value>
+    <value>Die Effizienz der Reinigung &lt;br&gt;&lt;strong&gt;der Luft von Triethylamin und Schwebstoffen beträgt&lt;/strong&gt;</value>
   </data>
   <data name="AbuEfficiencyTriethylamineValue" xml:space="preserve">
     <value>(am Auslass beträgt die Konzentration von Triethylamin höchstens 20 mg/m&lt;sup&gt;3&lt;/sup&gt;)</value>

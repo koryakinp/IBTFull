@@ -118,9 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AbuDescription1" xml:space="preserve">
-    <value>&lt;strong&gt;Les dispositifs biologiques d’absorption (DBA)&lt;/strong&gt; destinés à la purification industrielle des substances organiques nocives et des substances suspendues y associées dans
-différents secteurs industriels ou on utilise des processus technologies accompagnés des
-émissions de gaz toxiques dans l’environnement.</value>
+    <value>&lt;strong&gt;Les dispositifs biologiques d’absorption (DBA)&lt;/strong&gt; sont destinés à la purification industrielle de l’air du phénol, du formaldéhyde, de la triéthylamine, du benzène, du cyanures, d’ammoniac, du méthanol, des poussières, des aérosols de matières résineuses dans l’industrie de la fonderie, dans la production de panneaux de particules et de panneaux de fibres à densité moyenne, dans la production de laine de verre et de laine de basalte.</value>
   </data>
   <data name="AbuDescription2" xml:space="preserve">
     <value>Les équipements de purification industrielle de l’air sont dotés d’un ventilateur intégré. Il est possible d’incorporer les équipements dans les systèmes de ventilation et de purification industrielle de l’air existants (munis d’un activateur de souffle) en tenant compte des pertes de poussée pour le dispositif 2200 Pa.</value>

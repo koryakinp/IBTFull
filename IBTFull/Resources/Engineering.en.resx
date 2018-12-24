@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AbuDescription1" xml:space="preserve">
-    <value>&lt;strong&gt;Absorption - Biological Units (ABUs)&lt;/strong&gt; are designed to remove harmful organic substances and associated suspended substances from ventilating air in various industries that use technological processes accompanied by toxic gas emissions into the environment.</value>
+    <value>&lt;strong&gt;Absorption - Biological Units (ABUs)&lt;/strong&gt; are designed for industrial air purification from phenol, formaldehyde, triethylamine, benzol, cyanides, ammonia, methanol, dust, and aerosols of tarry substances. ABUs can be efficiently integrated into foundry manufacturing, as well as chipboard, medium-density fibreboard (MDF), glass mineral wool, and basalt wool production processes.</value>
   </data>
   <data name="AbuDescription2" xml:space="preserve">
     <value>Our industrial air purification equipment comes with an already installed fan, but it is also possible to integrate ABU into an already existing ventilating system taking into account the head loss of 2200 Pa and provided that the system has a thrust actuator.</value>

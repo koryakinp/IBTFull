@@ -121,16 +121,16 @@
     <value>Efficacité des DBA</value>
   </data>
   <data name="AbuEfficiencyFormol" xml:space="preserve">
-    <value>Efficacité de la purification industrielle de l’air du&lt;br&gt;&lt;strong&gt;du phénol, du formaldéhyde&lt;/strong&gt;</value>
+    <value>Efficacité de la purification de l’air&lt;br&gt;&lt;strong&gt;du phénol, du formaldéhyde&lt;/strong&gt;</value>
   </data>
   <data name="AbuEfficiencyResin" xml:space="preserve">
-    <value>Efficacité d’épuration des&lt;br&gt;&lt;strong&gt;des substances suspendues&lt;/strong&gt;</value>
+    <value>Efficacité de la purification de l’air des poussières&lt;br&gt;&lt;strong&gt;de matières en suspension&lt;/strong&gt;</value>
   </data>
   <data name="AbuEfficiencyResinValue" xml:space="preserve">
     <value>(concentration du triéthylamine à la sortie n’excède pas 20 mg/m&lt;sup&gt;3&lt;/sup&gt;)</value>
   </data>
   <data name="AbuEfficiencyTriethylamine" xml:space="preserve">
-    <value>efficacité de la purification industrielle de l’air du&lt;br&gt;&lt;strong&gt;triéthylamine&lt;/strong&gt;</value>
+    <value>Efficacité de la purification de l’air de la &lt;br&gt;&lt;strong&gt;triéthylamine&lt;/strong&gt;</value>
   </data>
   <data name="AbuEfficiencyTriethylamineValue" xml:space="preserve">
     <value>Efficacité d’épuration du&lt;br&gt;&lt;strong&gt;phénol, du formaldéhyde&lt;/strong&gt;</value>

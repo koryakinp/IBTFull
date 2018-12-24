@@ -121,18 +121,16 @@
     <value>ABU Efficiency</value>
   </data>
   <data name="AbuEfficiencyFormol" xml:space="preserve">
-    <value>Efficiency of industrial air purification from &lt;strong&gt;phenol and formaldehyde&lt;/strong&gt;</value>
+    <value>Efficiency of air purification from &lt;strong&gt;phenol and formaldehyde&lt;/strong&gt;</value>
   </data>
   <data name="AbuEfficiencyResin" xml:space="preserve">
-    <value>Efficiency of industrial air purification from &lt;br&gt;&lt;strong&gt;suspended substances&lt;/strong&gt;</value>
+    <value>Efficiency of air purification from&lt;br&gt;&lt;strong&gt;suspended substances&lt;/strong&gt;</value>
   </data>
   <data name="AbuEfficiencyResinValue" xml:space="preserve">
     <value>&lt;span class="efficiency-item__value"&gt;{0}&lt;/span&gt; or higher</value>
   </data>
   <data name="AbuEfficiencyTriethylamine" xml:space="preserve">
-    <value>Efficiency of industrial air purification from &lt;strong&gt;triethylamine&lt;/strong&gt;
-
-</value>
+    <value>Efficiency of air purification from &lt;strong&gt;triethylamine&lt;/strong&gt;</value>
   </data>
   <data name="AbuEfficiencyTriethylamineValue" xml:space="preserve">
     <value>(triethylamine output concentration does not exceed 20 mg/m&lt;sup&gt;3&lt;/sup&gt;)</value>
