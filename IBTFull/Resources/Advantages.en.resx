@@ -124,31 +124,31 @@
     <value>High ratio of capturing a wide range of harmful substances.</value>
   </data>
   <data name="Advantage10Description" xml:space="preserve">
-    <value>Since the beginning of operation (since 1989), there has not been a single complaint regarding any of the operated ABUs. ABU does not have any moving or wearing parts (except for a conventional water pump). The unit service life is at least 15 years.</value>
+    <value>Since the beginning of its operation in 1989, there has not been a single complaint regarding any of the ABUs. Our system does not have any moving or wearing parts except for a conventional water pump. Unit service life is at least 15 years.</value>
   </data>
   <data name="Advantage10Title" xml:space="preserve">
     <value>Quality and reliability</value>
   </data>
   <data name="Advantage1Description" xml:space="preserve">
-    <value>The degree of capturing a wide range of harmful substances from the ventilation air is from 80 to 99.9%, depending on the input concentrations and the physical-chemical properties of the harmful substances.</value>
+    <value>ABU is able to capture a wide range of harmful substances with 80% to 99.9% efficiency depending on the input concentration and the physical-chemical properties of the substances.</value>
   </data>
   <data name="Advantage1Title" xml:space="preserve">
     <value>Efficiency</value>
   </data>
   <data name="Advantage2" xml:space="preserve">
-    <value>Reliability and efficiency is proved by 25 years of experience.</value>
+    <value>Reliability and efficiency is proven by 25 years of experience.</value>
   </data>
   <data name="Advantage2Description" xml:space="preserve">
-    <value>Presence of solid impurities in the gas flow does not affect the functional characteristics. Ion exchange filters, units with gas-discharge cells, coals, zeolites, catalysts or other &amp;laquo;dry&amp;laquo; devices are meaningless in this situation because of sticking of resinous and suspended substances to the working surfaces.</value>
+    <value>Presence of solid impurities in the gas flow does not affect ABUs functional characteristics. Meanwhile other &amp;laquo;dry&amp;raquo; air purifying methods such as the use ion exchange filters, units with gas-discharge cells, coal or zeolites is inefficient as the resinous and suspended substances stick to the working surface.</value>
   </data>
   <data name="Advantage2Title" xml:space="preserve">
-    <value>Can purify ventilation air containing resinous and suspended substances</value>
+    <value>Ability to purify ventilating air containing resinous and suspended substances</value>
   </data>
   <data name="Advantage3" xml:space="preserve">
-    <value>Low operating costs.</value>
+    <value>Economic factors.</value>
   </data>
   <data name="Advantage3Description" xml:space="preserve">
-    <value>Low operating costs because of the small amount consumables needed (technical water for feed - 0.1-1 m&lt;sup&gt;3&lt;/sup&gt;/day, biogenic additives - 30-60 kg/year, compressed air 30-40 m&lt;sup&gt;3&lt;/sup&gt;/h).</value>
+    <value>Low operating costs due to minimal use of consumables (between 0.1 to 1.0 m&lt;sup&gt;3&lt;/sup&gt;/day of water, 30-60 kg/year of biogenic additives, and 30-40 m&lt;sup&gt;3&lt;/sup&gt;/h of compressed air).</value>
   </data>
   <data name="Advantage3Title" xml:space="preserve">
     <value>Economic factors</value>
@@ -157,16 +157,16 @@
     <value>Absence of chemical reagents, acids or alkalis.</value>
   </data>
   <data name="Advantage4Description" xml:space="preserve">
-    <value>ABUs are environmentally friendly, since they do not create secondary contaminants (for example, during thermal and catalytically assisted combustion - NOx, CO and partial oxidation products are released; during coal-based adsorption - contaminated condensate after regeneration with superheated steam; during ozonation - excess ozone; during chemisorption - spent saline solution and drift of chemical reagents drops into the atmosphere) and help improve the ecological situation in the region.</value>
+    <value>ABUs are environmentally friendly, since they do not create any secondary contaminants. For example, thermal and catalyst-assisted combustion release NOx, CO and other partial oxidation by-products. Coal-based methods create contaminated condesate after superheated steam regeneration. Ozonation creates exces ozone, and chemisorption creates a saline solution on top of releasing drops of chemical regents into the atmosphere.</value>
   </data>
   <data name="Advantage4Title" xml:space="preserve">
     <value>Environmental friendliness</value>
   </data>
   <data name="Advantage5" xml:space="preserve">
-    <value>Minimal maintenance required.</value>
+    <value>Requires minimal maintenance.</value>
   </data>
   <data name="Advantage5Description" xml:space="preserve">
-    <value>The units are explosion- and flameproof. Chemical reagents, acids and alkali are not used.</value>
+    <value>The units are both explosion proof and flameproof. No chemical reagents, acids or alkali are used.</value>
   </data>
   <data name="Advantage5Title" xml:space="preserve">
     <value>Safety</value>
@@ -184,19 +184,19 @@
     <value>ABU service life is at least 15 years.</value>
   </data>
   <data name="Advantage7Description" xml:space="preserve">
-    <value>The units are easy to operate and do not require a permanent operator. During the ABU installation, our specialists will provide the necessary instructions and full information to your personnel.</value>
+    <value>The units are easy to operate and do not require a permanent operator. Our specialist will provide all the necessary information and instructions during ABU installation process.</value>
   </data>
   <data name="Advantage7Title" xml:space="preserve">
     <value>Training</value>
   </data>
   <data name="Advantage8" xml:space="preserve">
-    <value>Development of non-standard solutions.</value>
+    <value>Maintenance and monitoring</value>
   </data>
   <data name="Advantage8Description1" xml:space="preserve">
-    <value>ABU maintenance is minimal and is only related to the pump repair.</value>
+    <value>ABU maintenance is minimal and is limited to easy to do pump repairs.</value>
   </data>
   <data name="Advantage8Description2" xml:space="preserve">
-    <value>Monitoring of the efficiency of ventilation emissions purification is carried out periodically, visually, by the state of irrigation and &amp;laquo;boiling&amp;raquo; of the nozzle. The absorption solution is analyzed for chemical oxygen consumption once a month. If the absorbent regeneration efficiency needs to be improved, available agricultural fertilizers containing nitrogen and phosphorus are added to the solution.</value>
+    <value>Monitoring of the ventilating emission purification efficiency is carried out periodically, by visually observing the state of irrigation and &amp;laquo;boiling&amp;raquo; of the nozzle. The absorption solution is analyzed for chemical oxygen consumption once a month. If the absorbent regeneration efficiency needs to be improved, available agricultural fertilizers containing nitrogen and phosphorus are added to the solution.</value>
   </data>
   <data name="Advantage8Title" xml:space="preserve">
     <value>Maintenance and monitoring</value>
@@ -205,7 +205,7 @@
     <value>Support and technical consultations through the whole life cycle.</value>
   </data>
   <data name="Advantage9Description" xml:space="preserve">
-    <value>More than 100 ABUs are operated by 42 companies in various industries in Russia, Belarus, Ukraine and Kyrgyzstan with a lifetime of up to 25 years.</value>
+    <value>More than 100 ABUs are operated by 42 companies across various industries in Russia, Belarus, Ukraine and Kyrgyzstan with a lifetime of up to 25 years.</value>
   </data>
   <data name="Advantage9Title" xml:space="preserve">
     <value>Practical use</value>

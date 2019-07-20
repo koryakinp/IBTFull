@@ -136,7 +136,7 @@
     <value>(triethylamine output concentration does not exceed 20 mg/m&lt;sup&gt;3&lt;/sup&gt;)</value>
   </data>
   <data name="AbuIntro" xml:space="preserve">
-    <value>Absorption-biological units (ABUs) are designed for industrial air purification from phenol, formaldehyde, triethylamine, benzol, acrolein, cyanides, ammonia, methanol, dust, and aerosols of tarry substances.</value>
+    <value>Absorption-Biological Units (ABUs) are designed for industrial air purification from phenol, formaldehyde, triethylamine, benzol, acrolein, cyanides, ammonia, methanol, dust, and aerosols of tarry substances.</value>
   </data>
   <data name="AbuOperationDescription" xml:space="preserve">
     <value>Diagram and description of the Absorption - Biological Unit</value>
@@ -193,7 +193,7 @@
     <value>at least &lt;span class="efficiency-item__value"&gt;{0}&lt;/span&gt; given input concentration of {1} mg/m&lt;sup&gt;3&lt;/sup&gt;</value>
   </data>
   <data name="IndexTitle" xml:space="preserve">
-    <value>IBT air purification from phenol, formaldehyde, triethylamine</value>
+    <value>IBT Air purification from benzol, organic compounds</value>
   </data>
   <data name="schemaAlt" xml:space="preserve">
     <value>ABU Schema</value>

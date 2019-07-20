@@ -121,115 +121,115 @@
     <value>4.4. Compressed air</value>
   </data>
   <data name="AbuCompressedAirValue1" xml:space="preserve">
-    <value>Compressed air consumption per one ABU does not exceed 80 nm&lt;sup&gt;3&lt;/sup&gt;/h.</value>
+    <value>Compressed air consumption per one ABU unit does not exceed 80 N&lt;sup&gt;3&lt;/sup&gt;/h.</value>
   </data>
   <data name="AbuCompressedAirValue2" xml:space="preserve">
-    <value>Air pipeline with a Ду 15 mm valve shall supply the compressed air to the ABU.</value>
+    <value>Provide a 15 mm in diameter pipeline to supply ABU with compressed air.</value>
   </data>
   <data name="AbuCompressedAirValue21" xml:space="preserve">
     <value>Compressed air requirements:</value>
   </data>
   <data name="AbuCompressedAirValue22" xml:space="preserve">
-    <value>pressure - 2-7 atm.</value>
+    <value>Pressure between 2 - 7 atm.</value>
   </data>
   <data name="AbuCompressedAirValue23" xml:space="preserve">
-    <value>suspended substances, - 10 mg/m&lt;sup&gt;3&lt;/sup&gt;  max</value>
+    <value>Should contain no greater than 10 mg/m&lt;sup&gt;3&lt;/sup&gt; of suspended substances.</value>
   </data>
   <data name="AbuCompressedAirValue24" xml:space="preserve">
-    <value>moisture content - no requirements.</value>
+    <value>Moisture content – no requirements.</value>
   </data>
   <data name="AbuCompressedAirValue3" xml:space="preserve">
-    <value>The manifold valve, Ду 15mm, shall be installed at the ABU connection to the local network.</value>
+    <value>Compressed air requirements:</value>
   </data>
   <data name="AbuCompressedAirValue4" xml:space="preserve">
     <value>A suitable valve for an air supply point is supplied, except for the manifold valve.</value>
   </data>
   <data name="AbuCompressedAirValue5" xml:space="preserve">
-    <value>Compressed air shall be supplied in twenty-four-hour mode. A maximum of 2 hours is allowed for compressed air to be absent. Absence of compressed air for more than 2 hours is a contingency situation. The procedure for such a situation is described in the ABU passport.</value>
+    <value>Compressed air should be supplied 24/7. Maximum allowed time without compressed air supply is no greater than 2 hours. A situation when an ABU unit is deprived of compressed air for longer than 2 hours is defined as abnormal. The necessary procedures for resolving abnormal situations are outlined in the ABU’s passport/documentation.</value>
   </data>
   <data name="AbuDimensions" xml:space="preserve">
     <value>1. ABU-{0} technical characteristics and overall dimensions</value>
   </data>
   <data name="AbuElectricalConsumptionTitle" xml:space="preserve">
-    <value>2. Consumables and electricity consumption</value>
+    <value>2. ABU-{0} Consumables and Electricity Requirements</value>
   </data>
   <data name="AbuElectricalConsumptionValue1" xml:space="preserve">
-    <value>installed power - {0} kW, including the ventilator - {1} kW</value>
+    <value>Electricity consumption is {0} kW, including a ventilator {1} kW</value>
   </data>
   <data name="AbuElectricalConsumptionValue2" xml:space="preserve">
-    <value>industrial water for compensatory feeding, depending on the temperature and humidity of the air to be cleaned - {0} m&lt;sup&gt;3&lt;/sup&gt;/day max (to compensate for loss in humidity of the ventilation air during operation)</value>
+    <value>Depending on the temperature and humidity of the purified air, ABU requires no greater than {0} m&lt;sup&gt;3&lt;/sup&gt;/day of service water to compensate for the water loss during operations.</value>
   </data>
   <data name="AbuElectricalConsumptionValue3" xml:space="preserve">
-    <value>compressed air (the unit can be equipped with an autonomous blower) - {0} Nm&lt;sup&gt;3&lt;/sup&gt;/h max, pressure - 0.2-0.7 MPa</value>
+    <value>No greater than {0} Nm&lt;sup&gt;3&lt;/sup&gt;/hour of compressed air is required with 0.2 – 0.7 MPa pressure. Upon request, your ABU unit can come with an installed autonomous blower.</value>
   </data>
   <data name="AbuElectricalConsumptionValue4" xml:space="preserve">
-    <value>biogenic additives - {0} kg/year. (Complex agricultural fertilizers containing ammonium, phosphate and potassium ions are used as biogenic additives.)</value>
+    <value>Between {0} kg per year of biogenic additives are required for ABU operations. A variety of agricultural fertilizers containing ammonium, phosphate and potassium ions are used as biogenic additives.</value>
   </data>
   <data name="AbuElectricityTitle" xml:space="preserve">
-    <value>4.2 Power supply</value>
+    <value>4.2 Electricity Requirements</value>
   </data>
   <data name="AbuElectricityValue1" xml:space="preserve">
-    <value>Specifications of power consumers:</value>
+    <value>Electric Supply:</value>
   </data>
   <data name="AbuElectricityValue11" xml:space="preserve">
-    <value>ventilator motor (1 pc., 380 V, {0} kW);</value>
+    <value>Ventilator engine (1 pc., 380 V, {0} kW)</value>
   </data>
   <data name="AbuElectricityValue12" xml:space="preserve">
-    <value>water pump engines (1 pc., 380 V, {0} kW);</value>
+    <value>Water pump engines (1 pc., 380 V, {0} kW)</value>
   </data>
   <data name="AbuElectricityValue13" xml:space="preserve">
-    <value>sludge pump engines (1 pc., 380 V, {0} kW);</value>
+    <value>Sludge pump engines (1 pc., 380 V, {0} kW)</value>
   </data>
   <data name="AbuElectricityValue14" xml:space="preserve">
-    <value>electric valve drives (9 pcs., 220 V, 100 W);</value>
+    <value>ABU electric valve drivers – 9 pcs., 220 V, 100 W. (combined consumption for all 9 pcs.)</value>
   </data>
   <data name="AbuElectricityValue15" xml:space="preserve">
-    <value>level sensors (3 pcs., 6 V)</value>
+    <value>Level sensors – 3 pcs, 6 W (combined consumption for all 3 pcs.)</value>
   </data>
   <data name="AbuElectricityValue16" xml:space="preserve">
-    <value>Power cables, cable trays and control cables are supplied with ABUs.</value>
+    <value>Power cables, cable trays, and control cables are supplied with ABU.</value>
   </data>
   <data name="AbuElectricityValue2" xml:space="preserve">
-    <value>Control cabinets are supplied with the ABU.</value>
+    <value>Control cabinets are also supplied with ABU.</value>
   </data>
   <data name="AbuElectricityValue3" xml:space="preserve">
-    <value>Wiring needs to be arranged for power circuits from the workshop transformer to ABU control cabinets.</value>
+    <value>Provide power circuit wiring from workshop’s transformer to ABU’s control cabinets.</value>
   </data>
   <data name="AbuElectricityValue4" xml:space="preserve">
-    <value>The electrical and starting equipment of the ventilator and pump must be installed in accordance with the &amp;laquo;Electrical installation rules&amp;raquo; and in places that allow monitoring of the electric units.</value>
+    <value>Both the power and start-up equipment for the pump and the ventilator should be installed in accordance to the &amp;laquo;Electrical Equipment Installation Rules&amp;raquo; and in locations that allow for monitoring of such equipment.</value>
   </data>
   <data name="AbuElectricityValue5" xml:space="preserve">
-    <value>A grounding bus needs to be arranged for all non-conducting parts of the ABU equipment.</value>
+    <value>Provide grounding busbars for all ABU non-conducting parts.</value>
   </data>
   <data name="AbuInstallationTitle1" xml:space="preserve">
-    <value>4. Basic data for ABU-{0} installation</value>
+    <value>4. ABU-{0} Initial Installation Requirements.</value>
   </data>
   <data name="AbuInstallationTitle2" xml:space="preserve">
-    <value>4.1. Structural design and requirements to the premise for ABU installation</value>
+    <value>4.1. Assembly and Premise Requirements</value>
   </data>
   <data name="AbuInstallationValue1" xml:space="preserve">
-    <value>Concrete floor at the mark of 0.000 for placement of ABU equipment. The floor needs to be levelled. The concrete thickness depends on the projected ABU loads. The ABU equipment is installed on two frames.</value>
+    <value>Provide concrete flooring at the 0.000 mark for ABU placement. The floor should be leveled using the Level instrument. Thickness of the concrete floor will depend on the projected ABU load. ABU is installed on two frames.</value>
   </data>
   <data name="AbuInstallationValue2" xml:space="preserve">
-    <value>Max load on one frame is {0} tons.</value>
+    <value>The load per frame is no greater than {0} tones.</value>
   </data>
   <data name="AbuInstallationValue3" xml:space="preserve">
-    <value>The equipment does not need to be attached to the floor.</value>
+    <value>No floor attachments are required.</value>
   </data>
   <data name="AbuInstallationValue4" xml:space="preserve">
-    <value>Emergency draining traps for occasional spills of the absorbent in the concrete floor structure. Traps shall be connected to the workshop sewerage.</value>
+    <value>Provide drainage traps in the concrete floor in case of an emergency spillage. The traps should be connected to the workshop’s sewerage system. An emergency spillage is defined as a leakage in the body of the tank or a leakage in the flow shut-off and control valves and related systems.</value>
   </data>
   <data name="AbuInstallationValue41" xml:space="preserve">
-    <value>The volume of occasional spills does not exceed 8 m&lt;sup&gt;3&lt;/sup&gt; per one accident. An &amp;laquo;accident&amp;raquo; means a vessel body leakage or valves leakage.</value>
+    <value>No greater than 8 m&lt;sup&gt;3&lt;/sup&gt; of spillage will be produced per one emergency.</value>
   </data>
   <data name="AbuInstallationValue5" xml:space="preserve">
-    <value>Hoisting mechanisms are not required for ABU maintenance.</value>
+    <value>No hoisting mechanisms are required for ABU maintenance.</value>
   </data>
   <data name="AbuInstallationValue6" xml:space="preserve">
-    <value>Ambient temperature in the ABU installation room: at least 5&amp;#176;C in the coldest month. Maximum temperature in the ABU installation room shall be 30&amp;#176;C.</value>
+    <value>Ambient room temperature for an ABU should not be less than +5&amp;#176;C during the coldest month of the year, and also should not exceed the +30&amp;#176;C mark.</value>
   </data>
   <data name="AbuInstallationValue7" xml:space="preserve">
-    <value>In terms of explosion and fire safety, the ABU installation room belongs to the lowest category - D (there are cold incombustible substances and materials, combustible and hard-combustible substances and materials in the room, in such quantities that the specific fire load does not exceed 100 mJ/m&lt;sup&gt;2&lt;/sup&gt; in their locations, and the fire load in the room is below 1000 mJ).</value>
+    <value>ABU installation room should adhere to lowest fireproof and explosion proof category requirements (the room contains cold and/or incombustible substances and materials in such amounts that the fire load does not exceed 100 mJ/m&lt;sup&gt;2&lt;/sup&gt; in their respective locations, and the fire load of the entire room is under 1000 mJ.)</value>
   </data>
   <data name="AbuLifespanTitle" xml:space="preserve">
     <value>5. Life cycle</value>
@@ -238,70 +238,71 @@
     <value>Service cycle is at least 15 years.</value>
   </data>
   <data name="AbuMaintenanceTitle" xml:space="preserve">
-    <value>3. Maintenance of ABU-{0}</value>
+    <value>3. ABU-{0} Maintenance</value>
   </data>
   <data name="AbuMaintenanceValue" xml:space="preserve">
-    <value>Maintenance of an ABU is limited to removal of suspended and condensing substances from the sludge basket and maintaining the necessary content of phosphorus, nitrogen and potassium in the absorbent by supplying biogenic additives (BA).
-To determine if BAs need to be added to the absorbent, it is recommended to measure the content of phosphorus, nitrogen and potassium once a month.
-The efficiency of absorbent regeneration by destructing microorganisms is monitored by an indirect indicator - chemical oxygen consumption (COC), which is recommended to be determined once a month.</value>
+    <value>ABU maintenance is limited to cleaning its sludge basket from condensed and suspended substances, as well as maintaining a required concertation of phosphorus, nitrogen and potassium in the absorbent by adding biogenic additives (BAs). 
+It is recommended to conduct monthly measurements of phosphorus ions, nitrogen, and potassium to determine if BAs should be added to the absorbent. 
+An indirect indicator (chemical oxygen consumption: COC) is used to gauge absorbent regeneration efficiency by the microorganism. It is also recommended to measure COC on a monthly basis.</value>
   </data>
   <data name="AbuPhenolEfficiencyTitle" xml:space="preserve">
-    <value>Efficiency of capturing phenol, formaldehyde:</value>
+    <value>Capturing efficiency for phenol and formaldehyde:</value>
   </data>
   <data name="AbuPhenolEfficiencyValue" xml:space="preserve">
-    <value>At least {0}, with an input concentration of {1} mg/m&lt;sup&gt;3&lt;/sup&gt;</value>
+    <value>At least {0}% given input concentration of {1} mg/m&lt;sup&gt;3&lt;/sup&gt;</value>
   </data>
   <data name="AbuSpecTitle" xml:space="preserve">
-    <value>Technical characteristics and basic data</value>
+    <value>Technical Characteristics and Initial Parameters</value>
   </data>
   <data name="AbutDrainageTitle" xml:space="preserve">
-    <value>Composition of the substances to be drained:</value>
+    <value>Composition of an emergency spillage is as follows:</value>
   </data>
   <data name="AbutDrainageValue1" xml:space="preserve">
-    <value>phosphate content - 150 mg/l max</value>
+    <value>No greater than 150 mg/litre of phosphates</value>
   </data>
   <data name="AbutDrainageValue2" xml:space="preserve">
-    <value>Content of nitrates - 200 mg/l max</value>
+    <value>No greater than 200 mg/litre of nitrates</value>
   </data>
   <data name="AbutDrainageValue3" xml:space="preserve">
-    <value>The pH value is 6.5-8.3</value>
+    <value>pH value between 6.5 - 8.3</value>
   </data>
   <data name="AbutDrainageValue4" xml:space="preserve">
-    <value>Chemical oxygen consumption (COC) - 6,000 mgO&lt;sub&gt;2&lt;/sub&gt;/l max</value>
+    <value>Chemical Oxygen Consumption (COC) no greater than 6,000 mg O&lt;sub&gt;2&lt;/sub&gt;/litre</value>
   </data>
   <data name="AbutDrainageValue5" xml:space="preserve">
-    <value>Suspended substances - 0.1% max by volume, and particle size - 0.2 mm max</value>
+    <value>Contains no greater than 0.1% by volume of suspended substances with particles’ size of less than 0.2 mm.</value>
   </data>
   <data name="AbuTitle" xml:space="preserve">
-    <value>Absorption-Biological Unit (ABU)
-for purification of industrial ventilation air with a capacity of {0} thousand m&lt;sup&gt;3&lt;/sup&gt;/h (ABU-{1})</value>
+    <value>for an Absorption-Biological Unit (ABU) 
+with {0} m&lt;sup&gt;3&lt;/sup&gt;/h (ABU – {1}) capacity for
+ventilated air purification at industrial enterprises</value>
   </data>
   <data name="AbuTriethylamineEfficiencyTitle" xml:space="preserve">
-    <value>Efficiency of removing triethylamine and suspended substances is 96 - 98% (triethylamine output concentration does not exceed 20 mg/m&lt;sup&gt;3&lt;/sup&gt;)</value>
+    <value>Purification efficiency against triethylamine and suspended substances between 96% - 99.9% (output triethylamine concertation is no greater than mg/m&lt;sup&gt;3&lt;/sup&gt;)</value>
   </data>
   <data name="AbuTriethylamineEfficiencyValue1" xml:space="preserve">
-    <value>Efficiency of capturing suspended substances - at least 98%</value>
+    <value>Capturing efficiency for suspended substances - at least 98%</value>
   </data>
   <data name="AbuTriethylamineEfficiencyValue2" xml:space="preserve">
-    <value>ventilation network resistance is 1700 Pa max</value>
+    <value>Ventilating network resistance: no greater than 1700 Pa</value>
   </data>
   <data name="AbuTriethylamineEfficiencyValue3" xml:space="preserve">
-    <value>hydraulic resistance (ABU’s pressure loss) is 2400 Pa max</value>
+    <value>Hydraulic resistance (ABU’s pressure loss): no greater than 2400 Pa</value>
   </data>
   <data name="AbuTriethylamineEfficiencyValue4" xml:space="preserve">
-    <value>temperature in the room intended for ABU installation is +5 ... +30&amp;#176;C</value>
+    <value>Temperature requirements for ABU operations: between +5&amp;#176;C and +30&amp;#176;C</value>
   </data>
   <data name="AbuTriethylamineEfficiencyValue5" xml:space="preserve">
-    <value>overall dimensions, L \ W \ H: {0}x{1}x{2} mm. (when being installed as a single unit).</value>
+    <value>ABU dimensions in mm if installed as a single unit (Length, Width, Height): {0}x{1}x{2}</value>
   </data>
   <data name="AbuVentilationTitle" xml:space="preserve">
     <value>4.5. Ventilation</value>
   </data>
   <data name="AbuVentilationValue1" xml:space="preserve">
-    <value>Air ducts need to supply air from the ventilation hoods of the equipment to the ABU, and then from the ventilators exhausts to the atmospheric air.</value>
+    <value>Provide air ducts to supply ventilated air from your manufacturing line to ABU, and then from ABU to the atmosphere.</value>
   </data>
   <data name="AbuVentilationValue11" xml:space="preserve">
-    <value>The class of air duct structure on the rarefaction line is &amp;laquo;N&amp;raquo; (normal) class.</value>
+    <value>Air ducts are class &amp;laquo;N&amp;raquo; (normal).</value>
   </data>
   <data name="AbuVentilationValue12" xml:space="preserve">
     <value>The class of air duct structure on the pressure line (after the ventilators) is &amp;laquo;N&amp;raquo; (normal) class.</value>
@@ -310,7 +311,7 @@ for purification of industrial ventilation air with a capacity of {0} thousand m
     <value>Flexible inserts for the ventilator input and output are supplied with the ABU.</value>
   </data>
   <data name="AbuVentilationValue2" xml:space="preserve">
-    <value>The thrust actuator is a {0} ventilator with the following characteristics:</value>
+    <value>As a thrust actuator, ABU is using {0} ventilator with the following characteristics:</value>
   </data>
   <data name="AbuVentilationValue21" xml:space="preserve">
     <value>engine {0} kW, 380/660V, 50Hz, {1} rpm</value>
@@ -319,22 +320,22 @@ for purification of industrial ventilation air with a capacity of {0} thousand m
     <value>the ventilator is made of carbon steel with a powder coating</value>
   </data>
   <data name="AbuVentilationValue23" xml:space="preserve">
-    <value>ventilator impeller rotation speed - {0} rpm</value>
+    <value>ventilator impeller rotation speed is {0} rpm</value>
   </data>
   <data name="AbuVentilationValue24" xml:space="preserve">
-    <value>The noise level from {0} fan is 113 dB</value>
+    <value>{0} ventilator’s noise level is 113 dB.</value>
   </data>
   <data name="AbuVentilationValue25" xml:space="preserve">
-    <value>It is possible to use a thrust actuator from a different manufacturer and with different characteristics.</value>
+    <value>An alternative thrust actuator produced by another manufacturer with different characterises can also be used.</value>
   </data>
   <data name="AbuVentilationValue3" xml:space="preserve">
-    <value>The rarefaction pressure at the ABU inlet fitting is below 1200 Pa, the delivery pressure on the exhaust connection shall not exceed +500 Pa.</value>
+    <value>Pressure at the ABU’s ventilating air intake and exhaust points is no greater than –1200 Pa and +500 Pa, respectively.</value>
   </data>
   <data name="AbuVentilationValue4" xml:space="preserve">
     <value>Shutter closing needs to be arranged on the ducts, in the area of enclosures, to regulate the aspiration air leakage. Fittings counter flanges for the inlet and exhaust areas are supplied with ABUs.</value>
   </data>
   <data name="AbuVentilationValue41" xml:space="preserve">
-    <value>General exchange ventilation with an air exchange rate of 3-4 need to be arranged in the ABU installation room.</value>
+    <value>ABU room should have an installed ventilation system capable of providing 3-4 air changes per day.</value>
   </data>
   <data name="AbuWaterSupplyTitle" xml:space="preserve">
     <value>4.3. Water supply</value>
@@ -355,7 +356,7 @@ for purification of industrial ventilation air with a capacity of {0} thousand m
     <value>mechanical impurities content - 0.1% max by volume, particle size - 0.2 mm max;</value>
   </data>
   <data name="AbuWaterSupplyValue33" xml:space="preserve">
-    <value>temperature - 5-30&amp;#176;С</value>
+    <value>Temperature between +5&amp;#176;С and +30&amp;#176;С</value>
   </data>
   <data name="AbuWaterSupplyValue34" xml:space="preserve">
     <value>The ABU needs to be connected to the local water supply system through the manifold valve Ду 20mm.</value>

@@ -13,6 +13,7 @@ namespace IBTFull
                     Model = 5,
                     DefaultPower = "27",
                     FanPower = "22",
+                    Capacity = 5000,
                     Humidity = "2.0",
                     Air = "40.0",
                     Bio = "20-30",
@@ -21,7 +22,7 @@ namespace IBTFull
                     PowerConsumption1 = "22",
                     PowerConsumption2 = "1.5",
                     PowerConsumption3 = "1.5",
-                    Ventilator = "ВИР400-5-1-LG0-180М2-О-П-У1",
+                    Ventilator = "VIR400-5-1-LG0-180M2-O-P-U1",
                     VentilatorEngine = 22,
                     VentilatorRPM = 2950,
                     ImageUrl = "/files/abu-5.jpg"
@@ -32,6 +33,7 @@ namespace IBTFull
                 return new Abu
                 {
                     Model = 10,
+                    Capacity = 10000,
                     DefaultPower = "36",
                     FanPower = "30",
                     Humidity = "3.0",
@@ -42,7 +44,7 @@ namespace IBTFull
                     PowerConsumption1 = "30",
                     PowerConsumption2 = "2.2",
                     PowerConsumption3 = "2.2",
-                    Ventilator = "ВИР400-5-1-LG0-180М2-О-П-У1",
+                    Ventilator = "VIR400-5-1-LG0-180M2-O-P-U1",
                     VentilatorEngine = 30,
                     VentilatorRPM = 2950,
                     ImageUrl = "/files/abu-10.jpg"
@@ -53,6 +55,7 @@ namespace IBTFull
                 return new Abu
                 {
                     Model = 25,
+                    Capacity = 25000,
                     DefaultPower = "61",
                     FanPower = "55",
                     Humidity = "4.0",
@@ -63,7 +66,7 @@ namespace IBTFull
                     PowerConsumption1 = "55",
                     PowerConsumption2 = "3.0",
                     PowerConsumption3 = "2.2",
-                    Ventilator = "ВИР400-5-1-LG0-180М2-О-П-У1",
+                    Ventilator = "VIR400-5-1-LG0-180M2-O-P-U1",
                     VentilatorEngine = 55,
                     VentilatorRPM = 1735,
                     ImageUrl = "/files/abu-25.jpg"

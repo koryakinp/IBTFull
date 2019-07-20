@@ -40,7 +40,7 @@
                     @String.Format(Abu.AbuSpecTitle, @Model.Model)
                 </p>
                 <p>
-                    @Html.Raw(String.Format(Abu.AbuTitle, Model.Model, Model.Model))
+                    @Html.Raw(String.Format(Abu.AbuTitle, Model.Capacity, Model.Model))
                 </p>
             </div>
             <p>
@@ -88,7 +88,7 @@
                 </li>
             </ul>
             <p>
-                <strong>@Abu.AbuElectricalConsumptionTitle</strong>
+                <strong>@String.Format(Abu.AbuElectricalConsumptionTitle, Model.Model)</strong>
             </p>
             <ul>
                 <li>
@@ -187,26 +187,19 @@
             <p><strong>@Abu.AbuCompressedAirTitle</strong></p>
             <ol>
                 <li>@Html.Raw(Abu.AbuCompressedAirValue1)</li>
-                <li>
-                    @Abu.AbuCompressedAirValue2
-                    <p>@Abu.AbuCompressedAirValue21</p>
-                    <ul>
-                        <li>@Abu.AbuCompressedAirValue22</li>
-                        <li>@Html.Raw(Abu.AbuCompressedAirValue23)</li>
-                        <li>@Abu.AbuCompressedAirValue24</li>
-                    </ul>
-                </li>
+                <li class="counter-2">@Abu.AbuCompressedAirValue2</li>
                 <li class="counter-3">@Abu.AbuCompressedAirValue3</li>
-                <li class="counter-4">@Abu.AbuCompressedAirValue4</li>
-                <li class="counter-5">@Abu.AbuCompressedAirValue5</li>
+                <ul>
+                    <li>@Abu.AbuCompressedAirValue22</li>
+                    <li>@Html.Raw(Abu.AbuCompressedAirValue23)</li>
+                    <li>@Abu.AbuCompressedAirValue24</li>
+                </ul>
+                <li class="counter-4">@Abu.AbuCompressedAirValue5</li>
             </ol>
             <p><strong>@Abu.AbuVentilationTitle</strong></p>
             <ol>
                 <li>
                     @Abu.AbuVentilationValue1
-                    <p>@Html.Raw(Abu.AbuVentilationValue11)</p>
-                    <p>@Html.Raw(Abu.AbuVentilationValue12)</p>
-                    <p>@Abu.AbuVentilationValue13</p>
                 </li>
                 <li>
                     @String.Format(Abu.AbuVentilationValue2, Model.Ventilator)
@@ -218,15 +211,13 @@
                         <li>
                             @String.Format(Abu.AbuVentilationValue23, Model.VentilatorRPM)
                         </li>
+                        <li>@String.Format(Abu.AbuVentilationValue24, Model.Ventilator)</li>
                     </ul>
-                    <p>@String.Format(Abu.AbuVentilationValue24, Model.Ventilator)</p>
+                    
                     <p>@Abu.AbuVentilationValue25</p>
                 </li>
-                <li class="counter-3"><localize>AbuVentilationValue3</localize></li>
-                <li class="counter-4">
-                    @Abu.AbuVentilationValue4
-                    <p>@Abu.AbuVentilationValue41</p>
-                </li>
+                <li class="counter-3">@Abu.AbuVentilationValue3</li>
+                <li class="counter-4">@Abu.AbuVentilationValue41</li>
             </ol>
             <p><strong>@Abu.AbuLifespanTitle</strong></p>
             <p>@Abu.AbuLifespanValue</p>

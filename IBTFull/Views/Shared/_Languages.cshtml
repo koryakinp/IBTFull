@@ -1,6 +1,12 @@
 ﻿@model IBTFull.Models.Language
 @{ 
     var pageName = ViewContext.RouteData.Values["action"].ToString();
+    var id = ViewContext.RouteData.Values["id"];
+
+    if(id != null)
+    {
+        pageName = $"{pageName}/{id}";
+    }
 }
 
 <div class="lng">

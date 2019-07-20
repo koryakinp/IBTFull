@@ -121,13 +121,13 @@
     <value>4.4. Druckluft</value>
   </data>
   <data name="AbuCompressedAirValue1" xml:space="preserve">
-    <value>Der Druckluftverbrauch für eine biologische Absorptionsanlage (BAA) beträgt maximal 80 Nm&lt;sup&gt;3&lt;/sup&gt;/Stunde.</value>
+    <value>Der Druckluftverbrauch auf eine ABB beträgt maximal 80 Nm&lt;sup&gt;3&lt;/sup&gt;/Stunde.</value>
   </data>
   <data name="AbuCompressedAirValue2" xml:space="preserve">
-    <value>Es soll die Rohrleitung mit Nenndurchmesser von 15 mm für die Druckluftzuleitung zur BAA vorgesehen werden.</value>
+    <value>Es soll die Rohrleitung mit Nenndurchmesser von 15 mm für die Druckluftzuleitung zur ABB vorgesehen werden.</value>
   </data>
   <data name="AbuCompressedAirValue21" xml:space="preserve">
-    <value>Anforderungen an die Druckluft:</value>
+    <value>Druckluftanforderungen:</value>
   </data>
   <data name="AbuCompressedAirValue22" xml:space="preserve">
     <value>Druck – 2-7 atm.</value>
@@ -139,29 +139,28 @@
     <value>Feuchtigkeitsgehalt  – keine besonderen Anforderungen.</value>
   </data>
   <data name="AbuCompressedAirValue3" xml:space="preserve">
-    <value>Es soll die Installation des Hauptleitungsventils mit Nenndurchmesser von 15 mm auf der Ableitung der Anschaltung von BAA zum Werksnetz vorgesehen werden.</value>
+    <value>Druckluftanforderungen:</value>
   </data>
   <data name="AbuCompressedAirValue4" xml:space="preserve">
     <value>Der Punkt der Druckluftzuleitung ist mit einem entsprechenden Ventil außer dem Hauptleitungsventil ausgestattet.</value>
   </data>
   <data name="AbuCompressedAirValue5" xml:space="preserve">
-    <value>Der Druckluftzufuhr erfolgt rund um die Uhr. Der Druckluftzufuhr darf maximal 2 Stunden nicht erfolgen.  Wenn der Druckluftzufuhr mehr als 2 Stunden nicht erfolgt, ist es eine Notfallsituation. Die Vorgehensweise in einer solchen Situation wird im Datenblatt von BAA beschrieben.</value>
+    <value>Der Druckluftzufuhr erfolgt rund um die Uhr. Der Druckluftzufuhr darf max. 2 Stunden ausbleiben. Eine Notfallsituation erfolgt wenn der Druckluftzufuhr mehr als 2 Stunden nicht erfolgt. Die Vorgehensweise in einer solchen Situation wird im Datenblatt von ABB beschrieben.</value>
   </data>
   <data name="AbuDimensions" xml:space="preserve">
-    <value>1. Technische Daten und Abmessungen von BAA-{0}</value>
+    <value>1. Technische Daten und Abmessungen von ABB-{0}</value>
   </data>
   <data name="AbuElectricalConsumptionTitle" xml:space="preserve">
-    <value>2. Verbrauchsmaterialien und Energieverbrauch</value>
+    <value>2. Verbrauchsstoffe und der Energieverbrauch</value>
   </data>
   <data name="AbuElectricalConsumptionValue1" xml:space="preserve">
-    <value>installierte Leistung – {0} kW, einschließlich Ventilator – {1} kW</value>
+    <value>Installierte Leistung – {0} kW, einschließlich des Ventilators – {1} kW</value>
   </data>
   <data name="AbuElectricalConsumptionValue2" xml:space="preserve">
-    <value>Betriebswasser für die Nachspeisung, je nach der Temperatur und der Feuchtigkeit der zu reinigenden Luft – maximal {0} m&lt;sup&gt;3&lt;/sup&gt;/Tag (zum Ausgleich von Befeuchtungsverluste der Zuluft im Betrieb)</value>
+    <value>Betriebswasser für die Nachspeisung, je nach der Temperatur und der Feuchtigkeit von der schmutziger Luft – maximal {0} m&lt;sup&gt;3&lt;/sup&gt;/Tag (zum Ausgleich von Befeuchtungsverluste der Zuluft im Betrieb)</value>
   </data>
   <data name="AbuElectricalConsumptionValue3" xml:space="preserve">
-    <value>Druckluft (Ausstattung mit autonomer Blasmaschine möglich) –
-maximal {0} Nm3&lt;sup&gt;3&lt;/sup&gt;/Stunde, Druck - 0,2-0,7 MPa.</value>
+    <value>Druckluft (Ausstattung mit autonomer Blasmaschine möglich) – maximal {0} Nm&lt;sup&gt;3&lt;/sup&gt;/Stunde, Druck - 0,2-0,7 MPa.</value>
   </data>
   <data name="AbuElectricalConsumptionValue4" xml:space="preserve">
     <value>biogene Zusatzstoffe – {0} kg/Jahr (als biogene Zusatzstoffe werden landwirtschaftliche Düngemittel verwendet, die Ammonium-, Phosphat- und Kalium-Ionen enthalten.)</value>
@@ -170,7 +169,7 @@ maximal {0} Nm3&lt;sup&gt;3&lt;/sup&gt;/Stunde, Druck - 0,2-0,7 MPa.</value>
     <value>4.2 Energieversorgung</value>
   </data>
   <data name="AbuElectricityValue1" xml:space="preserve">
-    <value>Angaben zu den Energieverbrauchern:</value>
+    <value>Angaben von Energieverbrauchern:</value>
   </data>
   <data name="AbuElectricityValue11" xml:space="preserve">
     <value>Gebläsemotor (1 Stck.: 380 V, {0} kW);</value>
@@ -188,30 +187,28 @@ maximal {0} Nm3&lt;sup&gt;3&lt;/sup&gt;/Stunde, Druck - 0,2-0,7 MPa.</value>
     <value>Füllstandsmesser (3 Stck., 6 W).</value>
   </data>
   <data name="AbuElectricityValue16" xml:space="preserve">
-    <value>Leistungskabel, Kabelträger und Steuerkabel sind im BAA-Lieferumfang inbegriffen.</value>
+    <value>Leistungskabel, Kabelträger und Steuerkabel sind im ABB-Lieferumfang inbegriffen.</value>
   </data>
   <data name="AbuElectricityValue2" xml:space="preserve">
     <value>Schaltschränke sind im BAA-Lieferumfang inbegriffen.</value>
   </data>
   <data name="AbuElectricityValue3" xml:space="preserve">
-    <value>Es soll die Leitungsführung der Hauptstromkreise vom Werktransformatoren
-zu den Schaltschränken von  BAA vorgesehen werden.
-</value>
+    <value>Es soll die Leitungsführung der Hauptstromkreise vom Werktransformator zu den Schaltschränken von ABB vorgesehen werden.</value>
   </data>
   <data name="AbuElectricityValue4" xml:space="preserve">
-    <value>Kraft- und Anlassgeräte des Ventilators und der Pumpe sollen nach den  &amp;laquo;Regeln für Montage von Stromanlagen in den Plätzen montiert werden, wo der Betrieb von Elektroaggregaten beobachtet werden kann.</value>
+    <value>Kraft- und Anlassgeräte des Ventilators und der Pumpe sollen nach den Regeln für Montage von Stromanlagen in den Plätzen montiert werden, wo der Betrieb von Elektroaggregaten beobachtet werden kann.</value>
   </data>
   <data name="AbuElectricityValue5" xml:space="preserve">
     <value>Es soll die Erdungsband aller nicht spannungsführenden Teile vorgesehen werden.</value>
   </data>
   <data name="AbuInstallationTitle1" xml:space="preserve">
-    <value>4. Ausgangsangaben für den Anschluss von BAA-{0}</value>
+    <value>4. Ausgangsangaben für den Anschluss</value>
   </data>
   <data name="AbuInstallationTitle2" xml:space="preserve">
-    <value>4.1. Bauanforderungen und Anforderungen an den Raum, wo eine BAA installiert wird</value>
+    <value>4.1. Bauanforderungen</value>
   </data>
   <data name="AbuInstallationValue1" xml:space="preserve">
-    <value>Es soll die Einrichtung des Betonfußbodens mit Vermerk auf 0,000 für die Installierung der BAA vorgesehen werden. Der Fußboden soll mit dem Nivelliergerät ausgerichtet werden. Die Dicke der Betonschicht hängt von den Belastungen der BAA ab. Die BAA-Ausrüstung befindet sich auf zwei Rahmen.</value>
+    <value>Der Betonfußboden soll mit Vermerk auf 0,000 für die Installierung der ABB eingerichtet werden. Der Fußboden soll mit dem Nivelliergerät ausschlichten werden. Betonstärke hängt von den Belastungen der ABB ab. Die ABB-Ausrüstung liegt auf zwei Rahmen.</value>
   </data>
   <data name="AbuInstallationValue2" xml:space="preserve">
     <value>Die Belastung pro Rahmen soll nicht mehr als {0} Tonnen betragen.</value>
@@ -220,53 +217,46 @@ zu den Schaltschränken von  BAA vorgesehen werden.
     <value>Die Befestigung der Anlage am Boden ist nicht erforderlich.</value>
   </data>
   <data name="AbuInstallationValue4" xml:space="preserve">
-    <value>Im Fußboden sollen Fußbodenentwässerungen für die Ableitung von verschüttetem Absorptionsmittel vorgesehen werden.  Die Fußbodenentwässerungen sollen mit der Kanalisation des Werkstattes verbunden sein.</value>
+    <value>Im Betonfußboden sollen Fußbodenentwässerungen für die Ableitung von verschüttetem
+absorbierendem Stoff vorgesehen werden. Die Fußbodenentwässerungen sollen mit dem Abwassersystem in Betrieb verbunden sein.</value>
   </data>
   <data name="AbuInstallationValue41" xml:space="preserve">
-    <value>Das Volumen von verschüttetem Absorptionsmittel darf nicht mehr als 8 m&lt;sup&gt;3&lt;/sup&gt; pro Betriebsnotfall betragen.  Unter einem Betriebsnotfall versteht man die Leckage am Behälter, Leckage an Absperr- und Regelarmaturen.</value>
+    <value>Das Volumen von verschüttetem absorbierendem Stoff darf nicht mehr als 8 m&lt;sup&gt;3&lt;/sup&gt; pro Betriebsnotfall betragen. Unter einem Betriebsnotfall versteht man das Leck am Behälter, das Leck an Absperr- und Regelarmaturen.</value>
   </data>
   <data name="AbuInstallationValue5" xml:space="preserve">
-    <value>Es sind keine Hebezeuge für die Wartung von BAA erforderlich.</value>
+    <value>Es sind keine Hebezeuge für die Wartung von ABB erforderlich.</value>
   </data>
   <data name="AbuInstallationValue6" xml:space="preserve">
-    <value>Umgebungstemperatur im Raum, wo eine BAA installiert wird
-in den kältesten Monat des Jahres nicht weniger als Maximaltemperatur
-im Raum, wo eine BAA installiert wird, soll 30&amp;#176;С betragen.</value>
+    <value>Die Temperatur im Raum, wo eine ABB installiert wird, soll in dem kältesten Monat des Jahres nicht weniger als 5&amp;#176;С betragen. Maximaltemperatur im Raum, wo eine ABB installiert wird, soll 30&amp;#176;С betragen</value>
   </data>
   <data name="AbuInstallationValue7" xml:space="preserve">
-    <value>Der Raum für die Installierung von BAA gehört  nach der Explosions- und Brandsicherheit zu der niedrigsten Kategorie D (im Raum befinden sich
-und werden nichtbrennbare Stoffe und Materialien im kalten Zustand, brennbare und schwer brennbare Stoffe und Materialien in einer solchen Menge verwendet,
-dass die bezogene Brandlast im Raum, wo sie liegen,
-maximal 100 MJ/m&lt;sup&gt;2&lt;/sup&gt; beträgt, die Brandlast im Raum –
-maximal 1000 MJ beträgt).</value>
+    <value>Der Raum für die ABB-Montage gehört nach der Explosions- und Brandsicherheit zu der niedrigsten Kategorie D (im Raum befinden sich und werden nichtbrennbare Stoffe und Materialien im kalten Zustand, brennbare und schwer brennbare Stoffe und Materialien in einer solchen Menge verwendet, dass die bezogene Brandlast im Raum, wo sie liegen, maximal 100 MJ/mm&lt;sup&gt;2&lt;/sup&gt; beträgt, die Brandlast im Raum maximal 1000 MJ beträgt).</value>
   </data>
   <data name="AbuLifespanTitle" xml:space="preserve">
     <value>5. Lebensdauer</value>
   </data>
   <data name="AbuLifespanValue" xml:space="preserve">
-    <value>Die Lebensdauer beträgt mindestens 15 Jahre.</value>
+    <value>Die Gebrauchsdauer beträgt mindestens 15 Jahre.</value>
   </data>
   <data name="AbuMaintenanceTitle" xml:space="preserve">
-    <value>3. Wartung von BAA-{0}</value>
+    <value>3. Technische Wartung</value>
   </data>
   <data name="AbuMaintenanceValue" xml:space="preserve">
-    <value>Die Wartung von BAA schließt die Reinigung des Schlammkorbes
-von den Schweb- und Kondensationsstoffen und die Aufrechterhaltung des vorgegebenen Phosphor-, Stickstoff- und Kaliumgehalts im Absorptionsmittel durch Eingabe von biogenen Zusatzstoffen (BZ) ein. 
-Um zu verstehen, ob biogene Zusatzstoffe ins Absorptionsmittel eingeführt werden sollen, wird empfohlen, einmal pro Monat den Phosphor-, Stickstoff- und Kaliumgehalt
-zu bestimmen.
-Die Wirksamkeit der Regeneration des Absorptionsmittels durch Mikroorganismen-Destruenten wird nach dem indirekten Merkmal kontrolliert – nach dem chemischen Verbrauch von Sauerstoff (CSB), der einmal pro Monat zu bestimmen ist.</value>
+    <value>Die Wartung von ABB lässt sich im Folgenden zusammenfassen: die Reinigung des Schlammkorbes von den Schweb- und Kondensationsstoffen und die Aufrechterhaltung des vorgegebenen Phosphor-, Stickstoff- und Kaliumgehalts im Absorptionsmittel durch Eingabe von biogenen Zusatzstoffen.
+Um zu verstehen, ob biogene Zusatzstoffe ins Absorptionsmittel eingeführt werden sollen, wird es empfohlen, einmal pro Monat den Phosphor-, Stickstoff- und Kaliumgehalt abzumessen.
+Rückvergütungseffizienz des absorbierenden Stoffes durch Mikroorganismen wird nach dem folgenden Wert kontrolliert – dem chemischen Verbrauch von Sauerstoff (CSB), der einmal pro Monat abzumessen ist.</value>
   </data>
   <data name="AbuPhenolEfficiencyTitle" xml:space="preserve">
     <value>Effizienz der Abscheidung von Phenol, Formaldehyd:</value>
   </data>
   <data name="AbuPhenolEfficiencyValue" xml:space="preserve">
-    <value>Nicht weniger als {0} bei Einganskonzentration {1} mg/m&lt;sup&gt;3&lt;/sup&gt;</value>
+    <value>nicht weniger als {0} bei der Eingangskonzentration von {1} mg/m&lt;sup&gt;3&lt;/sup&gt;</value>
   </data>
   <data name="AbuSpecTitle" xml:space="preserve">
-    <value>Technische Daten und Ausgangsangaben</value>
+    <value>Technische Daten Und Angaben</value>
   </data>
   <data name="AbutDrainageTitle" xml:space="preserve">
-    <value>Gehalt der  Stoffe in Notabflüssen:</value>
+    <value>Notabflüsse:</value>
   </data>
   <data name="AbutDrainageValue1" xml:space="preserve">
     <value>Phosphatengehalt – nicht mehr als 150 mg/L</value>
@@ -284,33 +274,31 @@ Die Wirksamkeit der Regeneration des Absorptionsmittels durch Mikroorganismen-De
     <value>Schwebstoffe – nicht mehr als 0,1 % nach dem Volumen und mit der Teilchengröße nicht mehr als 0,2 mm</value>
   </data>
   <data name="AbuTitle" xml:space="preserve">
-    <value>Für die biologische Absorptionsanlage (BAA) zur Reinigung der Zuluft in Industrieunternehmen
-mit der Leistung von {0} Tausend m&lt;sup&gt;3&lt;/sup&gt;/Stunde (BAA-{1})</value>
+    <value>Abluftreinigungsanlagen auf biologischer Basis (ABB) mit der Leistung von {0} Tausend m&lt;sup&gt;3&lt;/sup&gt;/Stunde (ABB-{1})</value>
   </data>
   <data name="AbuTriethylamineEfficiencyTitle" xml:space="preserve">
-    <value>Die Effizienz der Reinigung von Triethylamin und Schwebstoffen beträgt 96-98%
-(am Auslass beträgt die Konzentration von Triethylamin nicht mehr als 20 mg/m&lt;sup&gt;3&lt;/sup&gt;):</value>
+    <value>Effizienz der Abscheidung von Triethylamin und Schwebstoffen beträgt 96 - 98% (am Ausgang beträgt die Konzentration von Triethylamin nicht mehr als 20 mg/m&lt;sup&gt;3&lt;/sup&gt;)</value>
   </data>
   <data name="AbuTriethylamineEfficiencyValue1" xml:space="preserve">
-    <value>Effizienz der Abscheidung von Schwebstoffen – nicht weniger als 98%</value>
+    <value>Effizienz der Abscheidung von Staub, Aerosolen, Harz- und Schwebstoffen beträgt 96-98%</value>
   </data>
   <data name="AbuTriethylamineEfficiencyValue2" xml:space="preserve">
-    <value>Widerstand des Ventilationsnetzes – nicht mehr als 1700 Pa</value>
+    <value>Widerstand des Ventilationsnetzes beträgt nicht mehr als 1700 Pa.</value>
   </data>
   <data name="AbuTriethylamineEfficiencyValue3" xml:space="preserve">
-    <value>hydraulischer Widerstand (Druckverluste in der BAA) – nicht mehr als 2400 Pa</value>
+    <value>Hydraulischer Widerstand (Druckverluste in der ABB) – nicht mehr als 2400 Pa.</value>
   </data>
   <data name="AbuTriethylamineEfficiencyValue4" xml:space="preserve">
-    <value>die Temperatur im Raum für die Installierung von BAA beträgt +5…+30&amp;#176;С</value>
+    <value>Die Temperatur im Raum für die Installierung von ABB beträgt +5…+30&amp;#176;C</value>
   </data>
   <data name="AbuTriethylamineEfficiencyValue5" xml:space="preserve">
-    <value>Abmessungen, LxBxH: {0}x{1}x{2} mm  (bei Montage in einem Block).</value>
+    <value>Abmessungen, LxBxH: {0}x{1}x{2} mm (bei Montage in einem Block).</value>
   </data>
   <data name="AbuVentilationTitle" xml:space="preserve">
     <value>4.5. Belüftung</value>
   </data>
   <data name="AbuVentilationValue1" xml:space="preserve">
-    <value>Es sollen Luftkanäle für die Zuführung der Zuluft von Ventilationsabdecklungen der technischen Anlagen in BAA und weiter vom Ventilatorenauslass in die atmosphärische Luft vorgesehen werden.</value>
+    <value>Es sollen Luftkanäle für den Lufteinlass von Ventilationsabdecklungen der technischen Anlagen in ABB und weiter vom Ventilatoren Auslass in die atmosphärische Luft vorgesehen werden.</value>
   </data>
   <data name="AbuVentilationValue11" xml:space="preserve">
     <value>Konstruktion des Luftkanals auf Verdünnungs-Mach-Linie – Klasse  &amp;laquo;Н&amp;raquo; (normal).</value>
@@ -329,17 +317,16 @@ im Lieferumfang inbegriffen.</value>
     <value>Motor {0} kW, 380/660V, 50Hz, {1} U/min;</value>
   </data>
   <data name="AbuVentilationValue22" xml:space="preserve">
-    <value>Stoff, aus dem der Ventilator hergestellt werden soll – Kohlenstoffstahl pulverbeschichtet;</value>
+    <value>Stoff, aus dem der Ventilator hergestellt werden soll – Kohlenstoffstahl pulverbeschichtet</value>
   </data>
   <data name="AbuVentilationValue23" xml:space="preserve">
-    <value>Umdrehungszahl vom Förderrad des Ventilators {0} U/min.</value>
+    <value>Umdrehungszahl vom Förderrad des Ventilators {0} U/min</value>
   </data>
   <data name="AbuVentilationValue24" xml:space="preserve">
-    <value>Der Lärmspiegel vom Ventilator {0} beträgt
-113 dB.</value>
+    <value>Der Lärmspiegel vom Ventilator {0} beträgt 113 dB</value>
   </data>
   <data name="AbuVentilationValue25" xml:space="preserve">
-    <value>Es ist die Verwendung des Antriebsauslösers vom anderen Hersteller und mit anderen Eigenschaften möglich.</value>
+    <value>Es ist die Verwendung des Antriebsauslösers von einem anderen Hersteller und mit anderen Eigenschaften möglich.</value>
   </data>
   <data name="AbuVentilationValue3" xml:space="preserve">
     <value>Der Unterdruck am Einlaßstutzen der BAA beträgt nicht mehr als 1200 Pa, der Förderdruck am Auslaßstutzen – nicht mehr als +500 Pa.</value>
@@ -348,16 +335,16 @@ im Lieferumfang inbegriffen.</value>
     <value>An Luftkanälen, im Bereich der Ventilationsabdecklungen sollen Schieberverschlüsse zur Regulierung des Anlaufs von Aspirationsluft montiert werden. Gegenflansche am Einlass- und Auslaßstutzen sind im Lieferumfang inbegriffen.</value>
   </data>
   <data name="AbuVentilationValue41" xml:space="preserve">
-    <value>Im Raum, wo die BAA installiert wird, soll die allgemeine Lüftung mit Luftwechselwert von 3-4 vorgesehen werden.</value>
+    <value>Im Raum mit ABB soll die allgemeine Lüftung mit Luftwechselwert von 3-4 vorgesehen werden.</value>
   </data>
   <data name="AbuWaterSupplyTitle" xml:space="preserve">
     <value>4.3. Wasserversorgung</value>
   </data>
   <data name="AbuWaterSupplyValue1" xml:space="preserve">
-    <value>Es soll die Betriebswasserzuleitung vom Werksnetz zum Anschlußstutzen mit Nenndurchmesser von 20 mm der BAA für die einmalige Auffüllung von Behältern (etwa 20  m&lt;sup&gt;3&lt;/sup&gt;) beim Starten von BAA vorgesehen werden.</value>
+    <value>Es soll die Betriebswasserzuleitung vom Werksnetz zum Anschlußstutzen mit Nenndurchmesser von 20 mm der ABB für die einmalige Auffüllung von Behältern (etwa 20 m&lt;sup&gt;3&lt;/sup&gt;) beim Starten von ABB vorgesehen werden.</value>
   </data>
   <data name="AbuWaterSupplyValue2" xml:space="preserve">
-    <value>Der Wasserverbrauch für die Nachspeisung der BAA beträgt nicht mehr als 2,0 m&lt;sup&gt;3&lt;/sup&gt;Tag.</value>
+    <value>Der Wasserverbrauch für die Nachspeisung der ABB beträgt nicht mehr als 2,0 m&lt;sup&gt;3&lt;/sup&gt;/Tag.</value>
   </data>
   <data name="AbuWaterSupplyValue3" xml:space="preserve">
     <value>Die Anforderungen an Betriebswasser für die Nachspeisung:</value>
@@ -378,6 +365,7 @@ im Lieferumfang inbegriffen.</value>
     <value>Der Punkt der Wasserzuleitung ist mit einem entsprechenden Ventil außer dem Hauptleitungsventil ausgestattet.</value>
   </data>
   <data name="AbuWaterSupplyValue5" xml:space="preserve">
-    <value>Bei einem laufenden Absorptionssystem der BAA (die Pumpe und der Lüfter in der Lage EIN) darf das Betriebswasser maximal 2 Stunden nicht zugeleitet werden. Bei dem nicht laufenden Absorptionssystem (die Pumpe und der Lüfter in der Lage AUS) ist die Nachspeisung nicht erforderlich.</value>
+    <value>Bei einem laufenden Absorptionssystem der ABB (die Pumpe und der Lüfter in der Lage EIN) darf das Betriebswasser maximal 2 Stunden nicht zugeleitet werden. Bei dem nicht laufenden
+Absorptionssystem (die Pumpe und der Lüfter in der Lage AUS) ist die Nachspeisung nicht erforderlich.</value>
   </data>
 </root>
