@@ -442,7 +442,6 @@
     <Content Include="Resources\Files\fr\questioneer.doc" />
     <Content Include="Resources\Files\en\questioneer.docx" />
     <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
-    <None Include="Properties\PublishProfiles\IBTTesting - Web Deploy.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

@@ -11,7 +11,8 @@ namespace IBTFull.Controllers
         {
             var filename = SharedResource.ResourceManager.GetString(file);
             var stream = Files.ResourceManager.GetMemoryStream(file);
-            return File(stream, "application/msword", $"{filename}.docx");
+            var resource = string.Format("{0}.docx", filename);
+            return File(stream, "application/msword", resource);
         }
 
         public FileResult Abu(int id)
@@ -23,7 +24,8 @@ namespace IBTFull.Controllers
 
             var abu = string.Format(SharedResource.Abu, id);
             var filename = SharedResource.abuSpecsFilename;
-            var stream = Files.ResourceManager.GetMemoryStream($"abu_{id}_specs");
+            var resource = string.Format("abu_{0}_specs", id);
+            var stream = Files.ResourceManager.GetMemoryStream(resource);
             return File(stream, "application/pdf", $"{abu} {filename}.pdf");
         }
     }
