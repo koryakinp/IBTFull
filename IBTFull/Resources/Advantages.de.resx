@@ -124,13 +124,13 @@
     <value>Der hohe Abscheidungsgrad einer breiten Palette von Schadstoffen.</value>
   </data>
   <data name="Advantage10Description" xml:space="preserve">
-    <value>Seit der Inbetriebnahme von den ersten BAA (1989) wurden keine Qualitätsbeanstandungen angezeigt. Die BAA hat keine beweglichen Verschleißteile (außer der Wasserpumpe). Die Betriebszeit der Anlage beträgt mindestens 15 Jahre.</value>
+    <value>Seit der Inbetriebnahme von den ersten ABB (1989) wurden keine Qualitätsbeanstandungen angezeigt. Die ABB hat keine beweglichen Verschleißteile (außer der Wasserpumpe). Die Betriebszeit der Anlage beträgt mindestens 20 Jahre.</value>
   </data>
   <data name="Advantage10Title" xml:space="preserve">
     <value>Qualität und Funktionssicherheit</value>
   </data>
   <data name="Advantage1Description" xml:space="preserve">
-    <value>Der Abscheidungsgrad von der breiten Palette der Schadstoffe aus der Zuluft beträgt von 80 bis 99,9% je nach Eingangskonzentrationen und physikalisch-chemischen Eigenschaften der Schadstoffe.</value>
+    <value>Der Abscheidungsgrad von der breiten Palette der Schadstoffe aus der Luft beträgt von 80 bis 99,9% je nach Eingangskonzentrationen und physikalisch-chemischen Eigenschaften der Schadstoffe.</value>
   </data>
   <data name="Advantage1Title" xml:space="preserve">
     <value>Effizienz</value>
@@ -139,10 +139,10 @@
     <value>Betriebssicherheit und Effizienz werden durch 25 Jahre der Betriebserfahrung bestätigt.</value>
   </data>
   <data name="Advantage2Description" xml:space="preserve">
-    <value>Das Enthalten von Feststoffen im Gasstrom beeinflusst die funktionalen Eigenschaften nicht. Die Verwendung von Ionenaustauschfiltern, Anlagen mit Gasentladungselementen, Kohlen, Zeolithen, Katalysatoren und die Verwendung anderer „trockener“ Geräte ist wegen der Verklebung von Arbeitsflächen mit Harz- und Schwebstoffen sinnlos.</value>
+    <value>Das Enthalten von Feststoffen im Gasstrom beeinflusst die funktionalen Eigenschaften nicht. Die Verwendung von Ionenaustauschfiltern, Anlagen mit Gasentladungselementen, Kohlen, Zeolithen, Katalysatoren und die Verwendung anderer &amp;laquo;trockener&amp;raquo; Geräte ist wegen der Verklebung von Arbeitsflächen mit Harz- und Schwebstoffen sinnlos.</value>
   </data>
   <data name="Advantage2Title" xml:space="preserve">
-    <value>Möglich ist die Reinigung der Zuluft, die Harz- und Schwebstoffe enthält</value>
+    <value>Möglich ist die Reinigung der Luft, die Harz- und Schwebstoffe enthält</value>
   </data>
   <data name="Advantage3" xml:space="preserve">
     <value>Niedrige Betriebskosten.</value>
@@ -154,10 +154,10 @@
     <value>Wirtschaftsleistung</value>
   </data>
   <data name="Advantage4" xml:space="preserve">
-    <value>Keine chemischen Reagenzien, Säuren und Laugen.</value>
+    <value>Keine chemischen Reagenzien, Säuren und Lösungen.</value>
   </data>
   <data name="Advantage4Description" xml:space="preserve">
-    <value>Die BAA sind umweltfreundlich, weil die keine sekundäre Verschmutzung bilden (so zum Beispiel werden gebildet: bei der thermischen und katalytischen Verbrennung – NOx, CO und Produkte der Partialoxydation; bei der Adsorption an Kohle – verschmutztes Kondensat nach der Regeneration mit Direktdampf; bei der Ozonisierung – überschüssiges Ozon; bei der Chemisorption – ausgezehrte Salzlösung und Mitreißen der Tropfen von Chemikalien in die Atmosphäre), was positive Auswirkungen auf die ökologische Situation der Region hat.</value>
+    <value>Die ABB sind umweltfreundlich, weil die keine sekundäre Verschmutzung bilden (so zum Beispiel werden gebildet: bei der thermischen und katalytischen Verbrennung – NOx, CO und Produkte der Partialoxydation; bei der Adsorption an Kohle – verschmutztes Kondensat nach der Regeneration mit Direktdampf; bei der Ozonisierung – überschüssiges Ozon; bei der Chemisorption – ausgezehrte Salzlösung und Mitreißen der Tropfen von Chemikalien in die Atmosphäre), was positive Auswirkungen auf die ökologische Situation der Region hat.</value>
   </data>
   <data name="Advantage4Title" xml:space="preserve">
     <value>Umweltfreundlichkeit</value>
@@ -166,7 +166,7 @@
     <value>Minimale Wartungsarbeiten.</value>
   </data>
   <data name="Advantage5Description" xml:space="preserve">
-    <value>Die Anlagen sind explosions- und feuersicher. Es werden keine chemischen Reagenzien, Säuren und Laugen eingesetzt.</value>
+    <value>Die Anlagen sind explosions- und feuersicher. Es werden keine chemischen Reagenzien, Säuren und Lösungen eingesetzt.</value>
   </data>
   <data name="Advantage5Title" xml:space="preserve">
     <value>Sicherheit</value>
@@ -175,16 +175,16 @@
     <value>Keine Verschleiß- und Austauschteile.</value>
   </data>
   <data name="Advantage6Description" xml:space="preserve">
-    <value>Der Betrieb der BAA erlaubt das Risiko der Entstehung von Berufskrankheiten bei Mitarbeitern, die in gesundheitsschädlichen Betrieben arbeiten, wesentlich zu verringern.</value>
+    <value>Der Betrieb der ABB erlaubt das Risiko der Entstehung von Berufskrankheiten bei Mitarbeitern, die in gesundheitsschädlichen Betrieben arbeiten, wesentlich zu verringern.</value>
   </data>
   <data name="Advantage6Title" xml:space="preserve">
     <value>Gesundheit</value>
   </data>
   <data name="Advantage7" xml:space="preserve">
-    <value>Die Betriebszeit der BAA beträgt mindestens 15 Jahre.</value>
+    <value>Die Betriebszeit der ABB beträgt mindestens 15 Jahre.</value>
   </data>
   <data name="Advantage7Description" xml:space="preserve">
-    <value>Einstellungen sind einfach und erfordern keine ständige Anwesenheit des Bedieners. Im Laufe der Durchführung der Chefmontage von BAA machen unsere Fachleute die notwendigen Einweisungen und stellen Ihren Mitarbeitern alle notwendigen Informationen zur Verfügung.</value>
+    <value>Einstellungen sind einfach und erfordern keine ständige Anwesenheit des Bedieners. Im Laufe der Durchführung der Hauptmontage von ABB machen unsere Fachleute die notwendigen Einweisungen und stellen Ihren Mitarbeitern alle notwendigen Informationen zur Verfügung.</value>
   </data>
   <data name="Advantage7Title" xml:space="preserve">
     <value>Schulung</value>
@@ -193,10 +193,10 @@
     <value>Entwicklung von unkonventionellen Lösungen.</value>
   </data>
   <data name="Advantage8Description1" xml:space="preserve">
-    <value>Wartungsarbeiten für die BAA sind minimal und sind nur mit der Reparatur der Pumpe verbunden.</value>
+    <value>Wartungsarbeiten für die ABB sind minimal und sind nur mit der Reparatur der Pumpe verbunden.</value>
   </data>
   <data name="Advantage8Description2" xml:space="preserve">
-    <value>Die Kontrolle über die Wirksamkeit der Reinigung von Lüftungsemissionen erfolgt in regelmäßigen Abständen, visuell, bezüglich Bespritzung und „Gasung“ des Rohransatzes. Der Zustand der Absorptionslösung wird durch Analyse der Lösung auf den chemischen Sauerstoffbedarf einmal pro Monat bestimmt. Wenn es notwendig ist, die Effizienz der Regeneration von Absorptionsmitteln zu verbessern, erfolgt eine Anpassung der chemischen Zusammensetzung der Lösung an Stickstoff und Phosphor durch die Eingabe der verfügbaren landwirtschaftlichen Düngemittel.</value>
+    <value>Die Kontrolle über die Wirksamkeit der Reinigung von Lüftungsemissionen erfolgt in regelmäßigen Abständen. Der Zustand der Absorptionslösung wird durch Analyse der Lösung auf den chemischen Sauerstoffbedarf einmal pro Monat bestimmt. Wenn es notwendig ist, die Effizienz der Regeneration von Absorptionsmitteln zu verbessern, erfolgt eine Anpassung der chemischen Zusammensetzung der Lösung an Stickstoff und Phosphor durch die Eingabe der verfügbaren landwirtschaftlichen Düngemittel.</value>
   </data>
   <data name="Advantage8Title" xml:space="preserve">
     <value>Wartungsarbeiten und Kontrolle</value>
@@ -205,12 +205,12 @@
     <value>Begleitung und technische Beratung für die gesamte Betriebszeit.</value>
   </data>
   <data name="Advantage9Description" xml:space="preserve">
-    <value>Mehr als 100 BAA werden in 42 Unternehmen in verschiedenen Industriebranchen in Russland, Belarus, der Ukraine und Kirgisistan mit dem Dauerbetrieb auf die Dauer bis zu 25 Jahren betrieben.</value>
+    <value>Mehr als 100 ABB werden in 42 Unternehmen in verschiedenen Industriebranchen in Russland, Belarus, der Ukraine und Kirgisistan mit dem Dauerbetrieb auf die Dauer bis zu 25 Jahren betrieben.</value>
   </data>
   <data name="Advantage9Title" xml:space="preserve">
     <value>Praktische Anwendung</value>
   </data>
   <data name="NineReasonsToChooseAbu" xml:space="preserve">
-    <value>9 Gründe, warum Sie eine biochemische Absorptionsanlage kaufen sollen:</value>
+    <value>9 Gründe, warum Sie eine Abluftreinigungsanlage auf biologischer Basis (ABB) kaufen sollen:</value>
   </data>
 </root>

@@ -130,16 +130,16 @@
     <value>Kontakte</value>
   </data>
   <data name="EnquiriesLink" xml:space="preserve">
-    <value>Damit wir ein technisches und kaufmännisches Angebot zur Lieferung von industriellen Luftreinigungsanlagen erstellen, füllen Sie bitte die &lt;a href="/{0}/File/Index?file=questioneer"&gt;Frageliste&amp;nbsp;&lt;/a&gt; aus und senden Sie sie an unsere Adresse.</value>
+    <value>Damit wir ein technisches und kaufmännisches Angebot zur Lieferung von industriellen Luftreinigungsanlagen erstellen könnten, füllen Sie bitte die &lt;a href="/{0}/File/Index?file=questioneer"&gt;Fragebogen&lt;/a&gt; aus und senden Sie den an unsere Adresse.</value>
   </data>
   <data name="Faq" xml:space="preserve">
     <value>Fragen - Antworten</value>
   </data>
   <data name="FaqLink" xml:space="preserve">
-    <value>Bitte schauen Sie auf unserer Website&amp;nbsp;&lt;a href="/{0}/faq"&gt;die häufig gestellten Fragen&amp;nbsp;&lt;/a&gt;zum Betrieb von BAA und die Antworten dazu.</value>
+    <value>Bitte schauen Sie auf unserer Website die häufig gestellten &lt;a href="/{0}/faq"&gt;Fragen zum Betrieb von ABB und die Antworten dazu.&lt;/a&gt;</value>
   </data>
   <data name="ForDesigners" xml:space="preserve">
-    <value>Technische Eigenschaften</value>
+    <value>An die Entwicklungsingenieure</value>
   </data>
   <data name="MainPage" xml:space="preserve">
     <value>Home</value>
@@ -172,13 +172,13 @@
     <value>Beschreibung von biologischen Absorptionsanlagen. Effizienz von biologischen Absorptionsanlagen bei der Reinigung der Luft von Phenol, Formaldehyd, Triethylamin, Staub, Harzsubstanz-Aerosolen.</value>
   </data>
   <data name="keyword1" xml:space="preserve">
-    <value>reinigung der luft von phenol</value>
+    <value>Die Reinigung der Zuluft von Phenol</value>
   </data>
   <data name="keyword2" xml:space="preserve">
-    <value>reinigung der Luft von formaldehyd</value>
+    <value>die Reinigung der Zuluft von Formaldehyd</value>
   </data>
   <data name="keyword3" xml:space="preserve">
-    <value>reinigung der Luft von Triethylamin</value>
+    <value>die Reinigung der Zuluft von Triethylamin</value>
   </data>
   <data name="keyword4" xml:space="preserve">
     <value>luftreinigung in gießereien</value>

@@ -118,25 +118,25 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AbuDescription1" xml:space="preserve">
-    <value>&lt;strong&gt;Biologische Absorptionsanlagen (BAA)&lt;/strong&gt; sind für industrielle Reinigung der Luft von Phenol, Formaldehyd, Triethylamin, Benzol, Cyanid, Ammoniak, Methanol, Staub, Harzsubstanz-Aerosolen in Gießereien, Herstellung von Spanplatten und MDF-Platten, Herstellung von Glas- und Basaltwolle bestimmt.</value>
+    <value>&lt;strong&gt;Abluftreinigungsanlagen auf biologischer Basis (ABB)&lt;/strong&gt; sind für die Reinigung der Luft von schädlichen organischen Stoffen und dazugehörigen Schwebstoffen in verschiedenen Industriebranchen entwickelt, wo technologische Prozesse verlaufen, die mit der Ausscheidung von Giftstoffen in die Atmosphäre verbunden sind.</value>
   </data>
   <data name="AbuDescription2" xml:space="preserve">
-    <value>Industrielle Luftreinigungsanlagen werden durch eigene Ventilatoren ergänzt. Möglich ist eine Montage der Anlagen in bestehende Lüftungsanlagen und industrielle Luftreinigungsanlagen (mit dem vorhandenen Auslöser des Saugzuges) unter Berücksichtigung der Druckverluste in der Anlage von 2 200 Pa.</value>
+    <value>ABB werden durch eigene Ventilatoren ergänzt. Möglich ist eine Montage in bestehende Lüftungsanlage (mit dem vorhandenen Auslöser des Saugzuges) unter Berücksichtigung der Druckverluste in der Anlage von 2200 Pa.</value>
   </data>
   <data name="AbuDescription3" xml:space="preserve">
-    <value>Konstruktionsmäßig werden industrielle Luftreinigungsanlagen in Form von drei Geräten hergestellt, die sowohl in die vorhandenen Anlagen als eine kompakte Einheit, als auch zufällig verteilt mit einem beliebigen Abstand voneinander eingebaut werden können. Diese Konstruktion gibt die Möglichkeit, die BAA am besten in jedem konkreten Fall zu installieren.</value>
+    <value>Konstruktionsmäßig werden BAA in Form von drei Geräten hergestellt, die sowohl in die vorhandenen Anlagen als eine kompakte Einheit, als auch zufällig verteilt mit einem beliebigen Abstand voneinander eingebaut werden können. Diese Konstruktion gibt die Möglichkeit, die BAA am besten in jedem konkreten Fall zu installieren.</value>
   </data>
   <data name="AbuDescription4" xml:space="preserve">
-    <value>Auf Bestellung des Kunden werden BAA mit den erforderlichen Parametern für den Grad der industriellen Luftreinigung, Leistung, Form und Größe projektiert und hergestellt.</value>
+    <value>Auf Bestellung werden ABB mit den erforderlichen Parametern für den Grad der industriellen Luftreinigung, Leistung, Form und Größe projektiert und hergestellt.</value>
   </data>
   <data name="AbuDescription5" xml:space="preserve">
-    <value>Die BAA können beliebiges Zuluftvolumen im Industriebetrieb reinigen. Dazu soll man eine notwendige Anzahl von BAA zu &lt;strong&gt;&lt;a class="link-fix" href="#" data-toggle="modal" data-target="#complex"&gt;einem einheitlichen Komplex zusammensetzen&lt;/a&gt;&lt;/strong&gt;</value>
+    <value>Die ABB können beliebiges Luftvolumen im Industriebetrieb reinigen. Dazu soll man eine notwendige Anzahl von ABB zu &lt;strong&gt;&lt;a class="link-fix" href="#" data-toggle="modal" data-target="#complex"&gt;einer Einheit zusammensetzen&lt;/a&gt;&lt;/strong&gt;.</value>
   </data>
   <data name="AbuInstallationListItem1" xml:space="preserve">
     <value>Kompakte Einheit</value>
   </data>
   <data name="AbuInstallationListItem2" xml:space="preserve">
-    <value>Verteilte Installation</value>
+    <value>Mehrere Einheiten</value>
   </data>
   <data name="AbuInstallationListTitle" xml:space="preserve">
     <value>Installationsmöglichkeiten der industriellen Luftreinigungsanlagen.</value>
@@ -178,10 +178,10 @@
     <value>Die Parameter der am häufigsten verwendeten BAA:</value>
   </data>
   <data name="AbuSchemaTitle" xml:space="preserve">
-    <value>Blockschaltbild einer industriellen Luftreinigungsanlage</value>
+    <value>Blockschaltbild der Industrieanlage für Reinigung von Lüftungsemissionen</value>
   </data>
   <data name="AbuSchemaValue1" xml:space="preserve">
-    <value>Einlass der verschmutzten Luft</value>
+    <value>Einlass der verschmutzten Luft.</value>
   </data>
   <data name="AbuSchemaValue2" xml:space="preserve">
     <value>Parameter:&lt;br&gt;
@@ -191,25 +191,25 @@ Schwebstoffe – bis 1 500 mg/m&lt;sup&gt;3&lt;/sup&gt;&lt;br&gt;
 Organische Stoffe – bis 100 mg/m&lt;sup&gt;3&lt;/sup&gt;</value>
   </data>
   <data name="AbuSchemaValue3" xml:space="preserve">
-    <value>Biologische Absorptionsanlage (BAA)</value>
+    <value>Abluftreinigungsanlagen auf biologischer Basis (ABB)</value>
   </data>
   <data name="AbuSchemaValue4" xml:space="preserve">
-    <value>Reinigungsleistung – bis 99,8%</value>
+    <value>Reinigungsleistung – bis 99.8%</value>
   </data>
   <data name="AbuSchemaValue5" xml:space="preserve">
     <value>Ventilator</value>
   </data>
   <data name="AbuSchemaValue6" xml:space="preserve">
-    <value>Entspannung (Druckhöhe) – mindestens 2 200 Pa.</value>
+    <value>Druckhöhe – mindestens 2 200 Pa.</value>
   </data>
   <data name="AbuTemperatureParameters1" xml:space="preserve">
-    <value>Die industriellen Luftreinigungsanlagen sind stationäre Anlagen, die für einen kontinuierlichen rund um die Uhr und/oder Schichtbetrieb geeignet sind. Die Temperatur im Raum, wo die BAA installiert werden, soll +5…+30&amp;#176;С betragen.</value>
+    <value>Die ABB sind stationäre Anlagen, die für einen kontinuierlichen rund um die Uhr und/oder Schichtbetrieb geeignet sind. Die Temperatur im Raum, wo die BAA installiert werden, soll +5...+30&amp;#176;C betragen.</value>
   </data>
   <data name="AbuTemperatureParameters2" xml:space="preserve">
-    <value>Im Raum, wo eine industrielle Luftreinigungsanlage installiert wird, soll eine allgemeine Lüftung mit einem Luftwechselwert von 3-4 vorgesehen werden. Die BAA können teilweise im Freien installiert werden, dabei dürfen im Freien nur Absorptions- und Tropfenfängerteile von BAA bei einer Temperatur von minus 35 bis plus 40 Grad liegen.</value>
+    <value>Im Raum, wo eine BAA installiert wird, soll eine allgemeine Lüftung mit einem Luftwechselwert von 3-4 vorgesehen werden. Die BAA können teilweise im Freien installiert werden, dabei dürfen im Freien nur Absorptions- und Tropfenfängerteile von BAA bei einer Temperatur von minus 35 bis plus 40 Grad liegen.</value>
   </data>
   <data name="CatalogTitle" xml:space="preserve">
-    <value>Technische Daten und Ausgangsangaben einer industriellen Luftreinigungsanlage mit dem Fördervolumen von 5 000 / 10 000 / 25 000 m&lt;sup&gt;3&lt;/sup&gt;/Stunde</value>
+    <value>Technische Daten und Ausgangsangaben von BAA mit dem Fördervolumen von 5 000 / 10 000 / 25 000 m&lt;sup&gt;3&lt;/sup&gt;/Stunde</value>
   </data>
   <data name="Complex" xml:space="preserve">
     <value>Komplex von 7 BAA mit dem Fördervolumen von 175 000 m&lt;sup&gt;3&lt;/sup&gt;/Stunde</value>

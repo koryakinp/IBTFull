@@ -121,43 +121,43 @@
     <value>Die Effizienz von BAA</value>
   </data>
   <data name="AbuEfficiencyFormol" xml:space="preserve">
-    <value>Die Effizienz der Reinigung der &lt;br&gt;&lt;strong&gt; der Luft von Phenol und Formaldehyd&lt;/strong&gt;</value>
+    <value>Effizienz der Abscheidung von &lt;strong&gt;Phenol, Formaldehyd&lt;/strong&gt;</value>
   </data>
   <data name="AbuEfficiencyResin" xml:space="preserve">
-    <value>Die Effizienz der Reinigung &lt;br&gt;&lt;strong&gt;der Luft von Schwebstoffen beträgt&lt;/strong&gt;</value>
+    <value>Die Effizienz der Abscheidung &lt;strong&gt;von Schwebstoffen beträgt mindestens&lt;/strong&gt;</value>
   </data>
   <data name="AbuEfficiencyResinValue" xml:space="preserve">
     <value>mindestens &lt;span class="efficiency-item__value"&gt;{0}&lt;/span&gt;</value>
   </data>
   <data name="AbuEfficiencyTriethylamine" xml:space="preserve">
-    <value>Die Effizienz der Reinigung &lt;br&gt;&lt;strong&gt;der Luft von Triethylamin und Schwebstoffen beträgt&lt;/strong&gt;</value>
+    <value>Die Effizienz der Reinigung &lt;br&gt;&lt;strong&gt;von Triethylamin und Schwebstoffen beträgt&lt;/strong&gt;</value>
   </data>
   <data name="AbuEfficiencyTriethylamineValue" xml:space="preserve">
-    <value>(am Auslass beträgt die Konzentration von Triethylamin höchstens 20 mg/m&lt;sup&gt;3&lt;/sup&gt;)</value>
+    <value>(am Auslass beträgt die Konzentration von Triethylamin höchstens 20  mg/m&lt;sup&gt;3&lt;/sup&gt;)</value>
   </data>
   <data name="AbuIntro" xml:space="preserve">
-    <value>Biologische Absorptionsanlagen (BAA) sind für die industrielle Reinigung der Luft von flüchtigen organischen gasförmigen Verunreinigungen (Phenol, Formaldehyd, Triethylamin, Benzol, Akrolein, Cyanide, Ammoniak, Methanol, Staub, Schwebstoffe von Harzstoffen usw.) entwickelt.</value>
+    <value>Abluftreinigungsanlagen auf biologischer Basis (ABB) sind für die Reinigung der Luft von flüchtigen organischen gasförmigen Verunreinigungen (Phenol, Formaldehyd, Triethylamin, Benzol, Akrolein, Cyanide, Ammoniak, Methanol, Staub, Schwebstoffe von Harzstoffen usw.) in Industrieunternehmen entwickelt.</value>
   </data>
   <data name="AbuOperationDescription" xml:space="preserve">
-    <value>Das Grundschema und die Beschreibung der biologischen Absorptionsanlage</value>
+    <value>Das Grundschema und die Beschreibung der Abluftreinigungsanlagen auf biologischer Basis (ABB)</value>
   </data>
   <data name="AbuOperationDetailsOne" xml:space="preserve">
-    <value>Im Gaswäscher mit Hilfe von Wasserabsorber erfolgt die Abscheidung von Schadstoffen, und im Bioreaktor erfolgt ihre Neutralisation (Oxydation zu CO&lt;sub&gt;2&lt;/sub&gt; und H&lt;sub&gt;2&lt;/sub&gt;O)</value>
+    <value>Im Wäscher mit Hilfe von Wasserabsorber erfolgt die Abscheidung von Schadstoffen, und im Bioreaktor erfolgt ihre Neutralisation (Oxydation zu CO&lt;sub&gt;2&lt;/sub&gt; und H&lt;sub&gt;2&lt;/sub&gt;O).</value>
   </data>
   <data name="AbuOperationDetailsThree" xml:space="preserve">
-    <value>Mikroorganismen werden in den Bioreaktor einmal vor dem Betrieb in Form von konzentrierter Biomasse eingeführt. Die in der BAA verwendeten Mikroorganismen sind nicht toxisch und nicht pathogen, stammen aus natürlichen Quellen und haben die toxikologische Expertise bestanden.</value>
+    <value>Mikroorganismen werden in den Bioreaktor einmal vor dem Betrieb in Form von konzentrierter Biomasse eingeführt. Die in der BAA verwendeten Mikroorganismen sind nicht toxisch und nicht pathogen, stammen aus natürlichen Quellen und haben die toxikologische Kontrolle bestanden.</value>
   </data>
   <data name="AbuOperationDetailsTwo" xml:space="preserve">
-    <value>Die Zirkulation der Lösung erfolgt in einem geschlossenen Zyklus &amp;laquo;Gaswäscher – Bioreaktor&amp;raquo;, wobei es keinen Abfluss in die Kanalisation gibt. Die gereinigte Zuluft wird in die Atmosphäre freigesetzt.</value>
+    <value>Die Zirkulation der Lösung erfolgt in einem geschlossenen Zyklus &amp;laquo;Wäscher – Bioreaktor&amp;raquo;, wobei es keinen Abfluss in die Kanalisation gibt. Die gereinigte Luft wird in die Atmosphäre freigesetzt.</value>
   </data>
   <data name="AbuOprationTitle" xml:space="preserve">
     <value>Das Betriebsprinzip von BAA</value>
   </data>
   <data name="AbuOprationValueA" xml:space="preserve">
-    <value>A – Zulufteinlass</value>
+    <value>A – Lufteinlass</value>
   </data>
   <data name="AbuOprationValueB" xml:space="preserve">
-    <value>B – Zulufteauslass</value>
+    <value>B – Auslass</value>
   </data>
   <data name="AbuOprationValueC" xml:space="preserve">
     <value>C – Absorptionslösung</value>
@@ -166,7 +166,7 @@
     <value>4 – Ventilator</value>
   </data>
   <data name="AbuOprationValueOne" xml:space="preserve">
-    <value>1 – Gaswäscher</value>
+    <value>1 – Wäscher</value>
   </data>
   <data name="AbuOprationValueThree" xml:space="preserve">
     <value>3 – Bioreaktor mit Mikroorganismen</value>
@@ -175,23 +175,23 @@
     <value>2 – Pumpe</value>
   </data>
   <data name="AbuPurificationDescriptionOne" xml:space="preserve">
-    <value>das erste Prinzip besteht darin, dass die meisten schädlichen flüchtigen organischen Verbindungen löslich im Betriebswasser sind;</value>
+    <value>das erste Prinzip besteht darin, dass die meisten schädlichen flüchtigen organischen Verbindungen löslich im Betriebswasser sind</value>
   </data>
   <data name="AbuPurificationDescriptionTwo" xml:space="preserve">
     <value>das zweite Prinzip beruht auf der Fähigkeit von speziell selektierten
  und adaptierten natürlichen Mikroorganismen, als Nahrungsquelle die im Wasser gelösten organischen und einigen anorganischen Stoffe zu gebrauchen. Beim Verbrauch dieser Verbindungen durch Mikroorganismen geschieht ihre volle Mineralisierung sowie es werden Wasser und Kohlendioxid gebildet.</value>
   </data>
   <data name="AbuPurificationTitle" xml:space="preserve">
-    <value>Die Reinigung der Zuluft in der BAA beruht auf natürlichen Prozessen:</value>
+    <value>Die Reinigung der Zuluft in der ABB beruht auf natürlichen Prozessen:</value>
   </data>
   <data name="AbyEfficiencyDescription" xml:space="preserve">
-    <value>Nach der Gesamtcharakteristik (Effizienz, Rentabilität, Umweltfreundlichkeit, Funktionssicherheit) sind die BAA absolut einzigartig auf dem Weltmarkt der Gasreinigungsanlagen.</value>
+    <value>Nach der Gesamtcharakteristik (Effizienz, Rentabilität, Umweltfreundlichkeit, Funktionssicherheit) sind ABB absolut einzigartig auf dem Weltmarkt der Gasreinigungsanlagen.</value>
   </data>
   <data name="CompanyIntro" xml:space="preserve">
-    <value>&lt;br&gt;&lt;span class="accent-text"&gt;Industrial Bio Technology&lt;br&gt;&lt;/span&gt; bietet zur Lieferung  industrielle Luftreinigungsanlagen</value>
+    <value>&lt;br&gt;&lt;span class="accent-text"&gt;Industrial Bio Technology&lt;br&gt;&lt;/span&gt; bietet zur Lieferung Abluftreinigungsanlagen auf biologischer Basis (ABB)</value>
   </data>
   <data name="Concentration" xml:space="preserve">
-    <value>mindestens &lt;span class="efficiency-item__value"&gt;{0}&lt;/span&gt; bei der Eingangskonzentration von {1} mg/m&lt;sup&gt;3&lt;/sup&gt;;</value>
+    <value>mindestens &lt;span class="efficiency-item__value"&gt;{0}&lt;/span&gt; bei der Eingangskonzentration von {1} mg/m&lt;sup&gt;3&lt;/sup&gt;</value>
   </data>
   <data name="IndexTitle" xml:space="preserve">
     <value>IBT Abluftreinigung von Benzol, Organischen Stoffen</value>
