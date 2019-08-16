@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AbuEfficiency" xml:space="preserve">
-    <value>Die Effizienz von BAA</value>
+    <value>Die Effizienz von ABB</value>
   </data>
   <data name="AbuEfficiencyFormol" xml:space="preserve">
     <value>Effizienz der Abscheidung von &lt;strong&gt;Phenol, Formaldehyd&lt;/strong&gt;</value>
@@ -145,13 +145,13 @@
     <value>Im Wäscher mit Hilfe von Wasserabsorber erfolgt die Abscheidung von Schadstoffen, und im Bioreaktor erfolgt ihre Neutralisation (Oxydation zu CO&lt;sub&gt;2&lt;/sub&gt; und H&lt;sub&gt;2&lt;/sub&gt;O).</value>
   </data>
   <data name="AbuOperationDetailsThree" xml:space="preserve">
-    <value>Mikroorganismen werden in den Bioreaktor einmal vor dem Betrieb in Form von konzentrierter Biomasse eingeführt. Die in der BAA verwendeten Mikroorganismen sind nicht toxisch und nicht pathogen, stammen aus natürlichen Quellen und haben die toxikologische Kontrolle bestanden.</value>
+    <value>Mikroorganismen werden in den Bioreaktor einmal vor dem Betrieb in Form von konzentrierter Biomasse eingeführt. Die in der ABB verwendeten Mikroorganismen sind nicht toxisch und nicht pathogen, stammen aus natürlichen Quellen und haben die toxikologische Kontrolle bestanden.</value>
   </data>
   <data name="AbuOperationDetailsTwo" xml:space="preserve">
     <value>Die Zirkulation der Lösung erfolgt in einem geschlossenen Zyklus &amp;laquo;Wäscher – Bioreaktor&amp;raquo;, wobei es keinen Abfluss in die Kanalisation gibt. Die gereinigte Luft wird in die Atmosphäre freigesetzt.</value>
   </data>
   <data name="AbuOprationTitle" xml:space="preserve">
-    <value>Das Betriebsprinzip von BAA</value>
+    <value>Das Betriebsprinzip von ABB</value>
   </data>
   <data name="AbuOprationValueA" xml:space="preserve">
     <value>A – Lufteinlass</value>

@@ -124,7 +124,7 @@
     <value>ABB werden durch eigene Ventilatoren ergänzt. Möglich ist eine Montage in bestehende Lüftungsanlage (mit dem vorhandenen Auslöser des Saugzuges) unter Berücksichtigung der Druckverluste in der Anlage von 2200 Pa.</value>
   </data>
   <data name="AbuDescription3" xml:space="preserve">
-    <value>Konstruktionsmäßig werden BAA in Form von drei Geräten hergestellt, die sowohl in die vorhandenen Anlagen als eine kompakte Einheit, als auch zufällig verteilt mit einem beliebigen Abstand voneinander eingebaut werden können. Diese Konstruktion gibt die Möglichkeit, die BAA am besten in jedem konkreten Fall zu installieren.</value>
+    <value>Konstruktionsmäßig werden ABB in Form von drei Geräten hergestellt, die sowohl in die vorhandenen Anlagen als eine kompakte Einheit, als auch zufällig verteilt mit einem beliebigen Abstand voneinander eingebaut werden können. Diese Konstruktion gibt die Möglichkeit, die ABB am besten in jedem konkreten Fall zu installieren.</value>
   </data>
   <data name="AbuDescription4" xml:space="preserve">
     <value>Auf Bestellung werden ABB mit den erforderlichen Parametern für den Grad der industriellen Luftreinigung, Leistung, Form und Größe projektiert und hergestellt.</value>
@@ -163,7 +163,7 @@
     <value>von Schwebstoffen</value>
   </data>
   <data name="AbuParametersTableRow3Value1" xml:space="preserve">
-    <value>Hydraulischer Widerstand (Druckverlust in der BAA), Pa, höchstens</value>
+    <value>Hydraulischer Widerstand (Druckverlust in der ABB), Pa, höchstens</value>
   </data>
   <data name="AbuParametersTableRow4Value1" xml:space="preserve">
     <value>Leistungsbedarf*, kW, höchstens</value>
@@ -175,7 +175,7 @@
     <value>Stromfrequenz, Hz</value>
   </data>
   <data name="AbuParametersTitle" xml:space="preserve">
-    <value>Die Parameter der am häufigsten verwendeten BAA:</value>
+    <value>Die Parameter der am häufigsten verwendeten ABB:</value>
   </data>
   <data name="AbuSchemaTitle" xml:space="preserve">
     <value>Blockschaltbild der Industrieanlage für Reinigung von Lüftungsemissionen</value>
@@ -203,16 +203,16 @@ Organische Stoffe – bis 100 mg/m&lt;sup&gt;3&lt;/sup&gt;</value>
     <value>Druckhöhe – mindestens 2 200 Pa.</value>
   </data>
   <data name="AbuTemperatureParameters1" xml:space="preserve">
-    <value>Die ABB sind stationäre Anlagen, die für einen kontinuierlichen rund um die Uhr und/oder Schichtbetrieb geeignet sind. Die Temperatur im Raum, wo die BAA installiert werden, soll +5...+30&amp;#176;C betragen.</value>
+    <value>Die ABB sind stationäre Anlagen, die für einen kontinuierlichen rund um die Uhr und/oder Schichtbetrieb geeignet sind. Die Temperatur im Raum, wo die ABB installiert werden, soll +5...+30&amp;#176;C betragen.</value>
   </data>
   <data name="AbuTemperatureParameters2" xml:space="preserve">
-    <value>Im Raum, wo eine BAA installiert wird, soll eine allgemeine Lüftung mit einem Luftwechselwert von 3-4 vorgesehen werden. Die BAA können teilweise im Freien installiert werden, dabei dürfen im Freien nur Absorptions- und Tropfenfängerteile von BAA bei einer Temperatur von minus 35 bis plus 40 Grad liegen.</value>
+    <value>Im Raum, wo eine ABB installiert wird, soll eine allgemeine Lüftung mit einem Luftwechselwert von 3-4 vorgesehen werden. Die ABB können teilweise im Freien installiert werden, dabei dürfen im Freien nur Absorptions- und Tropfenfängerteile von ABB bei einer Temperatur von minus 35 bis plus 40 Grad liegen.</value>
   </data>
   <data name="CatalogTitle" xml:space="preserve">
-    <value>Technische Daten und Ausgangsangaben von BAA mit dem Fördervolumen von 5 000 / 10 000 / 25 000 m&lt;sup&gt;3&lt;/sup&gt;/Stunde</value>
+    <value>Technische Daten und Ausgangsangaben von ABB mit dem Fördervolumen von 5 000 / 10 000 / 25 000 m&lt;sup&gt;3&lt;/sup&gt;/Stunde</value>
   </data>
   <data name="Complex" xml:space="preserve">
-    <value>Komplex von 7 BAA mit dem Fördervolumen von 175 000 m&lt;sup&gt;3&lt;/sup&gt;/Stunde</value>
+    <value>Komplex von 7 ABB mit dem Fördervolumen von 175 000 m&lt;sup&gt;3&lt;/sup&gt;/Stunde</value>
   </data>
   <data name="Distributed" xml:space="preserve">
     <value>Verteilte Installation</value>

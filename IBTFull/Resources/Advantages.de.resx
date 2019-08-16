@@ -118,13 +118,13 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AduAdvantages" xml:space="preserve">
-    <value>Vorteile der BAA</value>
+    <value>Vorteile der ABB</value>
   </data>
   <data name="Advantage1" xml:space="preserve">
     <value>Der hohe Abscheidungsgrad einer breiten Palette von Schadstoffen.</value>
   </data>
   <data name="Advantage10Description" xml:space="preserve">
-    <value>Seit der Inbetriebnahme von den ersten ABB (1989) wurden keine Qualitätsbeanstandungen angezeigt. Die ABB hat keine beweglichen Verschleißteile (außer der Wasserpumpe). Die Betriebszeit der Anlage beträgt mindestens 20 Jahre.</value>
+    <value>Seit der Inbetriebnahme von den ersten ABB (1989) wurden keine Qualitätsbeanstandungen angezeigt. Die ABB hat keine beweglichen Verschleißteile (außer der Wasserpumpe). Die Betriebszeit der Anlage beträgt mindestens 15 Jahre.</value>
   </data>
   <data name="Advantage10Title" xml:space="preserve">
     <value>Qualität und Funktionssicherheit</value>

@@ -181,7 +181,7 @@
     <value>Motoren von Schlammpumpen (1 Stck., 380 V, {0} kW);</value>
   </data>
   <data name="AbuElectricityValue14" xml:space="preserve">
-    <value>Antriebe von elektrisch gesteuerten Ventilen BAA (9 Stck., 220 V, 100 W); </value>
+    <value>Antriebe von elektrisch gesteuerten Ventilen ABB (9 Stck., 220 V, 100 W); </value>
   </data>
   <data name="AbuElectricityValue15" xml:space="preserve">
     <value>Füllstandsmesser (3 Stck., 6 W).</value>
@@ -190,7 +190,7 @@
     <value>Leistungskabel, Kabelträger und Steuerkabel sind im ABB-Lieferumfang inbegriffen.</value>
   </data>
   <data name="AbuElectricityValue2" xml:space="preserve">
-    <value>Schaltschränke sind im BAA-Lieferumfang inbegriffen.</value>
+    <value>Schaltschränke sind im ABB-Lieferumfang inbegriffen.</value>
   </data>
   <data name="AbuElectricityValue3" xml:space="preserve">
     <value>Es soll die Leitungsführung der Hauptstromkreise vom Werktransformator zu den Schaltschränken von ABB vorgesehen werden.</value>
@@ -329,7 +329,7 @@ im Lieferumfang inbegriffen.</value>
     <value>Es ist die Verwendung des Antriebsauslösers von einem anderen Hersteller und mit anderen Eigenschaften möglich.</value>
   </data>
   <data name="AbuVentilationValue3" xml:space="preserve">
-    <value>Der Unterdruck am Einlaßstutzen der BAA beträgt nicht mehr als 1200 Pa, der Förderdruck am Auslaßstutzen – nicht mehr als +500 Pa.</value>
+    <value>Der Unterdruck am Einlaßstutzen der ABB beträgt nicht mehr als 1200 Pa, der Förderdruck am Auslaßstutzen – nicht mehr als +500 Pa.</value>
   </data>
   <data name="AbuVentilationValue4" xml:space="preserve">
     <value>An Luftkanälen, im Bereich der Ventilationsabdecklungen sollen Schieberverschlüsse zur Regulierung des Anlaufs von Aspirationsluft montiert werden. Gegenflansche am Einlass- und Auslaßstutzen sind im Lieferumfang inbegriffen.</value>
@@ -359,7 +359,7 @@ im Lieferumfang inbegriffen.</value>
     <value>Temperatur – 5-30&amp;#176;С.</value>
   </data>
   <data name="AbuWaterSupplyValue34" xml:space="preserve">
-    <value>Es soll die Installation des Hauptleitungsventils mit Nenndurchmesser von 20 mm auf der Ableitung der Anschaltung von BAA zum Werksnetz vorgesehen werden.</value>
+    <value>Es soll die Installation des Hauptleitungsventils mit Nenndurchmesser von 20 mm auf der Ableitung der Anschaltung von ABB zum Werksnetz vorgesehen werden.</value>
   </data>
   <data name="AbuWaterSupplyValue4" xml:space="preserve">
     <value>Der Punkt der Wasserzuleitung ist mit einem entsprechenden Ventil außer dem Hauptleitungsventil ausgestattet.</value>
