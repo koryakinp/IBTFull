@@ -124,40 +124,42 @@
     <value>Efficacité de la purification de l’air&lt;br&gt;&lt;strong&gt;du phénol, du formaldéhyde&lt;/strong&gt;</value>
   </data>
   <data name="AbuEfficiencyResin" xml:space="preserve">
-    <value>Efficacité de la purification de l’air des poussières&lt;br&gt;&lt;strong&gt;de matières en suspension&lt;/strong&gt;</value>
+    <value>L’efficacité de captage des&lt;br&gt;&lt;strong&gt;substances suspendues&lt;/strong&gt;</value>
   </data>
   <data name="AbuEfficiencyResinValue" xml:space="preserve">
-    <value>(concentration du triéthylamine à la sortie n’excède pas 20 mg/m&lt;sup&gt;3&lt;/sup&gt;)</value>
+    <value>est au minimum de &lt;span class="efficiency-item__value"&gt;{0}&lt;/span&gt;</value>
   </data>
   <data name="AbuEfficiencyTriethylamine" xml:space="preserve">
-    <value>Efficacité de la purification de l’air de la &lt;br&gt;&lt;strong&gt;triéthylamine&lt;/strong&gt;</value>
+    <value>L’efficacité de l’épuration du &lt;br&gt;&lt;strong&gt;triéthylamine&lt;/strong&gt; et des substances suspendues est de</value>
   </data>
   <data name="AbuEfficiencyTriethylamineValue" xml:space="preserve">
-    <value>Efficacité d’épuration du&lt;br&gt;&lt;strong&gt;phénol, du formaldéhyde&lt;/strong&gt;</value>
+    <value>(concentration du triéthylamine à la sortie n’excède pas 20 mg/m&lt;sup&gt;3&lt;/sup&gt;)</value>
   </data>
   <data name="AbuIntro" xml:space="preserve">
-    <value>Les dispositifs biologiques d’absorption (DBA) sont destinés à la purification industrielle de l’air de ventilation dans les entreprises industrielles des impuretés volatiles organiques gazeuses (phénol, formaldéhyde, triéthylamine, benzol, acroléine, cyanides, ammoniac, méthanol, poussière, aérosols des substances résineuses, etc.)</value>
+    <value>Les dispositifs biologiques d’absorption (DBA) sont destinés à la purification de l’air des impuretés volatiles organiques gazeuses (phénol, formaldéhyde, triéthylamine, benzol, acroléine, cyanides, ammoniac, méthanol, poussière, aérosols des substances résineuses, etc…), dans ventilation des entreprises industrielles</value>
   </data>
   <data name="AbuOperationDescription" xml:space="preserve">
-    <value>Schéma de principe et description du dispositif biologique d’absorption</value>
+    <value>Schéma du principe et description du dispositif biologique d’absorption</value>
   </data>
   <data name="AbuOperationDetailsOne" xml:space="preserve">
-    <value>Les substances nocives sont capturées dans l’épurateur de gaz à l’aide de l’absorbant aqueux, et puis éliminées dans le bioréacteur (par oxydation jusqu’à CO&lt;sub&gt;2&lt;/sub&gt; et H&lt;sub&gt;2&lt;/sub&gt;O).</value>
+    <value>Les substances nocives sont capturées dans l’épurateur de gaz à l’aide de l’absorbant aqueux, et puis, ils sont  éliminées dans le bioréacteur (par oxydation jusqu’à CO&lt;sub&gt;2&lt;/sub&gt; et H&lt;sub&gt;2&lt;/sub&gt;O).</value>
   </data>
   <data name="AbuOperationDetailsThree" xml:space="preserve">
-    <value>On introduit les microorganismes dans le bioréacteur une seule fois en forme de la biomasse concentrée juste avant le début de l’exploitation. Les microorganismes utilisés dans le DBA ne sont ni toxiques ni pathogènes, ils ont été extraits des sources naturelles et ont fait l’objet d’une expertise toxicologique.</value>
+    <value>On introduit les microorganismes dans le bioréacteur une seule fois en forme de biomasse concentrée, juste avant le début de l’exploitation.
+Les microorganismes utilisés dans le DBA ne sont ni toxiques ni pathogènes, ils ont été extraits des sources naturelles et ont fait l’objet d’une expertise toxicologique.</value>
   </data>
   <data name="AbuOperationDetailsTwo" xml:space="preserve">
-    <value>La solution circule en circuit fermé «épurateur de gaz – bioréacteur», cependant il n’y a aucun écoulement dans la canalisation. L’air de ventilation purifié est émis dans l’atmosphère.</value>
+    <value>La solution circule en circuit fermé &amp;laquo;épurateur de gaz – bioréacteur&amp;raquo;, cependant il n’y a aucun écoulement dans la canalisation. 
+L’air de la ventilation est purifié,  puis il est émis dans l’atmosphère.</value>
   </data>
   <data name="AbuOprationTitle" xml:space="preserve">
     <value>Principe de fonctionnement des DBA:</value>
   </data>
   <data name="AbuOprationValueA" xml:space="preserve">
-    <value>A – entrée de l’air de ventilation</value>
+    <value>A – entrée et sortie de l’air de ventilation</value>
   </data>
   <data name="AbuOprationValueB" xml:space="preserve">
-    <value>B – sortie de l’air de ventilation</value>
+    <value>B – entrée et sortie de l’air de ventilation</value>
   </data>
   <data name="AbuOprationValueC" xml:space="preserve">
     <value>C – solution d’absorption</value>
@@ -175,25 +177,25 @@
     <value>2 – pompe</value>
   </data>
   <data name="AbuPurificationDescriptionOne" xml:space="preserve">
-    <value>le premier consiste en ce que la plupart des combinés nocifs volatils organiques sont dissolubles dans l’eau industrielle;</value>
+    <value>le premier consiste à faire que la plupart des combinés nocifs volatils organiques sont dissolubles dans l’eau industrielle</value>
   </data>
   <data name="AbuPurificationDescriptionTwo" xml:space="preserve">
-    <value>le second principe repose sur la capacité des microorganismes naturels spécialement sélectionnés et adaptés d’utiliser en tant que sources d’alimentation les substances organiques ainsi que certaines substances non-organiques dissoutes dans l’eau. Lorsque les microorganismes consomment ces combinés, ceux-ci se minéralisent entièrement en générant de l’eau et du gaz carbonique.</value>
+    <value>le second principe repose sur la capacité des microorganismes naturels spécialement sélectionnés et adaptés, afin d’utiliser, en tant que sources d’alimentation, les substances organiques ainsi que certaines substances non-organiques dissoutes dans l’eau. Lorsque les microorganismes consomment ces combinés, ceux-ci se minéralisent entièrement en générant de l’eau et du gaz carbonique.</value>
   </data>
   <data name="AbuPurificationTitle" xml:space="preserve">
-    <value>La purification de l’air de ventilation dans les DBA repose sur les processus d’origine naturelle:</value>
+    <value>La purification de l’air de ventilation dans les DBA repose sur des processus d’origine naturelle:</value>
   </data>
   <data name="AbyEfficiencyDescription" xml:space="preserve">
-    <value>Par leur indice intégral (efficacité, qualités économiques, qualités écologiques, fiabilité) les DBA n’ont pas d’analogues sur le marché mondial des équipements de purification des gaz.</value>
+    <value>Par leurs indices intégrals (efficacité, qualités économiques, qualités écologiques, fiabilité) les DBA n’ont pas d’analogues sur le marché mondial des équipements de purification des gaz.</value>
   </data>
   <data name="CompanyIntro" xml:space="preserve">
-    <value>La société &lt;br&gt;&lt;span class="accent-text"&gt;Industrial Bio Technology&lt;br&gt;&lt;/span&gt; offre la livraison des équipements de purification industrielle de l’air</value>
+    <value>La société &lt;br&gt;&lt;span class="accent-text"&gt;Industrial Bio Technology&lt;br&gt;&lt;/span&gt; offre la livraison des dispositifs biologiques d’absorption (DBA)</value>
   </data>
   <data name="Concentration" xml:space="preserve">
-    <value>au moins &lt;span class="efficiency-item__value"&gt;{0}&lt;/span&gt; à la concentration d’entrée mg/m&lt;sup&gt;3&lt;/sup&gt;;</value>
+    <value>au moins &lt;span class="efficiency-item__value"&gt;{0}&lt;/span&gt; à la concentration à l’entrée {1} mg/m&lt;sup&gt;3&lt;/sup&gt;;</value>
   </data>
   <data name="IndexTitle" xml:space="preserve">
-    <value>IBT purification de l'air à partir de phénol, formaldéhyde, triéthylamine</value>
+    <value>IBT Purification de l’air de ventilation du benzol et des substances organiques</value>
   </data>
   <data name="schemaAlt" xml:space="preserve">
     <value>ABU Schéma</value>

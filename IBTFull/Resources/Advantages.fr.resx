@@ -124,22 +124,23 @@
     <value>Un haut degré de captage d’une large gamme des substances nocives.</value>
   </data>
   <data name="Advantage10Description" xml:space="preserve">
-    <value>Dès de début de leur exploitation (depuis 1989) on n’a reçu aucune réclamation à l’égard de n’importe quel de l’ensemble des DBA en exploitation. Le DBA n’a pas d’organes mobiles ni de parts usables (excepté une pompe à eau standard). Le délai d’emploi du dispositif est au moins 15 ans. Par leur indice intégral (efficacité, qualités économiques, qualités écologiques, fiabilité) les DBA n’ont pas d’analogues sur le marché mondial des équipements de purification des gaz.</value>
+    <value>Dès le début de leur exploitation (depuis 1989), nous n’avons reçu aucune réclamation à l’égard de n’importe quel  DBA en exploitation. Le DBA n’a pas d’organes mobiles ni de parties usables (excepté une pompe à eau standard). Le délai d’emploi du dispositif est au moins  de 15 ans.
+Par leurs indices intégrals (efficacité, qualités économiques, qualités écologiques, fiabilité) les DBA n’ont pas d’analogues sur le marché mondial des équipements de purification des gaz.</value>
   </data>
   <data name="Advantage10Title" xml:space="preserve">
     <value>Qualité et fiabilité</value>
   </data>
   <data name="Advantage1Description" xml:space="preserve">
-    <value>Le degré de captage d’une large gamme des substances nocives depuis l’air de ventilation fait de 80 à 99,9% en fonction des concentrations d’entrée et des propriétés physiques et chimiques des substances nocives.</value>
+    <value>Le degré de captage, d’une large gamme de substances nocives depuis l’air de ventilation, est de 80 à 99,9% (en fonction des concentrations d’entrée et des propriétés physiques et chimiques des substances nocives).</value>
   </data>
   <data name="Advantage1Title" xml:space="preserve">
     <value>Efficacité</value>
   </data>
   <data name="Advantage2" xml:space="preserve">
-    <value>Fiabilité et efficacité confirmées par 25 ans de l’expérience d’exploitation.</value>
+    <value>Fiabilité et efficacité confirmées par 25 ans d’expérience d’exploitation.</value>
   </data>
   <data name="Advantage2Description" xml:space="preserve">
-    <value>La présence des admixtions solides dans le courant de gaz n’a aucune influence sur les caractéristiques fonctionnelles. Cependant, l’application des filtres à l’échangeur d’ions, des dispositifs aux éléments de décharge à gaz, des charbons, des zéolithes, des catalyseurs et d’autres appareils « secs » n’a pas de sens à cause de la bouchage des surfaces fonctionnelles des substances résineuses et suspendues.</value>
+    <value>La présence des admixtions solides dans le courant de gaz n’a aucune influence sur les caractéristiques fonctionnelles. Cependant, l’application des filtres à l’échangeur d’ions, des dispositifs aux éléments de décharge à gaz, des charbons, des zéolithes, des catalyseurs et d’autres appareils &amp;laquo;secs&amp;raquo; n’a pas de sens à cause du bouchage de surfaces fonctionnelles des substances résineuses et suspendues.</value>
   </data>
   <data name="Advantage2Title" xml:space="preserve">
     <value>Possibilité de purification de l’air de ventilation contenant des substances résineuses et suspendues</value>
@@ -148,7 +149,7 @@
     <value>Charges d’exploitation non élevées.</value>
   </data>
   <data name="Advantage3Description" xml:space="preserve">
-    <value>Les frais d’exploitation ne sont pas élevés grâce à la quantité minimale des consommables (eau industrielle pour la réalimentation – 0,1-1 m&lt;sup&gt;3&lt;/sup&gt;/jour, additifs biogènes – 30-60 kg/an, air comprimé – 30-40 m&lt;sup&gt;3&lt;/sup&gt;/h).</value>
+    <value>Les frais d’exploitation ne sont pas élevés, et ceux,  grâce à la quantité minimale des consommables (eau industrielle pour la réalimentation – 0,1-1 m&lt;sup&gt;3&lt;/sup&gt;/jour, additifs biogènes – 30-60 kg/an, air comprimé – 30-40 m&lt;sup&gt;3&lt;/sup&gt;/h).</value>
   </data>
   <data name="Advantage3Title" xml:space="preserve">
     <value>Performances économiques</value>
@@ -157,7 +158,7 @@
     <value>Absence d’agents chimiques, d’acides et d’alcalis.</value>
   </data>
   <data name="Advantage4Description" xml:space="preserve">
-    <value>Les DBA sont écologiques car ils ne génèrent aucunes pollutions secondaires (ainsi, par exemple, sont générés : lors de la combustion thermique et catalytique – NOх, СО et des produits d’oxydation incomplète ; lors de l’adsorption sur les charbons – des fluides de condensation pollués après la régénération à la vapeur libre ; lors du traitement par ozone – un ozone excessif ; lors de l’adsorption chimique – une solution saline épuisée et l’envolement des gouttelettes des agents chimiques dans l’atmosphère), ce qui assure une influence bienveillante sur la situation écologique de la région.</value>
+    <value>Les DBA sont écologiques car ils ne génèrent aucune pollution secondaire (ainsi, par exemple, sont générés : lors de la combustion thermique et catalytique – du NOх,du СО et des produits d’oxydation incomplète; lors de l’adsorption sur les charbons – des fluides de condensation pollués après la régénération à la vapeur libre; lors du traitement par ozone – un ozone excessif; lors de l’adsorption chimique – une solution saline épuisée et l’envolement des gouttelettes des agents chimiques dans l’atmosphère), ce qui assure une influence bienveillante sur la situation écologique de la région.</value>
   </data>
   <data name="Advantage4Title" xml:space="preserve">
     <value>Qualités écologiques</value>
@@ -172,31 +173,31 @@
     <value>Sécurité</value>
   </data>
   <data name="Advantage6" xml:space="preserve">
-    <value>Absence des parts usables et remplaçables.</value>
+    <value>Absence de parts usables et remplaçables.</value>
   </data>
   <data name="Advantage6Description" xml:space="preserve">
-    <value>L’exploitation des DBA permet de réduite de manière considérable le risque des maladies professionnelles pour les employés engagés dans les sites de production insalubre.</value>
+    <value>L’exploitation des DBA permet de réduite de manière considérable le risque de maladies professionnelles pour les employés engagés dans les sites de production insalubre.</value>
   </data>
   <data name="Advantage6Title" xml:space="preserve">
     <value>Santé</value>
   </data>
   <data name="Advantage7" xml:space="preserve">
-    <value>Délai d’exploitation du DBA est au moins 15 ans.</value>
+    <value>Délai d’exploitation du DBA est d’au moins 20 ans.</value>
   </data>
   <data name="Advantage7Description" xml:space="preserve">
-    <value>Les dispositifs sont faciles à opérer et n’exigent pas la présence d’un opérateur en permanence. Lors de l’installation supervisée des DBA nos spécialistes assureront les cours d’instruction nécessaires et mettront à disposition de votre personnel l’ensemble des informations.</value>
+    <value>Les dispositifs sont faciles à opérer et n’exigent pas la présence d’un opérateur permanant. Lors de l’installation supervisée des DBA, nos spécialistes assureront des cours d’instruction nécessaires et mettront à disposition de votre personnel l’ensemble de ces informations.</value>
   </data>
   <data name="Advantage7Title" xml:space="preserve">
     <value>Formation</value>
   </data>
   <data name="Advantage8" xml:space="preserve">
-    <value>Élaboration des solutions non standards.</value>
+    <value>Élaboration de solutions non standards.</value>
   </data>
   <data name="Advantage8Description1" xml:space="preserve">
     <value>L’entretien technique des DBA est réduit au minimum, il n’est lié qu’à la réparation de la pompe.</value>
   </data>
   <data name="Advantage8Description2" xml:space="preserve">
-    <value>Le contrôle de l’efficacité de purification des émissions de ventilation est effectué régulièrement, de façon visuelle, par état d’aspersion et d’ébullition de l’embout. L’état de la solution d’absorption est identifié par voie d’analyse de la solution pour la demande chimique en oxygène 1 fois par mois. Lorsqu’il est nécessaire d’augmenter l’efficacité de régénération de l’absorbant, on fait la correction de la composition chimique de la solution à l’égard de l’azote et du phosphore en y introduisant des engrais agricoles disponibles.</value>
+    <value>Le contrôle de l’efficacité de purification des émissions de ventilation est effectué régulièrement, de façon visuelle, par état d’aspersion et d’ébullition de l’embout. L’état de la solution d’absorption est identifié par voie d’analyse de la solution pour la demande chimique en oxygène 1 fois par mois. Lorsqu’il est nécessaire d’augmenter l’efficacité de régénération de l’absorbant, on fait une correction de la composition chimique de la solution à l’égard de l’azote et du phosphore en y introduisant des engrais agricoles disponibles.</value>
   </data>
   <data name="Advantage8Title" xml:space="preserve">
     <value>Entretien technique et contrôle</value>
@@ -205,7 +206,7 @@
     <value>Accompagnement et consultations techniques pendant toute la durée l’emploi.</value>
   </data>
   <data name="Advantage9Description" xml:space="preserve">
-    <value>Plus de 100 DBA sont opérés dans 42 entreprises de différentes secteurs de l’industrie en Russie, en Bélarus, en Ukraine et en Kirghizistan, leur délai d’exploitation continue étant jusqu’à 25 ans.</value>
+    <value>Plus de 100 DBA opèrent  dans 42 entreprises de différents secteurs de l’industrie en Russie, au Bélarus, en Ukraine et au Kirghizistan, leur délais d’exploitation continue étant au maximum de  25 ans.</value>
   </data>
   <data name="Advantage9Title" xml:space="preserve">
     <value>Application pratique</value>

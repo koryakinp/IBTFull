@@ -118,19 +118,19 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AbuDescription1" xml:space="preserve">
-    <value>&lt;strong&gt;Les dispositifs biologiques d’absorption (DBA)&lt;/strong&gt; sont destinés à la purification industrielle de l’air du phénol, du formaldéhyde, de la triéthylamine, du benzène, du cyanures, d’ammoniac, du méthanol, des poussières, des aérosols de matières résineuses dans l’industrie de la fonderie, dans la production de panneaux de particules et de panneaux de fibres à densité moyenne, dans la production de laine de verre et de laine de basalte.</value>
+    <value>&lt;strong&gt;Les dispositifs biologiques d’absorption (DBA)&lt;/strong&gt; destinés à la purification de l’air de la ventilation des substances organiques nocives et des substances suspendues qui lui sont associées dans différents secteurs industriels ou l’on utilise des processus technologies accompagnés d’émissions de gaz toxiques dans l’environnement.</value>
   </data>
   <data name="AbuDescription2" xml:space="preserve">
-    <value>Les équipements de purification industrielle de l’air sont dotés d’un ventilateur intégré. Il est possible d’incorporer les équipements dans les systèmes de ventilation et de purification industrielle de l’air existants (munis d’un activateur de souffle) en tenant compte des pertes de poussée pour le dispositif 2200 Pa.</value>
+    <value>Les DBA sont dotés d’un ventilateur intégré. Il est possible de les incorporer dans les systèmes de ventilation existants (munis d’un activateur de souffle) en tenant compte de pertes de poussée pour le dispositif à hauteur de  2200 Pa.</value>
   </data>
   <data name="AbuDescription3" xml:space="preserve">
-    <value>D’un point de vue de construction, les équipements de purification industrielle de l’air sont fabriqués comme trois appareils principaux susceptibles d’être incorporés dans les plans d’implantation existants aussi bien en tant qu’un bloc compact unique que de façon dispersée à n’importe quelle distance l’un de l’autre. Une telle construction permet de placer les DBA de la manière la plus convenable selon les circonstances.</value>
+    <value>D’un point de vue de construction, les DBA sont fabriqués comme trois appareils principaux susceptibles d’être incorporés dans les plans d’implantation existants. ils peuvent  aussi bien être en bloc compact unique qu’être multiple et dispersés à n’importe quelle distance l’un de l’autre. Une telle construction permet de placer les DBA de la manière la plus convenable qui soit,  selon les circonstances.</value>
   </data>
   <data name="AbuDescription4" xml:space="preserve">
-    <value>D’après le cahier des charges du Client les DBA sont conçus et fabriqués avec des paramètres exigés concernant le degré de purification industrielle de l’air, le débit, la forme et les dimensions.</value>
+    <value>D’après le cahier des charges du Client les DBA sont conçus et fabriqués avec des paramètres imposés par celui-ci. Ceux ci  concernent  le degré d’épuration, le débit, la forme ainsi que les dimensions.</value>
   </data>
   <data name="AbuDescription5" xml:space="preserve">
-    <value>Les DBA permettent de purifier n’importe quel volume de l’air de ventilation dans une entreprise industrielle. Pour ce faire, on réunit la quantité nécessaire des DBA en &lt;strong&gt;&lt;a class="link-fix" href="#" data-toggle="modal" data-target="#complex"&gt;
+    <value>Les DBA permettent de purifier n’importe quel volume de l’air contenu dans la ventilation d’une entreprise industrielle. Pour ce faire, on réunit la quantité nécessaire des DBA en &lt;strong&gt;&lt;a class="link-fix" href="#" data-toggle="modal" data-target="#complex"&gt;
 complexe unique&lt;/a&gt;&lt;/strong&gt;.</value>
   </data>
   <data name="AbuInstallationListItem1" xml:space="preserve">
@@ -140,7 +140,7 @@ complexe unique&lt;/a&gt;&lt;/strong&gt;.</value>
     <value>Installation dispersée</value>
   </data>
   <data name="AbuInstallationListTitle" xml:space="preserve">
-    <value>Options d’installation des équipements de purification industrielle de l’air:</value>
+    <value>Options d’installation des DBA:</value>
   </data>
   <data name="AbuMoreDetails" xml:space="preserve">
     <value>En savoir plus</value>
@@ -152,10 +152,10 @@ complexe unique&lt;/a&gt;&lt;/strong&gt;.</value>
     <value>Valeur du paramètre</value>
   </data>
   <data name="AbuParametersTableRow1Value1" xml:space="preserve">
-    <value>Débit par l’air de ventilation, mille m&lt;sup&gt;3&lt;/sup&gt;, au minimum</value>
+    <value>Débit par l’air de ventilation, mille  m&lt;sup&gt;3&lt;/sup&gt;, au minimum</value>
   </data>
   <data name="AbuParametersTableRow2Value1" xml:space="preserve">
-    <value>Efficacité d’épuration, %</value>
+    <value>Efficacité de captage, %</value>
   </data>
   <data name="AbuParametersTableRow2Value2" xml:space="preserve">
     <value>combinés nocifs volatils</value>
@@ -167,7 +167,7 @@ complexe unique&lt;/a&gt;&lt;/strong&gt;.</value>
     <value>Résistance hydraulique (pertes de pression dans le DBA), Pa, au maximum</value>
   </data>
   <data name="AbuParametersTableRow4Value1" xml:space="preserve">
-    <value>Puissance consommée*, kW, au maximum</value>
+    <value>Puissance consommée, kW, au maximum</value>
   </data>
   <data name="AbuParametersTableRow5Value1" xml:space="preserve">
     <value>Tension d’alimentation, V</value>
@@ -179,10 +179,10 @@ complexe unique&lt;/a&gt;&lt;/strong&gt;.</value>
     <value>Paramètres des DBA les plus populaires</value>
   </data>
   <data name="AbuSchemaTitle" xml:space="preserve">
-    <value>Diagramme de blocs des équipements de purification industrielle de l’air</value>
+    <value>Diagramme de blocs du dispositif industriel pour la purification des émissions de ventilation</value>
   </data>
   <data name="AbuSchemaValue1" xml:space="preserve">
-    <value>Entrée de l’air pollué</value>
+    <value>Entrée de l’air pollué.</value>
   </data>
   <data name="AbuSchemaValue2" xml:space="preserve">
     <value>Paramètres:&lt;br&gt;
@@ -201,16 +201,16 @@ substances organiques – jusqu’à 100 mg/m&lt;sup&gt;3&lt;/sup&gt;</value>
     <value>Ventilateur</value>
   </data>
   <data name="AbuSchemaValue6" xml:space="preserve">
-    <value>Raréfaction (poussée) au moins 2200 Pa</value>
+    <value>Raréfaction (poussée) d’au moins 2200 Pa</value>
   </data>
   <data name="AbuTemperatureParameters1" xml:space="preserve">
-    <value>Les équipements de purification industrielle de l’air sont stationnaires et sont conçus pour un mode de fonctionnement 24 h sur 24 en continu et/ou par postes. Lorsque les DBA sont placés dans les locaux, la température doit correspondre à +5…+30&amp;#176;С.</value>
+    <value>Les DBA sont stationnaires et sont conçus pour un mode de fonctionnement 24h/24h en continu et/ou par postes. Lorsque les DBA sont placés dans les locaux, la température doit correspondre à +5…+30&amp;#176;С.</value>
   </data>
   <data name="AbuTemperatureParameters2" xml:space="preserve">
-    <value>Dans le local où se situent les équipements de purification industrielle de l’air il faut prévoir une ventilation de circulation générale au taux d’échange d’air faisant 3-4. On peut placer les DBA partiellement au grand air, toutefois seules les parties du DBA destinées à l’absorption et à la séparation des gouttelettes peuvent être placées au grand air à la température de celui-ci variant de moins 35 à plus 40&amp;#176;С.</value>
+    <value>Dans le local où se situe le dispositif du DBA il faut prévoir une ventilation de circulation générale avec un  taux d’échange d’air faisant du 3-4. On peut placer les DBA partiellement au grand air, toutefois seules les parties du DBA destinées à l’absorption et à la séparation des gouttelettes peuvent être placées au grand air à la température de celui-ci variant de -35 à +40&amp;#176;С.</value>
   </data>
   <data name="CatalogTitle" xml:space="preserve">
-    <value>Caractéristiques techniques et données de base pour les équipements de purification industrielle de l’air au débit de 5 000 / 10 000 / 25 000 m&lt;sup&gt;3&lt;/sup&gt;/heure</value>
+    <value>Caractéristiques techniques et données de base pour les DBA au débit de 5 000 / 10 000 / 25 000 m&lt;sup&gt;3&lt;/sup&gt;/h</value>
   </data>
   <data name="Complex" xml:space="preserve">
     <value>Complex de 7 DBA au débit de 175 000 m&lt;sup&gt;3&lt;/sup&gt; par heure</value>

@@ -130,13 +130,13 @@
     <value>Contact</value>
   </data>
   <data name="EnquiriesLink" xml:space="preserve">
-    <value>Afin de préparer une offre technique et commerciale pour la livraison des équipements de purification industrielle de l’air à votre entreprise, complétez &lt;a href="/{0}/File/Index?file=questioneer"&gt;le questionnaire&lt;/a&gt; et renvoyez-le à notre adresse.</value>
+    <value>Afin de vous préparer une offre technique et commerciale pour la livraison des DBA à votre entreprise, complétez &lt;a href="/{0}/File/Index?file=questioneer"&gt;le questionnaire&lt;/a&gt; et renvoyez-le à notre adresse. Vous pouvez toujours nous envoyer une demande sous toute forme qui vous convienne.</value>
   </data>
   <data name="Faq" xml:space="preserve">
     <value>Questions - réponses</value>
   </data>
   <data name="FaqLink" xml:space="preserve">
-    <value>Veuillez consulter sur notre site&amp;nbsp;&lt;a href="/{0}/faq"&gt;les questions fréquentes&amp;nbsp;&lt;/a&gt;relatives à l'exploitation des DBA et les réponses correspondantes.</value>
+    <value>Veuillez consulter sur notre site &amp;nbsp;&lt;a href="/{0}/faq"&gt;les questions les plus fréquentes&amp;nbsp;&lt;/a&gt; concernant l’exploitation du DBA ainsi que les réponses qui lui sont relatives.</value>
   </data>
   <data name="ForDesigners" xml:space="preserve">
     <value>Spécifications techniques</value>

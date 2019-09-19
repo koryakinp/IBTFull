@@ -118,201 +118,189 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AbuCompressedAirTitle" xml:space="preserve">
-    <value>4.4. Air comprimé</value>
+    <value>4.4. L’air comprimé</value>
   </data>
   <data name="AbuCompressedAirValue1" xml:space="preserve">
-    <value>La consommation de l'air comprimé par un DBA fait au plus 80 nm&lt;sup&gt;3&lt;/sup&gt;/h.</value>
+    <value>La consommation d'air comprimé par l'IAB ne dépasse pas 80 nm&lt;sup&gt;3&lt;/sup&gt;/h.</value>
   </data>
   <data name="AbuCompressedAirValue2" xml:space="preserve">
-    <value>Envisager une conduite Du 15 mm pour l'arrivée de l'air comprimé vers le DBA.</value>
+    <value>Prévoir une ligne de tuyaux DN 15 mm pour la prise d'air comprimé par l’ADU.</value>
   </data>
   <data name="AbuCompressedAirValue21" xml:space="preserve">
-    <value>Exigences à l'air comprimé :</value>
+    <value>le pression – 2-7 atm.</value>
   </data>
   <data name="AbuCompressedAirValue22" xml:space="preserve">
-    <value>pression – 2-7 atm.</value>
+    <value>le pression – 2-7 atm.</value>
   </data>
   <data name="AbuCompressedAirValue23" xml:space="preserve">
-    <value>Teneur en substances suspendues, au maximum – 10 mg/m&lt;sup&gt;3&lt;/sup&gt;</value>
+    <value>la teneur en matières en suspension, au plus de 10 mg/m&lt;sup&gt;3&lt;/sup&gt;</value>
   </data>
   <data name="AbuCompressedAirValue24" xml:space="preserve">
-    <value>Teneur en humidité – aucunes exigences.</value>
+    <value>la teneur en humidité - pas d'exigences</value>
   </data>
   <data name="AbuCompressedAirValue3" xml:space="preserve">
-    <value>Envisager l'installation d'une soupape magistrale Du 15 mm au coude de raccordement du DBA avec le réseau de l'atelier.</value>
+    <value>Les exigences pour l'air comprimé:</value>
   </data>
   <data name="AbuCompressedAirValue4" xml:space="preserve">
     <value>Le point d'arrivée de l'air comprimé est muni de la soupape correspondante, sauf la soupape magistrale.</value>
   </data>
   <data name="AbuCompressedAirValue5" xml:space="preserve">
-    <value>Le mode d'amenée de l'air comprimé est de vingt-quatre heures. L'absence de l'amenée de l'air comprimé n'est tolérable que pendant 2 heures. L'absence de l'amenée de l'air comprimé pendant plus de 2 heures représente une situation d'urgence. Les modalités d'action dans une telle situation sont décrites dans le livret technique du DBA.</value>
+    <value>Le mode d'alimentation en air comprimé – 24h sur 24. Il est admis de l’absence d'alimentation en air comprimé pendant plus de 2 heures. L'absence d'air comprimé pendant plus de 2 heures ne soit pas une situation régulière. La procédure pour telle situation est décrite dans le passeport de l'IAB.</value>
   </data>
   <data name="AbuDimensions" xml:space="preserve">
-    <value>1. Caractéristiques techniques et dimensions du DBA-{0}</value>
+    <value>1. Les caractéristiques techniques et les dimensions</value>
   </data>
   <data name="AbuElectricalConsumptionTitle" xml:space="preserve">
-    <value>2. Consommables et consommation d'énergie électrique</value>
+    <value>2. Les outils consommables et la consommation d'électricité</value>
   </data>
   <data name="AbuElectricalConsumptionValue1" xml:space="preserve">
-    <value>puissance réglementée – {0} kW, y compris le ventilateur – {1} kW</value>
+    <value>la capacité installée – {0} kW, y compris. le déplaceur d'air – {1} kW</value>
   </data>
   <data name="AbuElectricalConsumptionValue2" xml:space="preserve">
-    <value>eau industrielle pour la réalimentation, en fonction de la température et de l'humidité de l'air faisant l’objet de la purification – au maximum {0} m&lt;sup&gt;3&lt;/sup&gt;/jour (l’eau afin de compenser les pertes 
-liées à l'humidification de l'air de ventilation lors de l'exploitation)</value>
+    <value>l'eau technique pour l'apport d'énergie, en fonction de la température et de l'humidité d'air filtré – au plus de {0} m&lt;sup&gt;3&lt;/sup&gt;/jour (pour la compensation des pertes et l'humidification de l'air de ventilation pendant le fonctionnement);</value>
   </data>
   <data name="AbuElectricalConsumptionValue3" xml:space="preserve">
-    <value>Air comprimé (fourniture envisageable avec une machine soufflante autonome) –
-au maximum {0} nm&lt;sup&gt;3&lt;/sup&gt;/h, pression – 0,2-0,7 MPa.</value>
+    <value>l’air comprimé (peut être équipé d'un insufflateur d'air autonome) au plus de {0} nm&lt;sup&gt;3&lt;/sup&gt;/h, la pression – 0,2-0,7 MPa.</value>
   </data>
   <data name="AbuElectricalConsumptionValue4" xml:space="preserve">
-    <value>additifs biogènes – {0} kg/an (on utilise en tant qu'additifs biogènes des engrais agricoles complexes contenant les ions d'ammonium, de phosphate et de potassium.)</value>
+    <value>les substances additifs biogènes – {0} kg/an (comme les additifs biogènes sont utilisés des engrais agricoles complexes, contenant des ions d'ammonium, de phosphate et de potassium.)</value>
   </data>
   <data name="AbuElectricityTitle" xml:space="preserve">
-    <value>4.2 Alimentation électrique</value>
+    <value>4.2 L’alimentation électrique</value>
   </data>
   <data name="AbuElectricityValue1" xml:space="preserve">
-    <value>Caractéristique des consommateurs d'énergie :</value>
+    <value>Les caractéristiques des consommateurs d'énergie:</value>
   </data>
   <data name="AbuElectricityValue11" xml:space="preserve">
-    <value>Moteur du ventilateur (1 pc.: 380 V, {0} kW);</value>
+    <value>le moteur du ventilateur (1 pcs..: 380 V, {0} kW);</value>
   </data>
   <data name="AbuElectricityValue12" xml:space="preserve">
-    <value>Moteurs des pompes à eau (1 pc., 380 V, {0} kW);</value>
+    <value>les moteurs des pompes à eau (1 pcs.., 380 V, {0} kW);</value>
   </data>
   <data name="AbuElectricityValue13" xml:space="preserve">
-    <value>Moteurs des pompes à boues (1 pc., 380 V, {0} kW);</value>
+    <value>les moteurs despompes à boue (1 pcs.., 380 V, {0} kW)</value>
   </data>
   <data name="AbuElectricityValue14" xml:space="preserve">
-    <value>Commandes des vannes électriques du DBA (9 pc., 220 V, 100 W);</value>
+    <value>la propulsion des électrovannes de l’IAB (9 pcs.., 220 V, 100 kW);</value>
   </data>
   <data name="AbuElectricityValue15" xml:space="preserve">
-    <value>Capteurs de niveau (3 pc., 6 W).</value>
+    <value>les capteurs du niveaux (3 pcs.., 6 V);</value>
   </data>
   <data name="AbuElectricityValue16" xml:space="preserve">
-    <value>Câbles de puissance et canaux de câbles, câbles de commande sont fournis ensemble avec le DBA.</value>
+    <value>Les câbles d'alimentation, les chemins de câbles et les câbles de contrôle sont fournis avec l'IAB.</value>
   </data>
   <data name="AbuElectricityValue2" xml:space="preserve">
-    <value>Armoires de commande sont fournies ensemble avec le DBA.</value>
+    <value>Les armoires de commande sont fournies avec l'IAB.</value>
   </data>
   <data name="AbuElectricityValue3" xml:space="preserve">
-    <value>Envisager la distribution des circuits de puissance depuis le transformateur de l'atelier 
-vers les armoires de commande du DBA.</value>
+    <value>Prévoir le câblage des circuits d'alimentation du transformateur d'atelier aux armoires de commande de l'IAB.</value>
   </data>
   <data name="AbuElectricityValue4" xml:space="preserve">
-    <value>Les appareils de puissance et de démarrage du ventilateur et de la pompe doivent être installés en conformité des&amp;laquo;Règles de l'installation des dispositifs électriques&amp;raquo; dans les lieu permettant de surveiller le fonctionnement des appareils électriques.</value>
+    <value>L'équipement d'alimentation et de démarrage du ventilateur et de la pompe doit être installé conformément aux &amp;laquo;Règles d'installation des appareils électriques&amp;raquo;. dans les endroits, permettant d'observer le fonctionnement des unités électriques.</value>
   </data>
   <data name="AbuElectricityValue5" xml:space="preserve">
-    <value>Envisager une barre de mise à la terre pour tous les élements de l'équipement du DBA qui ne conduisent pas le courant.</value>
+    <value>Prévoir un bus de mise à la terre pour toutes les pièces non conductrices de l'équipement IAB.</value>
   </data>
   <data name="AbuInstallationTitle1" xml:space="preserve">
-    <value>4. Données de base pour le raccordement du DBA-{0}</value>
+    <value>4. Les données initiales pour le raccordement</value>
   </data>
   <data name="AbuInstallationTitle2" xml:space="preserve">
-    <value>4.1. Génie civil et exigences au local où le DBA sera situé</value>
+    <value>4.1. L'installation et les locaux requis pour l’IAB</value>
   </data>
   <data name="AbuInstallationValue1" xml:space="preserve">
-    <value>Envisager le plancher en béton en pos. 0,000 pour installer les équipements du DBA. Ajuster le plancher à l'aide du niveau à lunette. Admettre l'épaisseur du remplissage en béton en fonction des charges des équipements du DBA. Les équipements du DBA se situent sur deux charpentes.</value>
+    <value>Pour l'installation de l’IAB il faut prévoir de sol en béton au niveau 0,000. Niveler du sol par l’instrument de nivellement. L'épaisseur de la coulée du béton est prise sur la base des charges d'équipement l’IAB. L'équipement IAB est placé sur deux châssis.</value>
   </data>
   <data name="AbuInstallationValue2" xml:space="preserve">
-    <value>La charge pour chaque charpente fait {0} tonnes au maximum.</value>
+    <value>La charge sur un châssis de moins  de {0} tonnes.</value>
   </data>
   <data name="AbuInstallationValue3" xml:space="preserve">
-    <value>Aucune fixation de l'équipement au plancher n'est exigée.</value>
+    <value>Le montage de l'équipement sur le sol n'est pas requis.</value>
   </data>
   <data name="AbuInstallationValue4" xml:space="preserve">
-    <value>Envisager dans la construction du plancher en béton des conduits pour l'évacuation des rejets accidentels de l'absorbant. Raccorder les conduits avec le réseau d'évacuation de l'atelier.</value>
+    <value>Dans le sol en béton il faut prevoir l'installation des échelles pour éliminer les déversements d’urgence de l’absorbant. Les pièges se connectent avec le réseau humide de l'atelier.</value>
   </data>
   <data name="AbuInstallationValue41" xml:space="preserve">
-    <value>La quantité des rejets accidentels – au maximum 8 m&lt;sup&gt;3&lt;/sup&gt; par accident. On entend par un accident toute fuite dans le corps du réservoir de même que toute fuite dans le dispositif d'enclenchement et de réglage.</value>
+    <value>Nombre de déversements d'urgence – au plus de 8 m&lt;sup&gt;3&lt;/sup&gt; pendant une situation d’urgence. Dans le cadre de la situation d’urgence, s’arrivent les fuites du corps de la cuve, les fuites des vannes d'arrêt et de la régulation.</value>
   </data>
   <data name="AbuInstallationValue5" xml:space="preserve">
-    <value>Aucun mécanisme de levage n'est exigé pour l'entretien du DBA.</value>
+    <value>Les mécanismes de levage pour la maintenance de l'IAB ne sont pas requis.</value>
   </data>
   <data name="AbuInstallationValue6" xml:space="preserve">
-    <value>La température de l'environnement dans le local où le DBA sera situé 
-pendant le mois le plus froid de l'année doit faire au moins 5&amp;#176;С. La température maximale
-dans le local où le DBA sera situé doit faire 30&amp;#176;С.</value>
+    <value>La température ambiante dans le local du placement de l'IAB au mois le plus froid de l'année ne doit  pas être inférieur à -5&amp;#176;C. La température maximale dans le local de placement de l'IAB ne doit pa être supérieur à 30 &amp;#176;C.</value>
   </data>
   <data name="AbuInstallationValue7" xml:space="preserve">
-    <value>En matière de la sécurité explosion et incendie, le local où le DBA sera situé relève de la catégorie D étant la plus basse catégorie (on garde et on utilise dans le local 
-des substances et des matériaux anticombustibles en état froid, des substances et des matériaux combustibles et difficilement combustibles en quantité
-assurant que la charge spécifique d'incendie pour le site de leur emplacement dans le local
-n'excède pas 100 MJ/m&lt;sup&gt;2&lt;/sup&gt;, et la charge d'incendie au sein du local –
-1000 MJ).</value>
+    <value>Le local pour le placement de l'IAB (par rapport la sécurité contre les explosions et les incendies) appartient à la catégorie la plus basse (dans le local se trouvent les substances et matériaux non combustibles en condition à froid, les matières combustibles et difficilement combustibles et les matières en quantité telle que la charge d'incendie spécifique sur la zone de leur placement dans la pièce ne dépasse pas 100 MJ/m&lt;sup&gt;2&lt;/sup&gt;, et la charge d'incendie dans le local -1000 MJ).</value>
   </data>
   <data name="AbuLifespanTitle" xml:space="preserve">
-    <value>5. Délai d'exploitation</value>
+    <value>5. La durée d'exploitation</value>
   </data>
   <data name="AbuLifespanValue" xml:space="preserve">
-    <value>Le délai d'exploitation est au moins 15 ans.</value>
+    <value>La durée d'exploitation est au minimum de 15 ans.</value>
   </data>
   <data name="AbuMaintenanceTitle" xml:space="preserve">
-    <value>3. Entretien technique du DBA-{0}</value>
+    <value>3. La maintenance technique</value>
   </data>
   <data name="AbuMaintenanceValue" xml:space="preserve">
-    <value>L'entretien technique du DBA revient à la libération du panier à boues 
-des substances suspendues et condensées et au maintien de la teneur réglementée en phosphore, en azote et en potassium dans l'absorbant en y introduisant des additifs biogènes (AB). 
-Pour identifier la nécessité d'ajustement de l'absorbant selon les AB il est recommandé de déterminer une fois par mois la teneur en ions de phosphore, d'azote
-et de potassium.
-L'efficacité de régénération de l'absorbant par des microorganismes destructeurs est contrôlée selon l'indicateur indirect  – consommation chimique de l'oxygène (CCO), qu'il est recommandé de déterminer une fois par mois.</value>
+    <value>La maintenance de l'IAB est due à l’ébouage du panier de boues des matières en suspension et condensation et le maintien de la teneur spécifiée en phosphore, azote et potassium dans l'absorbant par l'introduction des additifs biogènes (AB)
+Pour déterminer la nécessité de correction de l'absorbant dans un AB, il est recommandé une fois par mois de préciser le teneur en phosphore, en azote et potassium.
+Le contrôle de l'efficacité de la régénération de l'absorbant par les microorganismes destructeurs est effectué par un indicateur indirect - la demande chimique en oxygène (DCO), dont il est recommandé de déterminer une fois par mois.</value>
   </data>
   <data name="AbuPhenolEfficiencyTitle" xml:space="preserve">
-    <value>L'efficacité de captage du phénol, du formaldéhyde :</value>
+    <value>L’efficacité de la capture du phénol, du formaldéhyde:</value>
   </data>
   <data name="AbuPhenolEfficiencyValue" xml:space="preserve">
-    <value>Au moins {0} à la concentration d’entrée {1} mg/m&lt;sup&gt;3&lt;/sup&gt;</value>
+    <value>Au moins {0} à la concentration initiale {1} mg/m&lt;sup&gt;3&lt;/sup&gt;</value>
   </data>
   <data name="AbuSpecTitle" xml:space="preserve">
     <value>Caractéristiques techniques et données de base</value>
   </data>
   <data name="AbutDrainageTitle" xml:space="preserve">
-    <value>Composition des déversoirs d'urgence :</value>
+    <value>La composition des drains d'urgence:</value>
   </data>
   <data name="AbutDrainageValue1" xml:space="preserve">
-    <value>Teneur en phosphates – au maximum 150 mg/l</value>
+    <value>la teneur en phosphate – au plus de150 mg/l</value>
   </data>
   <data name="AbutDrainageValue2" xml:space="preserve">
-    <value>Teneur en nitrates – au maximum 200 mg/l</value>
+    <value>la teneur en nitrate – au plus de 200 mg/l</value>
   </data>
   <data name="AbutDrainageValue3" xml:space="preserve">
-    <value>indicateur рН – 6,5-8,3</value>
+    <value>l'indicateur de pH – 6,5-8,3</value>
   </data>
   <data name="AbutDrainageValue4" xml:space="preserve">
-    <value>consommation chimique de l'oxygène (CCO) – au maximum 6 000 mgО&lt;sub&gt;2&lt;/sub&gt;/l</value>
+    <value>la demande chimique en oxygène (DCO) – au plus de 6 000 mgО&lt;sub&gt;2&lt;/sub&gt;/l</value>
   </data>
   <data name="AbutDrainageValue5" xml:space="preserve">
-    <value>substances suspendues – au maximum 0,1% selon le volume, les dimensions des particules n'excédant pas 0,2 mm</value>
+    <value>les matières en suspension – au plus de 0,1% par volume et taille de particules pas plus de 0,2 mm</value>
   </data>
   <data name="AbuTitle" xml:space="preserve">
-    <value>Pour un dispositif biologique d’absorption (DBA)
-pour la purification de l’air de ventilation dans les entreprises industrielles
-à la capacité de {0} mille m&lt;sup&gt;3&lt;/sup&gt;/h. (DBA-{1})</value>
+    <value>Caractéristiques techniques et données initiales
+de l’installation à absorption biologique (IAB)
+pour la purification de l'air des entreprises industrielles
+avec la productivité {0} milles m&lt;sup&gt;3&lt;/sup&gt;/h. (IAB-{1})</value>
   </data>
   <data name="AbuTriethylamineEfficiencyTitle" xml:space="preserve">
-    <value>L'efficacité d’épuration du triéthylamine et des substances suspendues est de 96 - 99,9%
-(concentration du triéthylamine à la sortie n’excède pas 20 mg/m&lt;sup&gt;3&lt;/sup&gt;):</value>
+    <value>l’efficacité de la captation de la poussière, des aérosols, des substances résineuses et des matières en suspension 96-98%</value>
   </data>
   <data name="AbuTriethylamineEfficiencyValue1" xml:space="preserve">
-    <value>L'efficacité de captage des substances suspendues est au moins 98%</value>
+    <value>l’efficacité de la récupération de la triéthylamine et des matières en suspension 96 - 98% ( à la sortie, la concentration de triéthylamine ne dépasse pas 20 mg/m&lt;sup&gt;3&lt;/sup&gt;)</value>
   </data>
   <data name="AbuTriethylamineEfficiencyValue2" xml:space="preserve">
-    <value>сопротивление вентиляционной сети – не более 1700 Па</value>
+    <value>la résistance du réseau de ventilation - au plus de 1700 pascal</value>
   </data>
   <data name="AbuTriethylamineEfficiencyValue3" xml:space="preserve">
-    <value>Résistance hydraulique (pertes de pression dans le DBA) – au maximum 2400 Pa</value>
+    <value>la résistance hydraulique (perte de charge dans l’IAB) – au plus de 2400 pascal</value>
   </data>
   <data name="AbuTriethylamineEfficiencyValue4" xml:space="preserve">
-    <value>Température dans le local où se situe le DBA – +5…+30&amp;#176;С</value>
+    <value>la température ambiante pour l’IAB – +5…+30&amp;#176;С.</value>
   </data>
   <data name="AbuTriethylamineEfficiencyValue5" xml:space="preserve">
-    <value>Dimensions, LхLхH: {0}x{1}x{2} mm (si installé en complexe unique).</value>
+    <value>les dimensions, Longueur, Largeur, Hauteur (dans un seul bloc): {0}´{1}´{2} mm.</value>
   </data>
   <data name="AbuVentilationTitle" xml:space="preserve">
-    <value>4.5. Ventilation</value>
+    <value>4.5. L’aérage</value>
   </data>
   <data name="AbuVentilationValue1" xml:space="preserve">
-    <value>Envisager des conduits d'amenée de l'air de ventilation depuis les couverts des équipements technologiques dans le DBA et ensuite depuis l'échappement des ventilateurs 
-dans l'air atmosphérique.</value>
+    <value>Prévoir des conduits d'air pour la fourniture d'air de ventilation provenant de l’aérage de l'équipement dans l’IAB, puis de l'échappement des ventilateurs vers l'air atmosphérique.</value>
   </data>
   <data name="AbuVentilationValue11" xml:space="preserve">
     <value>Construction des conduits d'amenée de l'air sur la ligne de déchargement - de classe &amp;laquo;N&amp;raquo; (normaux).</value>
@@ -325,62 +313,61 @@ dans l'air atmosphérique.</value>
 ensemble avec le dispositif.</value>
   </data>
   <data name="AbuVentilationValue2" xml:space="preserve">
-    <value>On utilise en tant qu'excitateur de poussée un ventilateur {0} aux caractéristiques suivantes :</value>
+    <value>En tant que stimulateur de poussée, le ventilateur {0} est utilisé avec les caractéristiques suivantes:</value>
   </data>
   <data name="AbuVentilationValue21" xml:space="preserve">
-    <value>moteur {0} kw, 380/660V, 50Hz, {1} rév./min;</value>
+    <value>le moteur (0) kW, 380/660V, 50Hz, {1} tour/min</value>
   </data>
   <data name="AbuVentilationValue22" xml:space="preserve">
-    <value>matériel pour la fabrication du ventilateur – acier au carbone avec un poudrage;</value>
+    <value>le matériel pour la fabrication du ventilateur - acier au carbone avec un couche en poudre</value>
   </data>
   <data name="AbuVentilationValue23" xml:space="preserve">
-    <value>fréquence de rotation de la roue réceptrice du ventilateur {0} rév./min</value>
+    <value>la vitesse de rotation du ventilateur est de {0} tr/min.</value>
   </data>
   <data name="AbuVentilationValue24" xml:space="preserve">
-    <value>Le niveau du bruit produit par le ventilateur {0} fait
-113 dB.</value>
+    <value>le niveau de bruit du ventilateur {0} est de 113 dB.</value>
   </data>
   <data name="AbuVentilationValue25" xml:space="preserve">
-    <value>Il est possible d'utiliser des excitateurs de poussée d'un autre fabricant et aux autres caractéristiques.</value>
+    <value>Il est possible d'utiliser l'aérage soufflant d'un autre fabricant et avec d'autres caractéristiques.</value>
   </data>
   <data name="AbuVentilationValue3" xml:space="preserve">
-    <value>La pression de déchargement au raccord d'entrée du DBA est de 1200 Pa au maximum, la pression d'insufflation au raccord d'échappement est de +500 Pa au maximum.</value>
+    <value>La pression de raréfaction au niveau du raccord d'entrée de l'IAB au plus que 1200 Pa, 
+la pression de refoulement sur le raccordement d'échappement ne pas dépasser +500 Pa</value>
   </data>
   <data name="AbuVentilationValue4" xml:space="preserve">
-    <value>Envisager sur les conduits d'amenée de l'air dans la zone des couverts les fermetures à volet afin de régler l'entrée de l'air d'aspiration. Les contre-brides des raccords d'entrée et d'échappement sont fournies ensemble avec le DBA.</value>
+    <value>Dans le local d'installation de l'IAB, il est nécessaire de prévoir une ventilation par échange général avec un taux de renouvellement d'air de 3 à 4.</value>
   </data>
   <data name="AbuVentilationValue41" xml:space="preserve">
     <value>Dans le local où le DBA sera situé il est indispensable d'envisager la ventilation de circulation générale au taux d’échange d’air faisant 3-4.</value>
   </data>
   <data name="AbuWaterSupplyTitle" xml:space="preserve">
-    <value>4.3. Alimentation en eau</value>
+    <value>4.3. L’alimentation d'eau</value>
   </data>
   <data name="AbuWaterSupplyValue1" xml:space="preserve">
-    <value>Envisager l'amenée de l'eau industrielle depuis le réseau de l'atelier vers le raccord Du 20 du DBA pour le remplissage ponctuel des réservoirs (approx. 20 m&lt;sup&gt;3&lt;/sup&gt;) lors de l'activation du DBA.</value>
+    <value>Prévoir l'approvisionnement en eau de fabrication du réseau d'atelier jusqu'au raccord DN-20 de l'IAB pour le remplissage unique de réservoirs (environ 20 m&lt;sup&gt;3&lt;/sup&gt;) lors du démarrage de l'IAB.</value>
   </data>
   <data name="AbuWaterSupplyValue2" xml:space="preserve">
-    <value>Consommation d'eau pour la réalimentation du DBA – au maximum 2,0 m&lt;sup&gt;3&lt;/sup&gt;/jour</value>
+    <value>La consommation d'eau pour l'alimentation de l'IAB ne dépasse pas les 3,0 m&lt;sup&gt;3&lt;/sup&gt;/jour.</value>
   </data>
   <data name="AbuWaterSupplyValue3" xml:space="preserve">
-    <value>Exigences à l'eau industrielle pour la réalimentation :</value>
+    <value>Les exigences pour l'eau de fabrication pour l'alimentation:</value>
   </data>
   <data name="AbuWaterSupplyValue31" xml:space="preserve">
-    <value>Pression – 0,2-0,6 MPa;</value>
+    <value>le pression – 0,2-0,6 MPa;</value>
   </data>
   <data name="AbuWaterSupplyValue32" xml:space="preserve">
-    <value>teneur en impuretés mécaniques – au maximum 0,1% selon le volume, les dimensions des particules n'excédant pas 0,2 mm;</value>
+    <value>la teneur en impuretés mécaniques - pas plus de 0,1% en volume et des tailles de particules ne dépassent pas 0,2 mm;</value>
   </data>
   <data name="AbuWaterSupplyValue33" xml:space="preserve">
-    <value>température – 5-30&amp;#176;С.</value>
+    <value>la température – 5-30&amp;#176;С.</value>
   </data>
   <data name="AbuWaterSupplyValue34" xml:space="preserve">
-    <value>Envisager l'installation d'une soupape magistrale Du 20mm sur le coude de raccordement du DBA avec le réseau de l'atelier.</value>
+    <value>Lorsque le système d’absorption fonctionne (la pompe et le ventilateur en état &amp;laquo;ON&amp;raquo;), l'IAB ne doit pas avoir d’eau de fabrication pendant plus de 2 heures. Si le système d'absorption ne fonctionne pas (la pompe et le ventilateur en état &amp;laquo;OFF&amp;raquo;), l'apport d'énergie n'est pas nécessaire.</value>
   </data>
   <data name="AbuWaterSupplyValue4" xml:space="preserve">
     <value>Le point d'amenée de l'eau est muni de la soupape correspondante, sauf la soupape magistrale.</value>
   </data>
   <data name="AbuWaterSupplyValue5" xml:space="preserve">
-    <value>Lorsque le système d'absorption du DBA est mise en fonctionnement (la pompe et le ventilateur sont en état ACTIVE), l'absence de l'eau industrielle à la réalimentation n'est tolérable 
-que pendant 2 heures. Lorsque le système d'absorption est mise hors fonctionnement (la pompe et le ventilateur sont en état DESACTIVE), aucune réalimentation n'est alors exigée.</value>
+    <value>Lorsque le système d’absorption fonctionne (la pompe et le ventilateur en état "ON"), l'IAB ne doit pas avoir d’eau de fabrication pendant plus de 2 heures. Si le système d'absorption ne fonctionne pas (la pompe et le ventilateur en état "OFF"), l'apport d'énergie n'est pas nécessaire.</value>
   </data>
 </root>
