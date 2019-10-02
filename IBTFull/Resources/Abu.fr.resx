@@ -226,7 +226,7 @@
     <value>Les mécanismes de levage pour la maintenance de l'IAB ne sont pas requis.</value>
   </data>
   <data name="AbuInstallationValue6" xml:space="preserve">
-    <value>La température ambiante dans le local du placement de l'IAB au mois le plus froid de l'année ne doit  pas être inférieur à -5&amp;#176;C. La température maximale dans le local de placement de l'IAB ne doit pa être supérieur à 30 &amp;#176;C.</value>
+    <value>La température ambiante dans le local du placement de l'IAB au mois le plus froid de l'année ne doit  pas être inférieur à -5&amp;#176;C. La température maximale dans le local de placement de l'IAB ne doit pa être supérieur à 30&amp;#176;C.</value>
   </data>
   <data name="AbuInstallationValue7" xml:space="preserve">
     <value>Le local pour le placement de l'IAB (par rapport la sécurité contre les explosions et les incendies) appartient à la catégorie la plus basse (dans le local se trouvent les substances et matériaux non combustibles en condition à froid, les matières combustibles et difficilement combustibles et les matières en quantité telle que la charge d'incendie spécifique sur la zone de leur placement dans la pièce ne dépasse pas 100 MJ/m&lt;sup&gt;2&lt;/sup&gt;, et la charge d'incendie dans le local -1000 MJ).</value>
@@ -368,6 +368,6 @@ la pression de refoulement sur le raccordement d'échappement ne pas dépasser +
     <value>Le point d'amenée de l'eau est muni de la soupape correspondante, sauf la soupape magistrale.</value>
   </data>
   <data name="AbuWaterSupplyValue5" xml:space="preserve">
-    <value>Lorsque le système d’absorption fonctionne (la pompe et le ventilateur en état "ON"), l'IAB ne doit pas avoir d’eau de fabrication pendant plus de 2 heures. Si le système d'absorption ne fonctionne pas (la pompe et le ventilateur en état "OFF"), l'apport d'énergie n'est pas nécessaire.</value>
+    <value>Lorsque le système d’absorption fonctionne (la pompe et le ventilateur en état &amp;laquo;ON&amp;raquo;), l'IAB ne doit pas avoir d’eau de fabrication pendant plus de 2 heures. Si le système d'absorption ne fonctionne pas (la pompe et le ventilateur en état &amp;laquo;OFF&amp;raquo;), l'apport d'énergie n'est pas nécessaire.</value>
   </data>
 </root>

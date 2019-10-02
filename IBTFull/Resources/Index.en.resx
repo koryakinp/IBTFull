@@ -193,7 +193,7 @@
     <value>at least &lt;span class="efficiency-item__value"&gt;{0}&lt;/span&gt; given input concentration of {1} mg/m&lt;sup&gt;3&lt;/sup&gt;</value>
   </data>
   <data name="IndexTitle" xml:space="preserve">
-    <value>IBT Air purification from benzol, organic compounds</value>
+    <value>IBT Air purification from benzol, phenol, formaldehyde</value>
   </data>
   <data name="schemaAlt" xml:space="preserve">
     <value>ABU Schema</value>

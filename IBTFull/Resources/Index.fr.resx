@@ -159,7 +159,7 @@ L’air de la ventilation est purifié,  puis il est émis dans l’atmosphère.
     <value>A – entrée et sortie de l’air de ventilation</value>
   </data>
   <data name="AbuOprationValueB" xml:space="preserve">
-    <value>B – entrée et sortie de l’air de ventilation</value>
+    <value>B – sortie de l’air de ventilation</value>
   </data>
   <data name="AbuOprationValueC" xml:space="preserve">
     <value>C – solution d’absorption</value>
@@ -195,7 +195,7 @@ L’air de la ventilation est purifié,  puis il est émis dans l’atmosphère.
     <value>au moins &lt;span class="efficiency-item__value"&gt;{0}&lt;/span&gt; à la concentration à l’entrée {1} mg/m&lt;sup&gt;3&lt;/sup&gt;;</value>
   </data>
   <data name="IndexTitle" xml:space="preserve">
-    <value>IBT Purification de l’air de ventilation du benzol et des substances organiques</value>
+    <value>IBT Purification de l’air de ventilation du benzol, phenol, formaldéhyde</value>
   </data>
   <data name="schemaAlt" xml:space="preserve">
     <value>ABU Schéma</value>
