@@ -199,4 +199,7 @@ densité moyenne</value>
   <data name="SpecDesc" xml:space="preserve">
     <value>Application des Dispositifs Biologiques d’Absorption. Spécifications techniques des Dispositifs Biologiques d’Absorption. Schéma-bloc des Dispositifs Biologiques d’Absorption.</value>
   </data>
+  <data name="Presentation" xml:space="preserve">
+    <value>Présentation</value>
+  </data>
 </root>

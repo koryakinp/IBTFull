@@ -198,4 +198,7 @@
   <data name="SpecDesc" xml:space="preserve">
     <value>The use of the Absorption – Biological Units. Technical characteristic of the Absorption – Biological Units. Block diagram of the Absorption – Biological Units.</value>
   </data>
+  <data name="Presentation" xml:space="preserve">
+    <value>Presentation</value>
+  </data>
 </root>

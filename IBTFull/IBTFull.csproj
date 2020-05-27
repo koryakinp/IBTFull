@@ -13,7 +13,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>IBTFull</RootNamespace>
     <AssemblyName>IBTFull</AssemblyName>
-    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <Use64BitIISExpress />
     <IISExpressSSLPort />
@@ -468,6 +468,9 @@
     <Content Include="wwwroot\fonts\roboto-lightItalic.woff2" />
     <Content Include="wwwroot\fonts\roboto-regular.woff" />
     <Content Include="wwwroot\fonts\roboto-regular.woff2" />
+    <Content Include="wwwroot\files\ABB Präsentation.pptx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -105,6 +105,11 @@
             .social-links a {
                 border-bottom: none;
             }
+
+        .main-menu__item {
+            padding-left: 10px !important;
+            padding-right: 10px !important;
+        }
     </style>
 </head>
 <body class="loaded">
@@ -123,6 +128,7 @@
                         <a class="main-menu__item" href="/@requestCulture/advantages">@SharedResource.Advantages</a>
                         <a class="main-menu__item" href="/@requestCulture/faq">@SharedResource.Faq</a>
                         <a class="main-menu__item" href="/@requestCulture/contacts">@SharedResource.Contacts</a>
+                        <a class="main-menu__item" target="_blank" href="/files/ABB Präsentation.pptx">@SharedResource.Presentation</a>
                         @Html.Partial("_Languages", new Language(Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName))
                     </nav>
                     @Html.Partial("_Languages", new Language(Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName))
@@ -155,6 +161,9 @@
                             </li>
                             <li class="secondary-menu__item">
                                 <a class="secondary-menu__link" href="/@requestCulture/contacts">@SharedResource.Contacts</a>
+                            </li>
+                            <li>
+                                <a class="secondary-menu__link" href="~/wwwroot/files/ABB Präsentation.pptx" target="_blank">@SharedResource.Presentation</a>
                             </li>
                         </ul>
                     </div>

@@ -198,4 +198,7 @@
   <data name="SpecDesc" xml:space="preserve">
     <value>Anwendung von  biologischen Absorptionsanlagen. Technische Angaben von biologischen Absorptionsanlagen. Ablaufdiagram von biologischen Absorptionsanlagen.</value>
   </data>
+  <data name="Presentation" xml:space="preserve">
+    <value>Präsentation</value>
+  </data>
 </root>
